@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './Components/About';
+import Hero from './Components/Hero';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-     Enhance Project
+    <div>
+      <Navbar/>
+     <Hero/>
+     <About/>
     </div>
   );
 }
