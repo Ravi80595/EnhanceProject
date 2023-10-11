@@ -1,0 +1,41 @@
+.image-box {
+    width: 100%;
+    height: 600px; /* Adjust the height as needed */
+  }
+  
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+  
+  .gradient-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 0, 102, 0.5),
+      rgba(153, 255, 102, 0.5),
+      rgba(0, 102, 255, 0.5),
+      rgba(255, 102, 0, 0.5)
+    );
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s linear infinite;
+  }
+  
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

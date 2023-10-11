@@ -1,26 +1,22 @@
 .background-video {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
     width: 100%;
     height: 280px;
-    /* overflow: hidden; */
     z-index: 0; /* Place the video behind other content */
   }
   
   .background-video::before {
     content: '';
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    position: absolute;
     background: linear-gradient(
       45deg,
-      rgba(255, 0, 102, 0.5), /* Adjust opacity here (0.5 for 50% opacity) */
-      rgba(153, 255, 102, 0.5), /* Adjust opacity here (0.5 for 50% opacity) */
-      rgba(0, 102, 255, 0.5), /* Adjust opacity here (0.5 for 50% opacity) */
-      rgba(255, 102, 0, 0.5) /* Adjust opacity here (0.5 for 50% opacity) */
+      rgba(255, 0, 102, 0.4), /* Adjust opacity here (0.5 for 50% opacity) */
+      rgba(153, 255, 102, 0.4), /* Adjust opacity here (0.5 for 50% opacity) */
+      rgba(0, 102, 255, 0.4), /* Adjust opacity here (0.5 for 50% opacity) */
+      rgba(255, 102, 0, 0.4) /* Adjust opacity here (0.5 for 50% opacity) */
     );
     background-size: 400% 400%;
     animation: gradientAnimation 10s linear infinite;
@@ -30,29 +26,34 @@
   .background-video video {
     object-fit: cover;
     width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 100vh;
+    /* position: absolute; */
     top: 0;
     left: 0;
     z-index: 0; /* Ensure the video is behind the overlay */
   }
-  
-  .centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-  
-  .centered-text h1 {
-    font-size: 2.5rem;
-    margin: 0;
+  .about-section {
+    background-color: #FAEBD7;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-  }
+    text-align: center;
+    z-index: 2; /* Place the "About" section above the video overlay */
+    position: relative;
+    padding-top: 70px;
+    color: black;  
+    padding-bottom: 90px;
+    max-width: 1140px;
+    width: 60%;
+    margin: auto;
+}
+.featured-section {
+  background-color: white;
+  /* padding: 20px; */
+  text-align: center;
+  z-index: 2; /* Place the "About" section above the video overlay */
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
   
   @keyframes gradientAnimation {
     0% {
@@ -64,5 +65,79 @@
     100% {
       background-position: 0% 50%;
     }
+  }
+  
+  
+  .timeline {
+    text-align: center;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: -90px;
+  }
+  
+  .timeline-event {
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 300px;
+    margin: 0 10px;
+    height: 350px; /* Add a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Vertically align content */
+  }
+  
+  .timeline-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  
+  .timeline-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* justify-content: left; */
+  }
+  
+  /* Styling for react-slick slider */
+  .slick-slider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Styling for custom arrows */
+  .custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    color: #3D2B1F;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .custom-arrow-prev {
+    left: -70px;
+  }
+  
+  .custom-arrow-next {
+    right: -70px;
+  }
+  
+  .custom-arrow:hover {
+    color: #3D2B1F;
+    background: #D4AF37;
   }
   

@@ -1,14 +1,10 @@
 import './App.css';
-import About from './Components/About';
-import Hero from './Components/Hero';
-import Navbar from './Components/Navbar';
+import AllRoute from './Routes/AllRoutes';
 
 function App() {
   return (
     <div>
-      <Navbar/>
-     <Hero/>
-     <About/>
+     <AllRoute/>
     </div>
   );
 }

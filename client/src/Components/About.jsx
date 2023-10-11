@@ -1,12 +1,13 @@
+import { Box,Text} from '@chakra-ui/react'
 import React from 'react'
 
 const About = () => {
 
 
 return (
-    <div>
-
-    </div>
+    <Box class="about-section">
+        
+    </Box>
   )
 }
 
