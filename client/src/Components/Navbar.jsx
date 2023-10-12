@@ -52,10 +52,10 @@ function Navbar() {
           <Text color={navbarTextColor} className='Link_btns'>About Us</Text>
           </Link>
           <Link to='/team'>
-            <Text color={navbarTextColor} className='Link_btns'>Our Team</Text>
+            <Text color={navbarTextColor} className='Link_btns'>Projects</Text>
           </Link>
           <Link to='/careers'>
-            <Text color={navbarTextColor} className='Link_btns'>Careers</Text>
+            <Text color={navbarTextColor} className='Link_btns'>Awards</Text>
           </Link>
           <Link to='/contact'>
           <Text color={navbarTextColor} className='Link_btns'>Contact Us</Text>
