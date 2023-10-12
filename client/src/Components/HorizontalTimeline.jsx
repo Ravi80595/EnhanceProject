@@ -1,24 +1,5 @@
+import { Text } from '@chakra-ui/react';
 import React from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-// import './Timeline.css';
-import '../CSS/Hero.css'
-import { Box, Flex, Image, Text } from '@chakra-ui/react';
-// import React from 'react';
-
-
-export const PrevArrow = (props) => (
-  <div className="custom-arrow custom-arrow-prev" onClick={props.onClick}>
-    &lt;
-  </div>
-);
-
-export const NextArrow = (props) => (
-  <div className="custom-arrow custom-arrow-next" onClick={props.onClick}>
-    &gt;
-  </div>
-);
 
 const events = [
     {
@@ -62,46 +43,48 @@ const events = [
       description: 'In 2040, we entered into an exciting merger with another major company. This strategic move was a testament to our vision and ambition, and it opened up new opportunities for both organizations. '
     },
   ];
-  
-  
-const Timeline = () => {
-    const settings = {
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
-  };
-  
-return (
-        <Box>
-    {/* <Box h={'60px'}  mb={'30px'}>
-        </Box> */}
-    <Box paddingBottom={'50px'}backgroundColor={'#DAA520'} pt={'30px'} pb={'150px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Storyline</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
-      </Box>
-      <div className="timeline">
-        <Slider {...settings}>
+
+const HorizontalTimeline = () => {
+    return (
+      <div className="horizontal-timeline-container">
+        <div className="horizontal-timeline">
           {events.map((event, index) => (
-            <Box  key={index} className="timeline-event">
-                <Flex justifyContent={'center'}>
-                    <Image w={'150px'} src='https://e7.pngegg.com/pngimages/261/952/png-clipart-yellow-logo-computer-icons-mission-statement-mission-miscellaneous-company.png'/>
-                </Flex>
-              <div className="timeline-date">{event.date}</div>
-              <div className="timeline-content">
-                <Text fontSize={'1.2rem'} fontWeight={'600'} fontFamily={'Great Vibes'}>{event.title}</Text>
-                <Box w={'80%'} m={'auto'}>
-                <Text fontFamily={'Lora'} fontSize={'1.1rem'}>{event.description}</Text>
-                </Box>
-              </div>
-            </Box>
+            <div key={index} className="event">
+              <div className="event-date">{event.date}</div>
+              <div className="event-description">{event.title}</div>
+              <div>{event.description}</div>
+            </div>
           ))}
-        </Slider>
+        </div>
+        <style>{`
+          .horizontal-timeline-container {
+            width: 100%;
+            overflow-x: scroll;
+          }
+          .horizontal-timeline {
+            display: flex;
+            flex-direction: row;
+            white-space: nowrap;
+          }
+          .event {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 10px;
+          }
+          .event-date {
+            font-weight: bold;
+          }
+        `}</style>
       </div>
-      </Box>
     );
   };
   
-  export default Timeline;
+  export default HorizontalTimeline;
+
+  
+  
+  
+  
+  
+  
