@@ -51,10 +51,10 @@ function Navbar() {
           <Link to='/about'>
           <Text color={navbarTextColor} className='Link_btns'>About Us</Text>
           </Link>
-          <Link to='/team'>
+          <Link to='/projects'>
             <Text color={navbarTextColor} className='Link_btns'>Projects</Text>
           </Link>
-          <Link to='/careers'>
+          <Link to='/awards'>
             <Text color={navbarTextColor} className='Link_btns'>Awards</Text>
           </Link>
           <Link to='/contact'>
