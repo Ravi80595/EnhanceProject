@@ -5,6 +5,7 @@ import Hero from '../Components/Hero'
 import About from '../Components/About'
 import Featured from '../Components/Featured'
 import SubBrands from '../Components/SubBrands'
+import Footer from '../Components/Footer'
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ return (
     <About/>
     <SubBrands/>
     {/* <Featured/> */}
+    <Footer/>
    </Box>
   )
 }

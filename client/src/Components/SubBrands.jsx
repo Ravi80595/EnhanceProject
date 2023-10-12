@@ -8,7 +8,7 @@ const SubBrands = () => {
 
 return (
     // <Box marginBottom={'200px'}>
-    <Box backgroundColor={'#fafafa'} pt={'50px'} mt={'50px'}>
+    <Box backgroundColor={'#fafafa'} pt={'50px'} mt={'50px'} paddingBottom={'80px'}>
     <Box paddingBottom={'50px'} textAlign={'center'}>
       <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Sub-Brands</Text>
       <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
