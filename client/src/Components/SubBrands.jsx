@@ -28,14 +28,13 @@ return (
                     </Flex>
                     <Box w={'50%'}>
                     <p>Enhance Pvt Ltd. is a dynamic and innovative technology company dedicated to delivering cutting-edge solutions that empower businesses to thrive in the digital age. With a focus on excellence and a commitment to enhancing our clients' success, we leverage our expertise in various domains to provide high-impact services and products.
-            About Us:
-            At Enhance Pvt Ltd., we are driven by a passion for innovation and a customer-centric approach. Our mission is to bridge the gap between business challenges and technology solutions, offering tailor-made strategies that drive growth, efficiency, and sustainability. With a team of experienced professionals, we strive to push the boundaries of what's possible in the world of technology.
-            Our Core Offerings:
-            Software Development: We specialize in developing custom software solutions that cater to a wide range of industries, including finance, healthcare, e-commerce, and more. Our team's expertise in multiple programming languages and frameworks ensures that we deliver high-quality, scalable, and secure applications.
-            Web and Mobile App Development: Our skilled developers craft web and mobile applications that engage users and deliver seamless experiences. From responsive websites to feature-rich mobile apps, we create solutions that align with your business goals.</p>
+                    About Us:
+                    At Enhance Pvt Ltd., we are driven by a passion for innovation and a customer-centric approach. Our mission is to bridge the gap between business challenges and technology solutions, offering tailor-made strategies that drive growth, efficiency, and sustainability. With a team of experienced professionals, we strive to push the boundaries of what's possible in the world of technology.
+                    Our Core Offerings:
+                    Software Development: We specialize in developing custom software solutions that cater to a wide range of industries, including finance, healthcare, e-commerce, and more. Our team's expertise in multiple programming languages and frameworks ensures that we deliver high-quality, scalable, and secure applications.
+                    Web and Mobile App Development: Our skilled developers craft web and mobile applications that engage users and deliver seamless experiences. From responsive websites to feature-rich mobile apps, we create solutions that align with your business goals.</p>
                     </Box>
                 </Flex>
-           
             </TabPanel>
             <TabPanel>
             <Flex>
@@ -45,11 +44,10 @@ return (
                     <Box w={'50%'}>
                     <p> At Enhance Pvt Ltd., we are driven by a passion for innovation and a customer-centric approach. Our mission is to bridge the gap between business challenges and technology solutions, offering tailor-made strategies that drive growth, efficiency, and sustainability. With a team of experienced professionals, we strive to push the boundaries of what's possible in the world of technology.
                         Enhance Pvt Ltd. is a dynamic and innovative technology company dedicated to delivering cutting-edge solutions that empower businesses to thrive in the digital age. With a focus on excellence and a commitment to enhancing our clients' success, we leverage our expertise in various domains to provide high-impact services and products.
-            About Us:
-           
-            Our Core Offerings:
-            Software Development: We specialize in developing custom software solutions that cater to a wide range of industries, including finance, healthcare, e-commerce, and more. Our team's expertise in multiple programming languages and frameworks ensures that we deliver high-quality, scalable, and secure applications.
-            Web and Mobile App Development: Our skilled developers craft web and mobile applications that engage users and deliver seamless experiences. From responsive websites to feature-rich mobile apps, we create solutions that align with your business goals.</p>
+                    About Us:
+                    Our Core Offerings:
+                    Software Development: We specialize in developing custom software solutions that cater to a wide range of industries, including finance, healthcare, e-commerce, and more. Our team's expertise in multiple programming languages and frameworks ensures that we deliver high-quality, scalable, and secure applications.
+                    Web and Mobile App Development: Our skilled developers craft web and mobile applications that engage users and deliver seamless experiences. From responsive websites to feature-rich mobile apps, we create solutions that align with your business goals.</p>
                     </Box>
                 </Flex>
             </TabPanel>
@@ -60,11 +58,11 @@ return (
                     </Flex>
                     <Box w={'50%'}>
                     <p>Software Development: We specialize in developing custom software solutions that cater to a wide range of industries, including finance, healthcare, e-commerce, and more. Our team's expertise in multiple programming languages and frameworks ensures that we deliver high-quality, scalable, and secure applications.
-            Web and Mobile App Development: Our skilled developers craft web and mobile applications that engage users and deliver seamless experiences. From responsive websites to feature-rich mobile apps, we create solutions that align with your business goals.Enhance Pvt Ltd. is a dynamic and innovative technology company dedicated to delivering cutting-edge solutions that empower businesses to thrive in the digital age. With a focus on excellence and a commitment to enhancing our clients' success, we leverage our expertise in various domains to provide high-impact services and products.
-            About Us:
-            At Enhance Pvt Ltd., we are driven by a passion for innovation and a customer-centric approach. Our mission is to bridge the gap between business challenges and technology solutions, offering tailor-made strategies that drive growth, efficiency, and sustainability. With a team of experienced professionals, we strive to push the boundaries of what's possible in the world of technology.
-            Our Core Offerings:
-            </p>
+                    Web and Mobile App Development: Our skilled developers craft web and mobile applications that engage users and deliver seamless experiences. From responsive websites to feature-rich mobile apps, we create solutions that align with your business goals.Enhance Pvt Ltd. is a dynamic and innovative technology company dedicated to delivering cutting-edge solutions that empower businesses to thrive in the digital age. With a focus on excellence and a commitment to enhancing our clients' success, we leverage our expertise in various domains to provide high-impact services and products.
+                    About Us:
+                    At Enhance Pvt Ltd., we are driven by a passion for innovation and a customer-centric approach. Our mission is to bridge the gap between business challenges and technology solutions, offering tailor-made strategies that drive growth, efficiency, and sustainability. With a team of experienced professionals, we strive to push the boundaries of what's possible in the world of technology.
+                    Our Core Offerings:
+                    </p>
                     </Box>
                 </Flex>
             </TabPanel>
