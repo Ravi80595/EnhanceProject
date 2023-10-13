@@ -60,6 +60,73 @@ return (
               </Flex>
             </Flex>
           </Box>
+          <Box background={'#fff4e6'} pb={'50px'} pt={'30px'}>  
+          <Flex w={'90%'} m={'auto'} mb={'90px'} justifyContent={'center'}>
+          <Box pt={'30px'}>
+                <Flex justifyContent={'space-between'} textAlign={'center'} mb={'20px'} >
+                <Box background={'white'} border={'2px solid grey'} p={'20px'} borderRadius={'10px'}>
+                <Image w={'90px'} src='https://www.prestigeconstructions.com/images/icons/excellence.png'/>
+                <Text mt={'4px'} fontSize={'30px'}>25+</Text>
+                <Text>Years of Excellance</Text>
+                </Box>
+                <Box background={'white'} border={'2px solid grey'} p={'20px'} borderRadius={'10px'}>
+                <Image w={'90px'} src='https://www.prestigeconstructions.com/images/icons/excellence.png'/>
+                <Text mt={'4px'} fontSize={'30px'}>25+</Text>
+                <Text>Years of Excellance</Text>
+                </Box>
+                </Flex>
+                <Flex justifyContent={'space-between'} gap={'40px'} textAlign={'center'}>
+                <Box background={'white'} border={'2px solid grey'} p={'20px'} borderRadius={'10px'}>
+                <Image w={'90px'} src='https://www.prestigeconstructions.com/images/icons/excellence.png'/>
+                <Text mt={'4px'} fontSize={'30px'}>25+</Text>
+                <Text>Years of Excellance</Text>
+                </Box> 
+                <Box background={'white'} border={'2px solid grey'} p={'20px'} borderRadius={'10px'}>
+                <Image w={'90px'} src='https://www.prestigeconstructions.com/images/icons/excellence.png'/>
+                <Text mt={'4px'} fontSize={'30px'}>25+</Text>
+                <Text>Years of Excellance</Text>
+                </Box>
+                </Flex>
+            </Box>
+            <Box w={'40%'} m={'auto'}>
+            <Box paddingBottom={'50px'} textAlign={'center'}>
+             <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Real Estate developer in India</Text>
+             <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+          </Box>
+          <Text textAlign={'center'}>Enhance projects is renowned for being the thick vision of the most integrated infrastructures and constructions. For years now, it has provided the customers with effective and reliable solutions that could overcome any construction challenges. We are consistent in processing the delivery of reliable solutions to our customers. It incorporates supporting them right from the inception phase to the fully operational phase.</Text>
+              <Text textAlign={'center'} fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={'16px'} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields.</Text>
+            </Box>
+          </Flex>
+          </Box>
+
+
+<Box>
+<Box paddingBottom={'50px'} textAlign={'center'}>
+      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Homes</Text>
+      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      </Box>
+</Box>
+<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} >
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'4px'}>BENGLURU</Text>
+            </Box>
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'4px'}>BENGLURU</Text>
+            </Box> 
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'4px'}>BENGLURU</Text>
+            </Box> 
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'4px'}>BENGLURU</Text>
+            </Box>
+
+</Flex>
+
+         
     <Footer/>
     </>
   )
