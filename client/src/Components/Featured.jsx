@@ -64,7 +64,7 @@ return (
             <Box paddingBottom={'50px'}>
             <Flex>
               <Flex>
-                <Image borderRadius={'20px'} src={event.image}/>
+                <Image src={event.image}/>
               </Flex>
               <Box w={'40%'} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
                 <Text> {event.description}</Text>

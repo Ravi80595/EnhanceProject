@@ -8,6 +8,7 @@ import SubBrands from '../Components/SubBrands'
 import Footer from '../Components/Footer'
 import Timeline from '../Components/Timeline'
 import HorizontalTimeline from '../Components/HorizontalTimeline'
+import Locations from '../Components/Locations'
 
 const Home = () => {
 
@@ -18,8 +19,10 @@ return (
     <Navbar/>
     <Hero/>
     <About/>
+    <Locations/>
     <HorizontalTimeline/>
     <SubBrands/>
+    {/* <Timeline/> */}
     {/* <Featured/> */}
     
     {/* <Timeline/> */}

@@ -42,11 +42,15 @@ function Navbar() {
     <nav style={navbarStyle}>
       <Flex justifyContent='space-between' w={'90%'} m={'auto'} pt={'20px'} pb={'10px'}>
         <Box w={'50%'}>
-          <Image w={'170px'} h={'45px'} src={'https://mauryahomes.in/wp-content/themes/maurya/images/logo.png'} />
+          {/* <Image w={'170px'} h={'45px'} src={'https://mauryahomes.in/wp-content/themes/maurya/images/logo.png'} /> */}
+          <Text fontSize={'26px'} fontFamily={'cursive'}>Enhance Projects</Text>
         </Box>
         <Flex fontSize={['15px', 20, 20, 20]} justifyContent='space-around' w={['70%', '30%', '30%', '60%']} pt={'5px'}>
           <Link to='/'>
           <Text fontFamily={'"Poppins", sans-serif'} color={navbarTextColor} className='Link_btns'>Home</Text>
+          </Link>
+          <Link to='/builder'>
+          <Text color={navbarTextColor} className='Link_btns'>Builder</Text>
           </Link>
           <Link to='/about'>
           <Text color={navbarTextColor} className='Link_btns'>About Us</Text>

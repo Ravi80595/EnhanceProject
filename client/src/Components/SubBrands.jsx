@@ -8,12 +8,12 @@ const SubBrands = () => {
 
 return (
     // <Box marginBottom={'200px'}>
-    <Box backgroundColor={'#fafafa'} pt={'50px'} mt={'50px'} paddingBottom={'80px'}>
+    <Box backgroundColor={'#fafafa'} pt={'90px'} paddingBottom={'80px'}>
     <Box paddingBottom={'50px'} textAlign={'center'}>
       <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Sub-Brands</Text>
       <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
       </Box>
-    <Box w={'80%'} m={'auto'} background={'white'}>
+    <Box w={'90%'} m={'auto'} background={'white'}>
         <Tabs isFitted variant='enclosed'>
         <TabList mb='1em'>
             <Tab fontSize={'24px'} fontFamily={'Playfair Display'}>Enhance Pvt. ltd</Tab>
