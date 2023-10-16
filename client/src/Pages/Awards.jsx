@@ -10,7 +10,7 @@ return (
     <Box>
     <Navbar/>
     <div className="image-box">
-        <div className="gradient-overlay"></div>
+        {/* <div className="gradient-overlay"></div> */}
         <img src="https://mauryahomes.in/wp-content/themes/maurya/images/our-journy-banner.jpg" alt="Background Image" className="background-image" />
      </div>
      <Box background={'#FAEBD7'}>
