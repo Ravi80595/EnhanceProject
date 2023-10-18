@@ -55,15 +55,18 @@ function Navbar() {
           <Link to='/contractors'>
           <Text color={navbarTextColor} className='Link_btns'>Contractors</Text>
           </Link>
+          <Link to='/groups'>
+          <Text color={navbarTextColor} className='Link_btns'>Groups</Text>
+          </Link>
           <Link to='/about'>
           <Text color={navbarTextColor} className='Link_btns'>About Us</Text>
           </Link>
           <Link to='/projects'>
             <Text color={navbarTextColor} className='Link_btns'>Projects</Text>
           </Link>
-          <Link to='/awards'>
+          {/* <Link to='/awards'>
             <Text color={navbarTextColor} className='Link_btns'>Awards</Text>
-          </Link>
+          </Link> */}
           <Link to='/contact'>
           <Text color={navbarTextColor} className='Link_btns'>Contact Us</Text>
           </Link>
