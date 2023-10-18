@@ -27,9 +27,46 @@ return (
               </Flex>
             </Flex>
           </Box>
+
+
+          
+          <Box>
+<Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
+      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Collaborators</Text>
+      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      </Box>
+</Box>
+
+    <Flex justifyContent={'space-around'} w={'70%'} m={'auto'} gap={'40px'} textAlign={'center'} pb={'60px'}>
+            <Box>
+                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                {/* <Text mt={'4px'}>BENGLURU</Text> */}
+            </Box>
+            <Box>
+                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                {/* <Text mt={'4px'}>BENGLURU</Text> */}
+            </Box> 
+            <Box>
+                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                {/* <Text mt={'4px'}>BENGLURU</Text> */}
+            </Box> 
+            <Box>
+                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                {/* <Text mt={'4px'}>BENGLURU</Text> */}
+            </Box>
+
+</Flex>
+
+
+
+
           <Box background={'#fff4e6'} pb={'50px'} pt={'30px'}>  
-          <Flex w={'85%'} m={'auto'} mb={'90px'} justifyContent={'center'}>
-          <Box pt={'30px'} w={'50%'} m={'auto'}>
+          <Flex w={'85%'} m={'auto'} mb={'50px'} justifyContent={'center'}>
+          {/* <Box pt={'30px'} w={'50%'} m={'auto'}>
                 <Flex justifyContent={'space-around'} textAlign={'center'} mb={'20px'} >
                 <Box w={'220px'} h={'250px'} background={'white'} border={'2px solid grey'} p={'20px'} borderRadius={'10px'} _hover={{borderRadius:'0px'}}>
                   <Flex justifyContent={'center'} mb={5}>
@@ -62,8 +99,8 @@ return (
                 <Text>Years of Excellance</Text>
                 </Box>
                 </Flex>
-            </Box>
-            <Box w={'40%'} m={'auto'}>
+            </Box> */}
+            <Box w={'70%'} m={'auto'} mt={'30px'}>
             <Box paddingBottom={'50px'} textAlign={'center'}>
              <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Real Estate developer in India</Text>
              <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
@@ -76,96 +113,72 @@ return (
 
 
 
-          <Box>
-<Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Hospitality</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
-      </Box>
-</Box>
-<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'}>
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box>
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box> 
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box> 
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box>
 
-</Flex>
 
 
 <Box>
-<Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Educational Institutes</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
-      </Box>
-</Box>
-<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'}>
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box>
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box> 
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box> 
-            <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
-            </Box>
-
-</Flex>
-
-
-<Box>
-<Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Road Infrastrcture</Text>
+<Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
+      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
       <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
       </Box>
 </Box>
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'}>
             <Box>
                 <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
             <Box>
                 <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
                 <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
                 <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text>/ */}
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
+                {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
+
 </Flex>
+<Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
+      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>We Worked with</Text>
+      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      </Box>
+{/* </Box> */}
+<Box w={'60%'} m={'auto'} mb={'80px'}>
+  <Image w={'100%'} src='https://i.pinimg.com/736x/8d/92/64/8d92641ff0c0e9e5f44907ea208c1707.jpg'/>
+</Box>
+
+
+{/* <Box>
+<Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
+      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Road Infrastrcture</Text>
+      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      </Box>
+</Box> */}
+{/* <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'}>
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+            </Box>
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+            </Box> 
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+            </Box> 
+            <Box>
+                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+            </Box>
+</Flex> */}
 
          
     <Footer/>
