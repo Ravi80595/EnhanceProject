@@ -8,10 +8,10 @@ export default function Goals(){
 
 
 return (
-    <Box textAlign={'center'} p={4} w='90%' m='auto' mt={'90px'} mb={150}>
+    <Box textAlign={'center'} p={4} w='90%' m='auto' mt={['30px','30px','90px','90px']} mb={150}>
         <Box paddingBottom={'50px'} textAlign={'center'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Goals</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Goals</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','18px','18px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
     <Flex direction={['column','column','row','row']} gap={20} justifyContent={'space-around'}>
       <Box _hover={{transform:'translateY(-15px)',transition:'transform 0.5s'}} p={2} background={'white'}  borderRadius={10}>

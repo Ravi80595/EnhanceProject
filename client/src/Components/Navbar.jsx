@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Flex, Box, Text, Image } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import '../CSS/Navbar.css'
+import MobNav from './MobNav';
 
 function Navbar() {
   const [navbarBackground, setNavbarBackground] = useState('transparent');
@@ -40,6 +41,8 @@ function Navbar() {
 
   return (
     <nav style={navbarStyle}>
+      <Box className='Laptop-view'>
+
       <Flex justifyContent='space-between' w={'90%'} m={'auto'} pt={'20px'} pb={'10px'}>
         <Box w={'50%'}>
           {/* <Image w={'170px'} h={'45px'} src={'https://mauryahomes.in/wp-content/themes/maurya/images/logo.png'} /> */}
@@ -61,9 +64,9 @@ function Navbar() {
           <Link to='/about'>
           <Text color={navbarTextColor} className='Link_btns'>About Us</Text>
           </Link>
-          <Link to='/projects'>
+          {/* <Link to='/projects'>
             <Text color={navbarTextColor} className='Link_btns'>Projects</Text>
-          </Link>
+          </Link> */}
           {/* <Link to='/awards'>
             <Text color={navbarTextColor} className='Link_btns'>Awards</Text>
           </Link> */}
@@ -72,6 +75,12 @@ function Navbar() {
           </Link>
         </Flex>
       </Flex>
+
+
+      </Box>
+      <div className='mobileDiv'>
+            <MobNav/>
+        </div>
     </nav>
   );
 }

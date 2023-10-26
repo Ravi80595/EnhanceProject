@@ -55,19 +55,19 @@ const Featured = () => {
 return (
   <>
     <Box pb={'40px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Featrued Projects</Text>
-      <Text fontFamily={'Lora'}>Pioneering lifestyles of tomorrow</Text>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Featrued Projects</Text>
+      <Text fontFamily={'Lora'} fontSize={['15px','15px','15px','18px']}>Pioneering lifestyles of tomorrow</Text>
       </Box>
       <Slider {...settings}>
           {events.map((event, index) => (
             <>
             <Box paddingBottom={'50px'}>
-            <Flex>
+            <Flex direction={['column','column','row','row']}>
               <Flex>
                 <Image src={event.image}/>
               </Flex>
-              <Box w={'40%'} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
-                <Text> {event.description}</Text>
+              <Box w={['95%','95%','40%','40%']} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
+                <Text mt={['10px','10px','0px','0px']}> {event.description}</Text>
               </Box>
             </Flex>
           </Box>

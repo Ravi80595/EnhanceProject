@@ -73,7 +73,7 @@ const items = [
 const Timeline = () => {
   return (
     <Box background={'whitesmoke'}>
-    <Box p={20} background={'whitesmoke'} w={'80%'} m={'auto'} className="timeline-container">
+    <Box p={[0,0,20,20]} background={'whitesmoke'} w={['95%','95%','80%','80%']} m={'auto'} className="timeline-container">
       <Chrono
         items={items}
         mode="HORIZONTAL" // Change mode to "HORIZONTAL"

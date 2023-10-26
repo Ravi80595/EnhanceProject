@@ -53,8 +53,8 @@ const HorizontalTimeline = () => {
 return (
   <>
   <Box paddingBottom={'20px'} mt={'80px'} pt={'40px'} textAlign={'center'} background={'whitesmoke'}>
-  <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Storyline</Text>
-  <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+  <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Storyline</Text>
+  <Text fontFamily={'Lora'} fontSize={['14px','14px','15px','18px']}> Innovation, Excellence, Global Impact</Text>
   </Box>
       {/* <Box overflowX={'scroll'} w={'80%'} m={'auto'}>
         <Flex>

@@ -11,18 +11,18 @@ const Groups = () => {
 return (
     <>
     <Navbar/>
-    <Box w={'100%'} mb={'70px'} h={'100vh'}>
+    <Box w={'100%'} mb={['10px','10px','70px','70px']} h={'100vh'}>
         <Image h={'90vh'} w={'100%'} src='https://resources.skillwork.com/hubfs/group%20of%20construction%20workers%20looking%20at%20plans.jpg'/>
     </Box>
-    <Box paddingBottom={'80px'} mt={'70px'}>
-            <Flex w={'85%'} m={'auto'} mt={'90px'}>
-              <Box w={'40%'} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
-              <Text mb={'15px'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'PlayfairDisplay-Regular'} color={'#3D2B1F'}> Enhance Groups</Text>
+    <Box paddingBottom={'80px'} mt={['10px','10px','70px','70px']}>
+            <Flex w={'85%'} m={'auto'} mt={['10px','10px','90px','90px']} direction={['column-reverse','column-reverse','row','row']}>
+              <Box w={['95%','95%','40%','40%']} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
+              <Text mb={'15px'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'PlayfairDisplay-Regular'} color={'#3D2B1F'}> Enhance Groups</Text>
             {/* <Text paddingTop={'10px'} fontFamily={'Lora'}>A journey of creating more than 4 million sq.ft. and 1500+ happy customers</Text> */  }
-                <Text>Enhance projects is renowned for being the thick vision of the most integrated infrastructures and constructions. For years now, it has provided the customers with effective and reliable solutions that could overcome any construction challenges. We are consistent in processing the delivery of reliable solutions to our customers. It incorporates supporting them right from the inception phase to the fully operational phase.</Text>
-              <Text fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={'16px'} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields. Maurya Homes is driven by the next generation of Real Estate. We leave no stone unturned to deliver the best at the customers’ place.</Text>
+                <Text fontSize={['14px','14px','16px','16px']}>Enhance projects is renowned for being the thick vision of the most integrated infrastructures and constructions. For years now, it has provided the customers with effective and reliable solutions that could overcome any construction challenges. We are consistent in processing the delivery of reliable solutions to our customers. It incorporates supporting them right from the inception phase to the fully operational phase.</Text>
+              <Text fontSize={['14px','14px','16px','16px']} fontFamily={'"Poppins", sans-serif'} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields. Maurya Homes is driven by the next generation of Real Estate. We leave no stone unturned to deliver the best at the customers’ place.</Text>
               </Box>
-              <Flex mt={'50px'} justifyContent={'start'} w={'50%'}>
+              <Flex mt={['0px','0px','50px','50px']} justifyContent={'start'} w={['95%','95%','50%','50%']}>
                 <Image borderRadius={'20px'} src={'https://media.istockphoto.com/id/1139968862/photo/barrier-under-construction.jpg?s=612x612&w=0&k=20&c=UdMTWQ5dIjW8PP4HXRkmd5TYdImu1cZpYPR-l9oXiwA='}/>
               </Flex>
             </Flex>
@@ -31,13 +31,13 @@ return (
 
           
           <Box>
-<Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Collaborators</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+<Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={['10px','10px','90px','90px']}>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Collaborators</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
 </Box>
 
-    <Flex justifyContent={'space-around'} w={'70%'} m={'auto'} gap={'40px'} textAlign={'center'} pb={'60px'}>
+    <Flex justifyContent={'space-around'} w={'70%'} m={'auto'} gap={'40px'} textAlign={'center'} pb={'60px'} direction={['column','column','row','row']}>
             <Box>
                 <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
@@ -100,13 +100,13 @@ return (
                 </Box>
                 </Flex>
             </Box> */}
-            <Box w={'70%'} m={'auto'} mt={'30px'}>
-            <Box paddingBottom={'50px'} textAlign={'center'}>
-             <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Real Estate developer in India</Text>
-             <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+            <Box w={['95%','95%','70%','70%']} m={'auto'} mt={['10px','10px','30px','30px']}>
+            <Box w={['95%','95%','70%','70%']} paddingBottom={'50px'} textAlign={'center'}>
+             <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Real Estate developer in India</Text>
+             <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
           </Box>
-          <Text textAlign={'center'}>Enhance projects is renowned for being the thick vision of the most integrated infrastructures and constructions. For years now, it has provided the customers with effective and reliable solutions that could overcome any construction challenges. We are consistent in processing the delivery of reliable solutions to our customers. It incorporates supporting them right from the inception phase to the fully operational phase.</Text>
-              <Text textAlign={'center'} fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={'16px'} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields.</Text>
+          <Text textAlign={'justify'} fontSize={['14px','14px','16px','16px']}>Enhance projects is renowned for being the thick vision of the most integrated infrastructures and constructions. For years now, it has provided the customers with effective and reliable solutions that could overcome any construction challenges. We are consistent in processing the delivery of reliable solutions to our customers. It incorporates supporting them right from the inception phase to the fully operational phase.</Text>
+              <Text textAlign={'justify'} fontSize={['14px','14px','16px','16px']} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields.</Text>
             </Box>
           </Flex>
           </Box>
@@ -118,11 +118,11 @@ return (
 
 <Box>
 <Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
 </Box>
-<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'}>
+<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'} direction={['column','column','row','row']}>
             <Box>
                 <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
@@ -146,11 +146,11 @@ return (
 
 </Flex>
 <Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
-      <Text color={'#3D2B1F'} fontSize={'38px'} lineHeight={'44px'} fontFamily={'Playfair Display'}>We Worked with</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>We Worked with</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
 {/* </Box> */}
-<Box w={'60%'} m={'auto'} mb={'80px'}>
+<Box w={['90%','90%','60%','60%']} m={'auto'} mb={'80px'}>
   <Image w={'100%'} src='https://i.pinimg.com/736x/8d/92/64/8d92641ff0c0e9e5f44907ea208c1707.jpg'/>
 </Box>
 
