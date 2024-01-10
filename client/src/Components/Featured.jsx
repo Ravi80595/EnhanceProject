@@ -21,8 +21,8 @@ export const NextArrow = (props) => (
 
 const events = [
   {
-    title: 'Company Founded',
-    description: 'At Enhance Pvt Ltd., we are driven by a passion for innovation and a customer-centric approach. Our mission is to bridge the gap between business challenges and technology solutions, offering tailor-made strategies that drive growth, efficiency, and sustainability. With a team of experienced professionals, we strive to push the boundaries of whats possible in the world of technology. Our Core Offerings: Software Development: We specialize in developing custom software solutions that cater to a wide range of industries, including finance, healthcare, e-commerce, and more. Our teams expertise in multiple programming languages and frameworks ensures that we deliver high-quality, scalable, and secure applications. offering tailor-made strategies that drive growth, efficiency, and sustainability. With a team of experienced professionals, we strive to push the boundaries of whats possible in the world of technology. Our Core Offerings: Software Development: We specialize in developing custom software solutions that cater to a wide range of industries, including finance, healthcare, e-commerce, and more. Our teams expertise in multiple programming languages and frameworks ensures that we deliver high-quality, scalable, and secure applications.',
+    title: 'URVASHI HEIGHTS',
+    description: 'Welcome to our tranquil residential enclave, offering a pollution-free environment for a serene lifestyle. Our earthquake-resistant structure ensures safety, while wide roads and ample visitor parking enhance convenience. Embrace the Vastu-compliant design and enjoy the benefits of available loan/EMI facilities.  ',
     image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg'
   },
   {
@@ -67,6 +67,7 @@ return (
                 <Image src={event.image}/>
               </Flex>
               <Box w={['95%','95%','40%','40%']} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
+                <Text textAlign='center' fontSize='26px'>{event.title}</Text>
                 <Text mt={['10px','10px','0px','0px']}> {event.description}</Text>
               </Box>
             </Flex>
