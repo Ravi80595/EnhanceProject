@@ -8,6 +8,7 @@ import Awards from '../Pages/Awards'
 import Builder from '../Pages/Builder'
 import Contractors from '../Pages/Contractors'
 import Groups from '../Pages/Groups'
+import ProjectDetails from '../Pages/ProjectDetails'
 
 
 
@@ -25,6 +26,7 @@ return (
         <Route path="/builder" element={<Builder/>}></Route>
         <Route path="/contractors" element={<Contractors/>}></Route>
         <Route path="/groups" element={<Groups/>}></Route>
+        <Route path="/projectDetails" element={<ProjectDetails/>}></Route>
     </Routes>
     </>
   )

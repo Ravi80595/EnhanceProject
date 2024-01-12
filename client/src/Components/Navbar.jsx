@@ -40,10 +40,9 @@ function Navbar() {
   };
 
   return (
-    <nav style={navbarStyle}>
+    <Box style={navbarStyle} className='Laptop-view' box-shadow='rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px' p={5} w='100vw' position='fixed' zIndex={9999} background='transparent'>
       <Box className='Laptop-view'>
-
-      <Flex justifyContent='space-between' w={'90%'} m={'auto'} pt={'20px'} pb={'10px'}>
+      <Flex justifyContent='space-between' w={'90%'} m={'auto'} pt={'5px'} pb={'10px'}>
         <Box w={'50%'}>
           {/* <Image w={'170px'} h={'45px'} src={'https://mauryahomes.in/wp-content/themes/maurya/images/logo.png'} /> */}
           <Text fontSize={'26px'} fontFamily={'cursive'}>Enhance Projects</Text>
@@ -81,7 +80,7 @@ function Navbar() {
       <div className='mobileDiv'>
             <MobNav/>
         </div>
-    </nav>
+    </Box>
   );
 }
 
