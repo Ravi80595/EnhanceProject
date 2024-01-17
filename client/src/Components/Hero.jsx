@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const events = [
   {
-    image:'https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/styles/large/public/2023-09/orl-Transforming-Spaces-Into-Extraordinary-Destinations-562x382px-010923.jpg?itok=QUh-cb2r'
+    image:'https://img.freepik.com/free-photo/office-buildings_1127-3158.jpg?w=996&t=st=1705495005~exp=1705495605~hmac=269cd0c672f0bf19378761d3040de4630cec99043711a04cab44f584299af3c2'
   },
   {
     image:'https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/styles/large/public/2023-09/orl-Transforming-Spaces-Into-Extraordinary-Destinations-562x382px-010923.jpg?itok=QUh-cb2r'
@@ -26,6 +26,7 @@ const Hero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
+    autoPlay:true
     // nextArrow: <NextArrow />,
     //   prevArrow: <PrevArrow />,
 };
@@ -35,7 +36,6 @@ return (
     <div className="background-video">
     <video autoPlay loop muted>
       <source src="https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/2023-07/Orl%20Homepage%20Banner%20250723-1.m4v.mp4" type="video/mp4" />
-      {/* Add additional video sources for cross-browser compatibility */}
     </video>
     <Box paddingBottom={'50px'}>
             <Flex w={'80%'} m={'auto'} mt={['30px','30px','90px','90px']} justifyContent={'space-between'} direction={['column','column','column','row']}>
@@ -48,7 +48,7 @@ return (
                 {events.map((event, index) => (
                   <>
                   <Flex mt={'50px'}>
-                    <Image borderRadius={'20px'} src={event.image}/>
+                    <Image borderRadius={'10px'} src={event.image}/>
                     </Flex>
                   </>
                 ))}

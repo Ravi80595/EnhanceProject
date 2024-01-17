@@ -50,14 +50,14 @@ return (
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
         <Text fontSize={'40px'} fontWeight={'bold'}>URVASHI HEIGHTS</Text>
-        <Text>Type : Offices</Text>
+        {/* <Text>Type : Offices</Text> */}
         </Box>
         <Box>
             <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text>
         </Box>
     </Flex>
     <Flex gap={'40px'} mt={'50px'}>
-    <Box w={'65%'} border={'1px solid grey'} padding={'30px'}>
+    <Box w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
     <Text fontSize={'26px'} fontWeight={'700'}>Property Description</Text>
         <Text mb={'40px'}>Property ID : 5269877</Text>
         <Flex gap={'40px'} mb={'5px'}>
@@ -228,7 +228,7 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box w={'30%'} border={'1px solid grey'} padding={'30px'}>
+    <Box w={'30%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
 
     </Box>
     </Flex>
