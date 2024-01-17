@@ -19,7 +19,7 @@ const events = [
     },
   ]
 
-const ProjectDetails = () => {
+const Enhance = () => {
 
 
     const settings = {
@@ -49,8 +49,8 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={'40px'} fontWeight={'bold'}>URVASHI HEIGHTS</Text>
-        <Text>Type : Offices</Text>
+        <Text fontSize={'40px'} fontWeight={'bold'}>Enhance Sharma Project</Text>
+        {/* <Text>Type : Offices</Text> */}
         </Box>
         <Box>
             <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text>
@@ -80,62 +80,63 @@ return (
         </Flex>
         <hr />
         <Text fontSize={'26px'} fontWeight={'700'} mt={'20px'} mb={'30px'}>Description</Text>
-        <Text>Welcome to our tranquil residential enclave, offering a pollution-free environment for a serene lifestyle. Our earthquake-resistant structure ensures safety, while wide roads and ample visitor parking enhance convenience. Embrace the Vastu-compliant design and enjoy the benefits of available loan/EMI facilities.  </Text>
+        <Text>Welcome to Arovar Niketan, where modern living meets safety and sophistication. Our residences are built with an earthquake-resistant RCC structure, ensuring compliance with seismic zone III standards.   </Text>
             <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Key Features</Text>
-        <Box textAlign={'left'} w={'80%'} m={'auto'}>
+        <Box textAlign={'left'} w={'100%'} m={'auto'}>
         <Flex mt={'17px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Peaceful Residential Surrounding </Text>
+            <Text mt='-5px'>Earthquake-resistant RCC structure </Text>
             </Flex>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Pollution-Free Environment  </Text>
+            <Text mt='-5px'>Internal POP and classical exterior finished in acrylic brand.  </Text>
             </Flex>
         </Flex>
         <Flex mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Earthquake Resistant Structure </Text>
+            <Text mt='-5px'>Vitrified tiles in Drawing/Dining/Bedrooms.  </Text>
             </Flex>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Ample Visitor’s Car Parking  </Text>
+            <Text mt='-5px'>Marble flooring in common areas of the building.  </Text>
             </Flex>
         </Flex>
         <Flex mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Vastu Compliant Building </Text>
+            <Text mt='-5px'>Granite marble on the raised cooking platform.  </Text>
             </Flex>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Loan/EMI Facility Available </Text>
+            <Text mt='-5px'>Anti-skid tiles for flooring.  </Text>
             </Flex>
         </Flex>
         <Flex mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Sufficient Water Supply </Text>
+            <Text mt='-5px'>Powder-coated aluminum sliding windows</Text>
             </Flex>
             <Flex gap={'10px'}>
             <FaBed />
-            <Text mt='-5px'>Sufficient Open Area  </Text>
+            <Text mt='-5px'>All doors framed with WPC/Sal wood.  </Text>
             </Flex>
         </Flex>
+       
         </Box>
         <Box>
-            <Text fontSize={'22px'} fontWeight={'700'} mt={'50px'} mb={'20px'}>Floor Plans</Text>
+            <Text fontSize={'22px'} fontWeight={'700'} mt={'50px'} mb={'20px'}>Safety Features:   </Text>
             {/* <Text>Type : Office</Text> */}
             <Box w={'80%'} m={'auto'}>
                <ul>
-                <li>1st Floor Plan </li>
+                <li>Fire safety equipment as suggested by authorities.  </li>
                 <li>
-                3BHK: BU Area 1113, SBA Area 1336, Carpet Area 864 </li>
+                Soundproof generator for standby power supply (extra cost).  </li>
                 <li>
-                2nd to 4th Floor Plan 
+                Membership options for gym and indoor games room (extra charge). 
                 </li><li>
-                3BHK Options with varying BU, SBA, and Carpet Areas 
+                CCTV cameras in common areas. 
                 </li> 
                </ul>
             </Box>
@@ -240,4 +241,4 @@ return (
   )
 }
 
-export default ProjectDetails
+export default Enhance

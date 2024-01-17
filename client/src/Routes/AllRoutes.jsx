@@ -9,6 +9,8 @@ import Builder from '../Pages/Builder'
 import Contractors from '../Pages/Contractors'
 import Groups from '../Pages/Groups'
 import ProjectDetails from '../Pages/ProjectDetails'
+import Arovar from '../Pages/Arovar'
+import Enhance from '../Pages/Enhance'
 
 
 
@@ -26,7 +28,9 @@ return (
         <Route path="/builder" element={<Builder/>}></Route>
         <Route path="/contractors" element={<Contractors/>}></Route>
         <Route path="/groups" element={<Groups/>}></Route>
-        <Route path="/projectDetails" element={<ProjectDetails/>}></Route>
+        <Route path="/urvarshi" element={<ProjectDetails/>}></Route>
+        <Route path="/arovar" element={<Arovar/>}></Route>
+        <Route path="/enhance" element={<Enhance/>}></Route>
     </Routes>
     </>
   )

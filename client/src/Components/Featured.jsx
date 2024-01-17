@@ -1,4 +1,4 @@
-import { Box,Button,Flex,Heading, Image, Text } from '@chakra-ui/react'
+import { Box,Button,Flex,Heading, Image, Text} from '@chakra-ui/react'
 import React from 'react'
 import Timeline from './Timeline'
 import Slider from "react-slick";
@@ -30,7 +30,8 @@ const events = [
       'Wide Roads & Ample Visitor’s Car Parking' ,
       'Vastu Compliant Building' ,
       'Loan/EMI Facility Available' ],
-    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg'
+    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
+    Link:'/urvarshi'
   },
   {
     date: '2010',
@@ -43,7 +44,8 @@ const events = [
       'Peaceful Residential Surrounding',
       'Vastu Compliant Building' ,
       'Loan/EMI Facility Available' ],
-    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg'
+    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
+    Link:'/arovar'
   },
   {
     date: '2015',
@@ -56,7 +58,8 @@ const events = [
       'True value for money – affordable 3 BHK flats available.  ' ,
       'Peaceful Residential Surrounding',
       'Loan/EMI Facility Available' ],
-    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg'
+    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
+    Link:'/enhance'
   },
 ];
 
@@ -71,9 +74,6 @@ const Featured = () => {
     //   prevArrow: <PrevArrow />,
 };
 
-// const handleNavigate=(event)=>{
-
-// }
 
 
 
@@ -103,10 +103,11 @@ return (
                     </ul>
                   </>
                 )}
-                {/* <Link to={`/projectDetails/${encodeURIComponent(event.title)}`} state={{ eventData: event }}> */}
-                <Button mt={'25px'}>Know More</Button>
-               {/* </Link> */}
-            {/* <Button mt={'25px'} onClick={handleNavigate(event)}>Know More</Button> */}
+              <Link to={event.Link}>
+                <Button mt={'15px'}>
+                Know More
+                </Button>
+              </Link>
               </Box>
             </Flex>
           </Box>
