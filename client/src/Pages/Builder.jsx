@@ -17,30 +17,30 @@ return (
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
       <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
-    <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'}>
+    <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'} mt={'40px'}>
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'550px'} h={'550px'} src='https://img.freepik.com/free-photo/urban-traffic-with-cityscape_1359-324.jpg?w=996&t=st=1705496780~exp=1705497380~hmac=74e9794677f7c6d533992f45b70345b925fceb51fae91f84638092c7c0470ed5'/>
                 <Text mt={'4px'} mb={['40px','40px','0px','0px']}>BENGLURU</Text>
             </Box>
             <Box>
                 <Flex justifyContent={'space-between'} gap={'40px'}>
                 <Box>
-                <Image src='https://www.puravankara.com/img/Clermonthome.jfif'/>
+                <Image w={'250px'} h={"250px"} src='https://img.freepik.com/free-photo/building_1127-2313.jpg?w=996&t=st=1705496649~exp=1705497249~hmac=7dfbd56aaae50da2442e3e9ee7dcfc06c63bc5efa2728752fd870e592049d4d8'/>
                 <Text mt={'4px'} mb={['20px','20px','0px','0px']} >BENGLURU</Text>
                 </Box>
                 <Box>
-                <Image src='https://www.puravankara.com/img/Emerald%20Bayhome.jfif'/>
+                <Image w={'250px'} h={"250px"} src='https://img.freepik.com/free-photo/modern-business-center_1127-3152.jpg?w=996&t=st=1705496758~exp=1705497358~hmac=dda9f30fdf139637d56294f5812da579de39f24b3185c277fc3fb04a6a9277e0'/>
                 <Text>BENGLURU</Text>
                 </Box>
                 </Flex>
-                <Flex justifyContent={'space-between'} gap={'40px'} >
+                <Flex mt={"20px"} justifyContent={'space-between'} gap={'40px'} >
                 <Box>
-                <Image src='https://www.puravankara.com/img/Clermonthome.jfif'/>
+                <Image w={'250px'} h={"250px"} src='https://www.puravankara.com/img/Clermonthome.jfif'/>
                 <Text mt={'4px'}>BENGLURU</Text>
                 </Box>
                 <Box>
-                <Image src='https://www.puravankara.com/img/Emerald%20Bayhome.jfif'/>
+                <Image w={'250px'} h={"250px"} src='https://www.puravankara.com/img/Emerald%20Bayhome.jfif'/>
                 <Text>BENGLURU</Text>
                 </Box>
                 </Flex>
@@ -121,19 +121,19 @@ return (
 </Box>
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?w=996&t=st=1705496906~exp=1705497506~hmac=c645b572d73d90d077acd6508e6f599634453b9c4bc478b2d55c46fd0121bbdc'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box>
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-green-grassy-garden_181624-8074.jpg?w=996&t=st=1705496995~exp=1705497595~hmac=d1a142a2d372b4617c2195aef565ec7a2e89e957eb15a85d4d5e69b00ec4dc77'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box> 
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?w=996&t=st=1705497009~exp=1705497609~hmac=659add44ed9fb4fccea3ca903b48283520eac2cdc0686de9a1a58cde920ad674'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box> 
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/model-modern-house_1003277-9599.jpg?w=1060'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box>
 
@@ -146,34 +146,36 @@ return (
       <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
 </Box>
-<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
+<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']} mb={'120px'}>
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/modern-office-with-no-people-luxury-chair-generated-by-ai_188544-26092.jpg?t=st=1705497118~exp=1705500718~hmac=bc5fda50d8bfdb3f5343c04858dacc19431cd0c066b95b100a138f68043c27d9&w=1060'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box>
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/modern-office-with-computer-equipment-empty-glass-window-generative-ai_188544-8750.jpg?w=1060'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box> 
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/managers-discussing-reports-with-boss-sitting-meeting-table-with-monitor-holding-documents-business-meeting-teamwork-concept_74855-11867.jpg?t=st=1705497131~exp=1705497731~hmac=bf6dd1707318dacd9aa6d208dc0f28ebd3e74d6ec6e6df014f88ee61d8c16cb8'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box> 
             <Box>
-                <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/serious-businessman-presenting-company-business-goals-colleagues_1163-4781.jpg'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box>
 
 </Flex>
 
 
-<Box>
+{/* <Box>
 <Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Rentals</Text>
       <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
-</Box>
-<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'} direction={['column','column','row','row']}>
+</Box> */}
+
+
+{/* <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'} direction={['column','column','row','row']}>
             <Box>
                 <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
                 <Text mt={'4px'}>BENGLURU</Text>
@@ -190,7 +192,7 @@ return (
                 <Image src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
                 <Text mt={'4px'}>BENGLURU</Text>
             </Box>
-</Flex>
+</Flex> */}
          
     <Footer/>
     </>

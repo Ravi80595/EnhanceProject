@@ -40,22 +40,22 @@ return (
     <Flex justifyContent={'space-around'} w={'70%'} m={'auto'} gap={'40px'} textAlign={'center'} pb={'60px'} direction={['column','column','row','row']}>
             <Box>
                 <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Enhance Pvt Ltd</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
             <Box>
                 <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Minu Enhance</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
                 <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Mc Jain</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
                 <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Ajay Jain</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
 
