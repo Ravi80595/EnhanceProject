@@ -100,14 +100,14 @@ return (
                 </Box>
                 </Flex>
             </Box> */}
-            <Box w={['95%','95%','70%','70%']} m={'auto'} mt={['10px','10px','30px','30px']}>
+            {/* <Box w={['95%','95%','70%','70%']} m={'auto'} mt={['10px','10px','30px','30px']}>
             <Box w={['95%','95%','70%','70%']} paddingBottom={'50px'} textAlign={'center'}>
              <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Real Estate developer in India</Text>
              <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
           </Box>
           <Text textAlign={'justify'} fontSize={['14px','14px','16px','16px']}>Enhance projects is renowned for being the thick vision of the most integrated infrastructures and constructions. For years now, it has provided the customers with effective and reliable solutions that could overcome any construction challenges. We are consistent in processing the delivery of reliable solutions to our customers. It incorporates supporting them right from the inception phase to the fully operational phase.</Text>
               <Text textAlign={'justify'} fontSize={['14px','14px','16px','16px']} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields.</Text>
-            </Box>
+            </Box> */}
           </Flex>
           </Box>
 
