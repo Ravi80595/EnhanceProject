@@ -10,8 +10,8 @@ return (
     // <Box marginBottom={'200px'}>
     <Box backgroundColor={'#fafafa'} pt={'90px'} paddingBottom={'80px'}>
     <Box paddingBottom={'50px'} textAlign={'center'}>
-      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Sub-Brands</Text>
-      <Text fontFamily={'Lora'} fontSize={['14px','14px','15px','18px']}> Innovation, Excellence, Global Impact</Text>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Meet Our Sub-Brands </Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','15px','18px']}> Innovating for Global Influence</Text>
       </Box>
     <Box w={'90%'} m={'auto'} background={'white'}>
         <Tabs isFitted variant='enclosed'>

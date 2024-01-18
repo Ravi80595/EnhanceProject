@@ -8,7 +8,12 @@ import { FaBed } from "react-icons/fa";
 import { LiaBathSolid } from "react-icons/lia";
 import { FaChartArea } from "react-icons/fa";
 import { GiMushroomsCluster } from "react-icons/gi";
-
+import { GiFloorHatch } from "react-icons/gi";
+import { MdOutlineFoundation } from "react-icons/md";
+import { SiLinuxfoundation } from "react-icons/si";
+import { FaStairs } from "react-icons/fa6";
+import { WiThermometerExterior } from "react-icons/wi";
+import { VscActivateBreakpoints } from "react-icons/vsc";
 
 const events = [
     {
@@ -50,19 +55,19 @@ return (
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
         <Text fontSize={'40px'} fontWeight={'bold'}>Arover Niketen</Text>
-        {/* <Text>Type : Offices</Text> */}
+        <Text>Where Modern Living Meets Safety and Sophistication </Text>
         </Box>
         <Box>
             <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text>
         </Box>
     </Flex>
     <Flex gap={'40px'} mt={'50px'}>
-    <Box w={'65%'} border={'1px solid grey'} padding={'30px'}>
+    <Box w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
     <Text fontSize={'26px'} fontWeight={'700'}>Property Description</Text>
         <Text mb={'40px'}>Property ID : 5269877</Text>
         <Flex gap={'40px'} mb={'5px'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <GiFloorHatch />
             <Text mt='-5px'> 3 Beds</Text>
             </Flex>
             <Flex gap={'10px'}>
@@ -82,47 +87,47 @@ return (
         <Text fontSize={'26px'} fontWeight={'700'} mt={'20px'} mb={'30px'}>Description</Text>
         <Text>Welcome to Arovar Niketan, where modern living meets safety and sophistication. Our residences are built with an earthquake-resistant RCC structure, ensuring compliance with seismic zone III standards.   </Text>
             <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Key Features</Text>
-        <Box textAlign={'left'} w={'100%'} m={'auto'}>
-        <Flex mt={'17px'} justifyContent={'space-between'}>
+        <Box textAlign={'left'} w={'80%'} m={'auto'}>
+        <Box mt={'17px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
+             <MdOutlineFoundation />
             <Text mt='-5px'>Earthquake-resistant RCC structure </Text>
             </Flex>
-            <Flex gap={'10px'}>
-            <FaBed />
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
             <Text mt='-5px'>Internal POP and classical exterior finished in acrylic brand.  </Text>
             </Flex>
-        </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
+        </Box>
+        <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
             <Text mt='-5px'>Vitrified tiles in Drawing/Dining/Bedrooms.  </Text>
             </Flex>
-            <Flex gap={'10px'}>
-            <FaBed />
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
             <Text mt='-5px'>Marble flooring in common areas of the building.  </Text>
             </Flex>
-        </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
+        </Box>
+        <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
             <Text mt='-5px'>Granite marble on the raised cooking platform.  </Text>
             </Flex>
-            <Flex gap={'10px'}>
-            <FaBed />
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
             <Text mt='-5px'>Anti-skid tiles for flooring.  </Text>
             </Flex>
-        </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
+        </Box>
+        <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
             <Text mt='-5px'>Powder-coated aluminum sliding windows</Text>
             </Flex>
-            <Flex gap={'10px'}>
-            <FaBed />
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
             <Text mt='-5px'>All doors framed with WPC/Sal wood.  </Text>
             </Flex>
-        </Flex>
+        </Box>
        
         </Box>
         <Box>
@@ -169,40 +174,40 @@ return (
 <Text fontSize={'22px'} fontWeight={'700'} mt={'70px'} textAlign={'center'}>Construction Details</Text>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'36px'}>
+            <MdOutlineFoundation />
                 </Flex>
             <Text fontWeight={'bold'} mt='5px'>Foundation: </Text>
             <Text>Isolated Footing with Pedestal, ISI Marked Iron Rod & Cement (M20 specification) </Text>
             </Box>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'32px'}>
+            <SiLinuxfoundation />
                 </Flex>
-            <Text mt='5px' fontWeight={'bold'}>Super Structure: </Text>
-            <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”, Inner Walls 5” </Text>
+            <Text mt='5px' fontWeight={'bold'}>Safety  </Text>
+            <Text>Fire safety equipment as suggested by authorities. </Text>
             </Box>
         </Flex>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'32px'}>
+            <FaStairs />
                 </Flex>
-            <Text fontWeight={'bold'} mt='5px'>Foundation: </Text>
-            <Text>Isolated Footing with Pedestal, ISI Marked Iron Rod & Cement (M20 specification) </Text>
+            <Text fontWeight={'bold'} mt='5px'>Common Facilities:    </Text>
+            <Text>Solar panels on the roof for common area lighting.  </Text>
             </Box>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'36px'}>
+            <WiThermometerExterior />
                 </Flex>
             <Text mt='5px' fontWeight={'bold'}>Super Structure: </Text>
-            <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”, Inner Walls 5” </Text>
+            <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”</Text>
             </Box>
         </Flex>
 
 
 
-        <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Aminties</Text>
+        <Text fontSize={'22px'} fontWeight={'700'} mt={'30px'}>Aminties</Text>
         <Box w={'80%'} m={'auto'} pt={'20px'}>
         <ul>
             <li>24-Hour Water Supply from Own Deep Tube Well   </li>
@@ -229,8 +234,13 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box w={'30%'} border={'1px solid grey'} padding={'30px'}>
-
+    <Box w={'30%'} border={'1px solid grey'} padding={'30px'} h={'400px'} borderRadius={'10px'}>
+        <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
+        <Box mt={'20px'}>
+        <hr />
+        <Text mt={'15px'} fontWeight={'bold'}>Location</Text>
+        <Text>Gandhi Nagar, Ranchi</Text>
+        </Box>
     </Box>
     </Flex>
     </Box>

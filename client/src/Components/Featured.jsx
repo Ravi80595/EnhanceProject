@@ -104,7 +104,7 @@ return (
                   </>
                 )}
               <Link to={event.Link}>
-                <Button mt={'15px'}>
+                <Button background={'gold'} _hover={{color:'white'}} color={'white'} mt={'15px'}>
                 Know More
                 </Button>
               </Link>

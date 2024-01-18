@@ -8,6 +8,12 @@ import { FaBed } from "react-icons/fa";
 import { LiaBathSolid } from "react-icons/lia";
 import { FaChartArea } from "react-icons/fa";
 import { GiMushroomsCluster } from "react-icons/gi";
+import { GiFloorHatch } from "react-icons/gi";
+import { MdOutlineFoundation } from "react-icons/md";
+import { SiLinuxfoundation } from "react-icons/si";
+import { FaStairs } from "react-icons/fa6";
+import { WiThermometerExterior } from "react-icons/wi";
+import { VscActivateBreakpoints } from "react-icons/vsc";
 
 
 const events = [
@@ -50,10 +56,10 @@ return (
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
         <Text fontSize={'40px'} fontWeight={'bold'}>URVASHI HEIGHTS</Text>
-        {/* <Text>Type : Offices</Text> */}
+        <Text>Discover Serenity at Urvashi Heights</Text>
         </Box>
         <Box>
-            <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text>
+            <Text fontSize={'22px'} mt={'20px'} color={'blue'}>From : 1cr only</Text>
         </Box>
     </Flex>
     <Flex gap={'40px'} mt={'50px'}>
@@ -62,7 +68,7 @@ return (
         <Text mb={'40px'}>Property ID : 5269877</Text>
         <Flex gap={'40px'} mb={'5px'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <GiFloorHatch />
             <Text mt='-5px'> 3 Beds</Text>
             </Flex>
             <Flex gap={'10px'}>
@@ -85,41 +91,48 @@ return (
         <Box textAlign={'left'} w={'80%'} m={'auto'}>
         <Flex mt={'17px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
+
             <Text mt='-5px'>Peaceful Residential Surrounding </Text>
             </Flex>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
+
             <Text mt='-5px'>Pollution-Free Environment  </Text>
             </Flex>
         </Flex>
         <Flex mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
+
             <Text mt='-5px'>Earthquake Resistant Structure </Text>
             </Flex>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
+
             <Text mt='-5px'>Ample Visitor’s Car Parking  </Text>
             </Flex>
         </Flex>
         <Flex mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
+
             <Text mt='-5px'>Vastu Compliant Building </Text>
             </Flex>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
+
             <Text mt='-5px'>Loan/EMI Facility Available </Text>
             </Flex>
         </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
+        <Flex mt={'10px'} gap={'180px'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
+
             <Text mt='-5px'>Sufficient Water Supply </Text>
             </Flex>
             <Flex gap={'10px'}>
-            <FaBed />
+            <VscActivateBreakpoints />
             <Text mt='-5px'>Sufficient Open Area  </Text>
             </Flex>
         </Flex>
@@ -168,15 +181,16 @@ return (
 <Text fontSize={'22px'} fontWeight={'700'} mt={'70px'} textAlign={'center'}>Construction Details</Text>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'36px'}>
+            <MdOutlineFoundation />
                 </Flex>
             <Text fontWeight={'bold'} mt='5px'>Foundation: </Text>
             <Text>Isolated Footing with Pedestal, ISI Marked Iron Rod & Cement (M20 specification) </Text>
             </Box>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'32px'}>
+            <SiLinuxfoundation />
+
                 </Flex>
             <Text mt='5px' fontWeight={'bold'}>Super Structure: </Text>
             <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”, Inner Walls 5” </Text>
@@ -184,18 +198,19 @@ return (
         </Flex>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'34px'}>
+            <FaStairs />
                 </Flex>
-            <Text fontWeight={'bold'} mt='5px'>Foundation: </Text>
-            <Text>Isolated Footing with Pedestal, ISI Marked Iron Rod & Cement (M20 specification) </Text>
+            <Text fontWeight={'bold'} mt='5px'>Roof/Beam/Stair:  </Text>
+            <Text>RCC (1:2:4) 4 Inches, All M20 Specification  (M20 specification) </Text>
             </Box>
             <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Flex justifyContent={'center'} fontSize={'36px'}>
+            <WiThermometerExterior />
+
                 </Flex>
-            <Text mt='5px' fontWeight={'bold'}>Super Structure: </Text>
-            <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”, Inner Walls 5” </Text>
+            <Text mt='5px' fontWeight={'bold'}>Exterior Finish:  </Text>
+            <Text>Acrylic Weatherproof Paint with Wall Putty  </Text>
             </Box>
         </Flex>
 
@@ -228,8 +243,13 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box w={'30%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
-
+    <Box w={'30%'} border={'1px solid grey'} padding={'30px'} h={'400px'} borderRadius={'10px'}>
+        <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
+        <Box mt={'20px'}>
+        <hr />
+        <Text mt={'15px'} fontWeight={'bold'}>Location</Text>
+        <Text>Gandhi Nagar, Ranchi</Text>
+        </Box>
     </Box>
     </Flex>
     </Box>

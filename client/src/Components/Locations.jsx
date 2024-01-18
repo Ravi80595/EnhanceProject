@@ -8,7 +8,7 @@ const Locations = () => {
 return (
     <>
     <Box paddingBottom={'50px'} textAlign={'center'} mt={'30px'}>
-      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Locations</Text>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Exploring Excellence Worldwide </Text>
       <Text fontFamily={'Lora'} fontSize={['14px','14px','15px','18px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
     <Box w={['90%','90%','70%','70%']} m={'auto'} background={'#f7fff1'} p={'30px'} fontFamily={'Lora'}>
