@@ -63,12 +63,7 @@ function Navbar() {
           <Link to='/about'>
           <Text color='#D4AF37' className='Link_btns'>About Us</Text>
           </Link>
-          {/* <Link to='/projects'>
-            <Text color={navbarTextColor} className='Link_btns'>Projects</Text>
-          </Link> */}
-          {/* <Link to='/awards'>
-            <Text color={navbarTextColor} className='Link_btns'>Awards</Text>
-          </Link> */}
+
           <Link to='/contact'>
           <Text color='#D4AF37' className='Link_btns'>Contact Us</Text>
           </Link>

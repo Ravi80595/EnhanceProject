@@ -28,8 +28,7 @@ const events = [
       'Pollution-Free Environment' ,
       'Earthquake Resistant Structure' ,
       'Wide Roads & Ample Visitor’s Car Parking' ,
-      'Vastu Compliant Building' ,
-      'Loan/EMI Facility Available' ],
+      ],
     image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
     Link:'/urvarshi'
   },
@@ -42,8 +41,7 @@ const events = [
       'Marble flooring in common areas of the building' ,
       'Wide Roads & Ample Visitor’s Car Parking' ,
       'Peaceful Residential Surrounding',
-      'Vastu Compliant Building' ,
-      'Loan/EMI Facility Available' ],
+       ],
     image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
     Link:'/arovar'
   },
@@ -57,7 +55,7 @@ const events = [
       '24/7 water supply, multiple shops, Wi-Fi connectivity, and more. ' ,
       'True value for money – affordable 3 BHK flats available.  ' ,
       'Peaceful Residential Surrounding',
-      'Loan/EMI Facility Available' ],
+       ],
     image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
     Link:'/enhance'
   },
@@ -81,7 +79,7 @@ return (
   <>
       <Box pb={'40px'}>
         <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Featured Projects</Text>
-        <Text fontFamily={'Lora'} fontSize={['15px','15px','15px','18px']} pb={'40px'}>Pioneering lifestyles of tomorrow</Text>
+        <Text fontFamily={'Lora'} fontSize={['15px','15px','15px','18px']} pb={['10px','10px','40px','40px']}>Pioneering lifestyles of tomorrow</Text>
       </Box>
       <Slider {...settings}>
         {events.map((event, index) => (
@@ -90,8 +88,8 @@ return (
               <Flex>
                 <Image w={'550px'} src={event.image}/>
               </Flex>
-              <Box w={['95%','95%','40%','40%']} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
-                <Text fontSize='26px' pb={'10px'} mt={'-20px'}>{event.title}</Text>
+              <Box w={['95%','95%','40%','40%']} m={'auto'} justifyContent={'justify'} textAlign={['left','justify','justify','justify']}>
+                <Text fontSize='26px' pb={'10px'} mt={'20px'}>{event.title}</Text>
                 <Text mt={['10px','10px','0px','0px']}>{event.description}</Text>
                 {event.Features?.length > 0 && ( // Check if Features is defined and not an empty array
                   <>

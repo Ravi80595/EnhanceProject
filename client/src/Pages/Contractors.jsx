@@ -71,7 +71,7 @@ return (
               <Text fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={'16px'} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields. Maurya Homes is driven by the next generation of Real Estate. We leave no stone unturned to deliver the best at the customers’ place.</Text>
               </Box>
               <Flex mt={'50px'} justifyContent={'start'} w={['95%','95%','50%','50%']}>
-                <Image borderRadius={'20px'} src={'https://images.livspace-cdn.com/plain/https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/2/2020/05/17182126/floor-plan-1.jpg'}/>
+                <Image borderRadius={'20px'} src={'https://i.pinimg.com/736x/c8/9f/87/c89f87040eabbb8b778b86dbf808253c.jpg'}/>
               </Flex>
             </Flex>
           </Box>

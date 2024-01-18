@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const events = [
   {
-    image:'https://img.freepik.com/free-photo/office-buildings_1127-3158.jpg?w=996&t=st=1705495005~exp=1705495605~hmac=269cd0c672f0bf19378761d3040de4630cec99043711a04cab44f584299af3c2'
+    image:'https://www.arabianbusiness.com/cloud/2021/09/15/CrJ37SgT-real-estate.jpg'
   },
   {
     image:'https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/styles/large/public/2023-09/orl-Transforming-Spaces-Into-Extraordinary-Destinations-562x382px-010923.jpg?itok=QUh-cb2r'

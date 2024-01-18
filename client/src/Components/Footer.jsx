@@ -78,7 +78,7 @@ return (
             <Text pt={3}>Plot No.14, <br /> Sector 44, Gurugram, <br /> Haryana 122003</Text>
           </Stack>
         </Stack>
-        <a href="https://www.laudco.com/">
+        <a href="https://www.laudco.com/" target="_blank">
            <Text textAlign='center' pt={5} color='Black'>Created by Laudco Media</Text>
         </a>
 </div>

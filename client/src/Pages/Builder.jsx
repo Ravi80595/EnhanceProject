@@ -11,7 +11,7 @@ return (
     <>
     <Navbar/>
     <Box w={'100%'} mb={'70px'} h={'90vh'}>
-        <Image h={'90vh'} w={'100%'} src='https://www.shapoorjipallonji.com//assets/Desktop/Projects/1440x490/qasr-al-alam-palace-2-1440x490.jpg'/>
+        <Image h={'90vh'} w={'100%'} src='https://ammunition-live-assets.s3.amazonaws.com/LG/lgprobuilder/assets/img/hero-banner-1.jpg'/>
     </Box>
     <Box paddingBottom={'50px'} textAlign={'center'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
@@ -20,7 +20,7 @@ return (
     <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'} mt={'40px'}>
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
             <Box>
-                <Image w={'550px'} h={'550px'} src='https://img.freepik.com/free-photo/urban-traffic-with-cityscape_1359-324.jpg?w=996&t=st=1705496780~exp=1705497380~hmac=74e9794677f7c6d533992f45b70345b925fceb51fae91f84638092c7c0470ed5'/>
+                <Image w={'550px'} h={'550px'} src='https://www.nbmcw.com/images/news/Real-Estate-Projects.webp'/>
                 <Text mt={'4px'} mb={['40px','40px','0px','0px']}>URVASHI HEIGHTS</Text>
             </Box>
             <Box>
@@ -49,8 +49,8 @@ return (
     </Box>
 
 <Box background={'#FAEBD7'} mt={'70px'} >
-    <Flex w={'70%'} m={'auto'} justifyContent={'space-around'} >
-      <Flex w={'50%'} mt={'40px'} mb={'30px'}>
+    <Flex w={['95%','95%','70%','70%']} m={'auto'} justifyContent={'space-around'} direction={['column','column','row','row']}>
+      <Flex w={['95%','95%','60%','60%']} mt={'40px'} mb={'30px'}>
         <Image borderRadius={'10px'} w={'400px'} src='https://www.checkatrade.com/blog/wp-content/uploads/2021/07/Feature-builder-day-rate.jpg'/>
       </Flex>
           <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
@@ -68,7 +68,7 @@ return (
               <Text fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields. Maurya Homes is driven by the next generation of Real Estate. We leave no stone unturned to deliver the best at the customers’ place.</Text>
               </Box>
               <Flex mt={'50px'} justifyContent={'start'} w={['95%','95%','50%','50%']}>
-                <Image borderRadius={'20px'} src={'https://images.livspace-cdn.com/plain/https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/2/2020/05/17182126/floor-plan-1.jpg'}/>
+                <Image borderRadius={'20px'} src={'https://www.genesisstudios.com/wp-content/uploads/2023/01/921499-Fairbrook-Communities-Flamingo-Bay-1.jpg'}/>
               </Flex>
             </Flex>
           </Box>
@@ -133,19 +133,19 @@ return (
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?w=996&t=st=1705496906~exp=1705497506~hmac=c645b572d73d90d077acd6508e6f599634453b9c4bc478b2d55c46fd0121bbdc'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Ranchi</Text>
             </Box>
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-green-grassy-garden_181624-8074.jpg?w=996&t=st=1705496995~exp=1705497595~hmac=d1a142a2d372b4617c2195aef565ec7a2e89e957eb15a85d4d5e69b00ec4dc77'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Odisha</Text>
             </Box> 
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?w=996&t=st=1705497009~exp=1705497609~hmac=659add44ed9fb4fccea3ca903b48283520eac2cdc0686de9a1a58cde920ad674'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Bihar</Text>
             </Box> 
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/model-modern-house_1003277-9599.jpg?w=1060'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Jharkhand</Text>
             </Box>
 
 </Flex>
@@ -160,19 +160,19 @@ return (
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']} mb={'120px'}>
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/modern-office-with-no-people-luxury-chair-generated-by-ai_188544-26092.jpg?t=st=1705497118~exp=1705500718~hmac=bc5fda50d8bfdb3f5343c04858dacc19431cd0c066b95b100a138f68043c27d9&w=1060'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Odisha</Text>
             </Box>
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/modern-office-with-computer-equipment-empty-glass-window-generative-ai_188544-8750.jpg?w=1060'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Ranchi</Text>
             </Box> 
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/managers-discussing-reports-with-boss-sitting-meeting-table-with-monitor-holding-documents-business-meeting-teamwork-concept_74855-11867.jpg?t=st=1705497131~exp=1705497731~hmac=bf6dd1707318dacd9aa6d208dc0f28ebd3e74d6ec6e6df014f88ee61d8c16cb8'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Bihar</Text>
             </Box> 
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/serious-businessman-presenting-company-business-goals-colleagues_1163-4781.jpg'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>Jharkhand</Text>
             </Box>
 
 </Flex>
