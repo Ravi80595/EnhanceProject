@@ -77,9 +77,9 @@ return (
         </Box>
 
 
-          {/* <Box>
-            <Gallery images={imageUrls}/>
-          </Box> */}
+          <Box>
+            <Gallery/>
+          </Box>
 
 
 <hr />

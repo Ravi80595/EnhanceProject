@@ -31,11 +31,6 @@ return (
       </Box>
     </Flex>
 </Box>
-        {/* <Text textAlign={'left'} fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={'10px'}>
-          We offer the twin benefit of local presence and vast geographical reach through strategically positioned offices. A team of highly qualified individuals from several industries oversees each project.    
-          Enhance Projects, the forerunner of the new generation of real estate, pays close attention to every detail in order to provide exceptional service to our consumers. </Text> */}
-
-
      <Box backgroundColor='#fffffd' boxShadow='rgb(255 247 63 / 40%) 0px 2px 4px, rgb(242 255 77 / 30%) 0px 7px 13px -3px, rgb(239 255 46 / 20%) 0px -3px 0px inset' borderRadius={10} textAlign={'left'} w={['90%', '90%', '60%', '50%']} h={['750px', '550px', '550px', 'auto']} m={'auto'} p={'20px'} pb={'70px'} mt="50px" mb={'80px'}>
           {/* <Box w={['92%', '92%', '62%', '92%']} m={'auto'} mt={'30px'}> */}
             <Text pt={10}>Get in touch with our team by completing the below form or call us now. One of our customer service agents will get back to you shortly.</Text>
