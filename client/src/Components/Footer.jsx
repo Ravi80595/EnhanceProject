@@ -75,7 +75,7 @@ return (
                 style={{ width: "25px", height: "25px", cursor: "pointer" }}
               /></a>
             </Stack>
-            <Text pt={3}>Plot No.14, <br /> Sector 44, Gurugram, <br /> Haryana 122003</Text>
+            <Text pt={3}>Gandhi Nagar <br /> Ranchi Jharkhand <br /> 122003</Text>
           </Stack>
         </Stack>
         <a href="https://www.laudco.com/" target="_blank">

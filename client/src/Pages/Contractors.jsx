@@ -184,29 +184,29 @@ return (
 
 <Box>
 <Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
-      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Road Infrastrcture</Text>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Residental Infrastrcture</Text>
       <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
       </Box>
 </Box>
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'} direction={['column','column','row','row']}>
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/road-city-view_1417-1474.jpg?w=996&t=st=1705497576~exp=1705498176~hmac=1d5c89e0b55a1fe1e5fb86fadcd8d0d05e547f3d5b59c50b0d36f05d42e903f4'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+                <Image w={'500px'} h={'250px'} src='https://venues-realestate.com/wp-content/uploads/2023/08/resde-1.jpg'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Urvashi Heights</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/viaduct-city_1127-3273.jpg?w=996&t=st=1705497611~exp=1705498211~hmac=56f7c7df8cb591c1e6cafb066fb1b2b1c7b10edc05bbb3824a4c99f271c1a75c'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+                <Image w={'500px'} h={'250px'} src='https://akm-img-a-in.tosshub.com/businesstoday/images/story/202301/realessss-sixteen_nine.jpg?size=948:533'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Enhance Enclave</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/empty-curved-road_107420-95914.jpg?w=996&t=st=1705497625~exp=1705498225~hmac=5cda44365c331838743f483446d4563999497180864712ef87a0e439ebbc78bf'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+                <Image w={'500px'} h={'250px'} src='https://www.bankrate.com/2022/09/01171315/Commercial-real-estate.jpg?auto=webp&optimize=high&crop=16:9'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Gardenia Enclace</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/modern-iconic-bridge-boom-marina-banyuwangi-east-java-indonesia-eyeemnewhere_1048944-12033238.jpg?w=360'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Infrastrcture</Text>
+                <Image w={'500px'} h={'250px'} src='https://imageio.forbes.com/specials-images/imageserve/6070a6e2966eee4eaceadafc/Cityscape-with-modern-residential-area--new-apartment-buildings-and-green-courtyard/960x0.jpg?height=473&width=711&fit=bounds'/>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Arovar Niketen</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text>/ */}
             </Box>
 </Flex>

@@ -21,15 +21,19 @@ return (
         {/* <div className="gradient-overlay"></div> */}
         <img src="https://mauryahomes.in/wp-content/themes/maurya/images/our-journy-banner.jpg" alt="Background Image" className="background-image" />
      </div>
-     <Box background={'#FAEBD7'}>
-      <Box w={'70%'} m='auto' paddingBottom={'90px'} pt={'50px'}>
-          <Text textAlign={'left'} fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={'3rem'} mb={'1rem'}>Enhance Projects is a market leader in integrated infrastructures and construction, continually offering effective solutions to construction challenges. Our dedication goes from project initiation to full operation, providing dependability at all times.   
-    </Text>
-        <Text textAlign={'left'} fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={'10px'}>
-          We offer the twin benefit of local presence and vast geographical reach through strategically positioned offices. A team of highly qualified individuals from several industries oversees each project.    
-          Enhance Projects, the forerunner of the new generation of real estate, pays close attention to every detail in order to provide exceptional service to our consumers. </Text>
+     <Box background={'#FAEBD7'} mt={'70px'} >
+    <Flex w={'70%'} m={'auto'} justifyContent={'space-around'} >
+      <Flex w={'50%'} mt={'40px'} mb={'30px'}>
+        <Image borderRadius={'10px'} w={'300px'} src='https://img.freepik.com/premium-photo/luxury-golden-house-3d-real-estate-rendering_585146-160.jpg'/>
+      </Flex>
+      <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
+          <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>At Enhance Projects, we understand that successful construction is more than just bricks and mortar; it's about crafting experiences and building legacies. Join us on a journey where innovation meets dependability, and where every project is a testament to our commitment to excellence in construction.  </Text>
       </Box>
-    </Box>
+    </Flex>
+</Box>
+        {/* <Text textAlign={'left'} fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={'10px'}>
+          We offer the twin benefit of local presence and vast geographical reach through strategically positioned offices. A team of highly qualified individuals from several industries oversees each project.    
+          Enhance Projects, the forerunner of the new generation of real estate, pays close attention to every detail in order to provide exceptional service to our consumers. </Text> */}
 
 
      <Box backgroundColor='#fffffd' boxShadow='rgb(255 247 63 / 40%) 0px 2px 4px, rgb(242 255 77 / 30%) 0px 7px 13px -3px, rgb(239 255 46 / 20%) 0px -3px 0px inset' borderRadius={10} textAlign={'left'} w={['90%', '90%', '60%', '50%']} h={['750px', '550px', '550px', 'auto']} m={'auto'} p={'20px'} pb={'70px'} mt="50px" mb={'80px'}>
