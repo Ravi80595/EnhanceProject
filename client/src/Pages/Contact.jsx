@@ -27,7 +27,7 @@ return (
         <Image borderRadius={'10px'} w={'300px'} src='https://img.freepik.com/premium-photo/luxury-golden-house-3d-real-estate-rendering_585146-160.jpg'/>
       </Flex>
       <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
-          <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>At Enhance Projects, we understand that successful construction is more than just bricks and mortar; it's about crafting experiences and building legacies. Join us on a journey where innovation meets dependability, and where every project is a testament to our commitment to excellence in construction.  </Text>
+          <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>Whether you're a potential client, partner, or simply curious about what Enhance Projects has to offer, we look forward to hearing from you. Your inquiries are important to us, and we are committed to providing timely and helpful responses. Thank you for considering Enhance Projects for your housing, construction and infrastructure endeavors.</Text>
       </Box>
     </Flex>
 </Box>
