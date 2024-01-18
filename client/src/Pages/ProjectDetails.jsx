@@ -41,7 +41,7 @@ const ProjectDetails = () => {
 return (
     <>
      <Navbar/>
-     <Box w={'100%'} m={'auto'}>
+     <Box w={'100%'} m={'auto'} background={'#f0f0f0'}>
     <Box>
     <Slider {...settings} style={{width:"100%"}}>
                 {events.map((event, index) => (
@@ -55,15 +55,14 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={'40px'} fontWeight={'bold'}>URVASHI HEIGHTS</Text>
+        <Text fontSize={'40px'} fontWeight={'bold'} fontFamily={'Playfair Display'}>Uravshi Heights</Text>
         <Text>Discover Serenity at Urvashi Heights</Text>
         </Box>
         <Box>
-            <Text fontSize={'22px'} mt={'20px'} color={'blue'}>From : 1cr only</Text>
         </Box>
     </Flex>
     <Flex gap={'40px'} mt={'50px'}>
-    <Box w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
+    <Box background={'white'} w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
     <Text fontSize={'26px'} fontWeight={'700'}>Property Description</Text>
         <Text mb={'40px'}>Property ID : 5269877</Text>
         <Flex gap={'40px'} mb={'5px'}>
@@ -243,12 +242,21 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box w={'30%'} border={'1px solid grey'} padding={'30px'} h={'400px'} borderRadius={'10px'}>
+    <Box background={'white'} w={'30%'} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
         <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
         <Box mt={'20px'}>
         <hr />
         <Text mt={'15px'} fontWeight={'bold'}>Location</Text>
-        <Text>Gandhi Nagar, Ranchi</Text>
+        <Text>Gandhi Nagar, Kanke Road Ranchi - 834008 </Text>
+        </Box>
+        <Text mt={'10px'}>Key Distance</Text>
+        <Box w={'90%'} m={'auto'}>
+        <ul>
+            <li>Ranchi Railway station <b>9.5km</b></li>
+            <li>Kantatoli bus stand <b>8km</b></li>
+            <li>Rock garden <b>1km</b></li>
+            <li>RIMS <b>6KM</b></li>
+        </ul>
         </Box>
     </Box>
     </Flex>

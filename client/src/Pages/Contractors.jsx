@@ -48,6 +48,20 @@ return (
             </Box>
         </Flex>
     </Box>
+
+<Box background={'#FAEBD7'} mt={'70px'} >
+<Flex w={'70%'} m={'auto'} justifyContent={'space-around'} >
+  <Flex w={'50%'} mt={'40px'} mb={'30px'}>
+    <Image borderRadius={'10px'} w={'400px'} src='https://bridgemastersinc.com/wp-content/uploads/2017/12/contractor-1000x500.jpg'/>
+  </Flex>
+      <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
+          <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>At Enhance Projects, we understand that successful construction is more than just bricks and mortar; it's about crafting experiences and building legacies. Join us on a journey where innovation meets dependability, and where every project is a testament to our commitment to excellence in construction.  </Text>
+      </Box>
+    </Flex>
+</Box>
+
+
+
     <Box paddingBottom={'80px'} mt={'70px'}>
             <Flex w={'85%'} m={'auto'} mt={'90px'} direction={['column','column','row','row']}>
               <Box w={['95%','95%','40%','40%']} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
@@ -61,7 +75,7 @@ return (
               </Flex>
             </Flex>
           </Box>
-          <Box background={'#fff4e6'} pb={'50px'} pt={'30px'}>  
+          {/* <Box background={'#fff4e6'} pb={'50px'} pt={'30px'}>  
           <Flex w={'85%'} m={'auto'} mb={'90px'} justifyContent={'center'} direction={['column','column','row','row']}>
           <Box pt={'30px'} w={['97%','97%','50%','50%']} m={'auto'}>
                 <Flex justifyContent={'space-around'} textAlign={'center'} mb={'20px'}  gap={'20px'}>
@@ -106,7 +120,7 @@ return (
               <Text textAlign={'center'} fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={'16px'} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields.</Text>
             </Box>
           </Flex>
-          </Box>
+          </Box> */}
 
 
 

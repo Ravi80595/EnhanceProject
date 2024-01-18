@@ -85,7 +85,7 @@ return (
       </Box>
       <Slider {...settings}>
         {events.map((event, index) => (
-          <Box key={index} paddingBottom={'50px'}>
+          <Box key={index} paddingBottom={'50px'} paddingTop={'20px'}>
             <Flex direction={['column','column','row','row']}>
               <Flex>
                 <Image w={'550px'} src={event.image}/>

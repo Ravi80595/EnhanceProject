@@ -91,6 +91,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
+    /* color: red; */
     /* text-align: start; */
   }
   
@@ -137,7 +138,7 @@
   }
   
   .custom-arrow:hover {
-    color: #3D2B1F;
+    color: blue;
     background: #D4AF37;
   }
   

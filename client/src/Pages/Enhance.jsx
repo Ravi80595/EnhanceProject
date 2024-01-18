@@ -8,6 +8,12 @@ import { FaBed } from "react-icons/fa";
 import { LiaBathSolid } from "react-icons/lia";
 import { FaChartArea } from "react-icons/fa";
 import { GiMushroomsCluster } from "react-icons/gi";
+import { GiFloorHatch } from "react-icons/gi";
+import { MdOutlineFoundation } from "react-icons/md";
+import { SiLinuxfoundation } from "react-icons/si";
+import { FaStairs } from "react-icons/fa6";
+import { WiThermometerExterior } from "react-icons/wi";
+import { VscActivateBreakpoints } from "react-icons/vsc";
 
 
 const events = [
@@ -33,9 +39,9 @@ const Enhance = () => {
     };
 
 return (
-    <>
+<>
      <Navbar/>
-     <Box w={'100%'} m={'auto'}>
+     <Box w={'100%'} m={'auto'} background={'#f0f0f0'}>
     <Box>
     <Slider {...settings} style={{width:"100%"}}>
                 {events.map((event, index) => (
@@ -49,20 +55,20 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={'40px'} fontWeight={'bold'}>Enhance Sharma Project</Text>
-        <Text>The Epitome of Style and Functionality</Text>
+        <Text fontSize={'40px'} fontWeight={'bold'}>Enhance Sharma Heights</Text>
+        <Text>Where Modern Living Meets Safety and Sophistication </Text>
         </Box>
         <Box>
-            <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text>
+            {/* <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text> */}
         </Box>
     </Flex>
-    <Flex gap={'40px'} mt={'50px'}>
-    <Box w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
+<Flex gap={'40px'} mt={'50px'}>
+    <Box background={'white'} w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
     <Text fontSize={'26px'} fontWeight={'700'}>Property Description</Text>
         <Text mb={'40px'}>Property ID : 5269877</Text>
         <Flex gap={'40px'} mb={'5px'}>
             <Flex gap={'10px'}>
-            <FaBed />
+            <GiFloorHatch />
             <Text mt='-5px'> 3 Beds</Text>
             </Flex>
             <Flex gap={'10px'}>
@@ -79,50 +85,46 @@ return (
             </Flex>
         </Flex>
         <hr />
-        <Text fontSize={'26px'} fontWeight={'700'} mt={'10px'} mb={'30px'}>Description</Text>
-        <Text>Welcome to Arovar Niketan, where modern living meets safety and sophistication. Our residences are built with an earthquake-resistant RCC structure, ensuring compliance with seismic zone III standards.   </Text>
-            <Text fontSize={'22px'} fontWeight={'700'} mt={'30px'} >Key Features</Text>
-        <Box textAlign={'left'} w={'100%'} m={'auto'}>
-        <Flex mt={'17px'} justifyContent={'space-between'}>
-            <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>Earthquake-resistant RCC structure </Text>
+        <Text fontSize={'26px'} fontWeight={'700'} mt={'20px'} mb={'30px'}>Description</Text>
+        <Text>Welcome to Enhance Sharma Heights, where blissful living meets exceptional convenience. Our residential cum commercial project offers 3 BHK flats with shops in Upper Bazar, North Market Road, Ranchi, Jharkhand. Discover the best of both worlds – exquisite aesthetics and an exemplary lifestyle.  </Text>
+            <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Key Features</Text>
+        <Box textAlign={'left'} w={'80%'} m={'auto'}>
+        <Box mt={'17px'} justifyContent={'space-between'}>
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
+            <Text mt='-5px'>Centrally located in the Upper Bazar area of Ranchi.  </Text>
             </Flex>
+        </Box>
+        <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>Internal POP and classical exterior finished in acrylic brand.  </Text>
+            <VscActivateBreakpoints />
+            <Text mt='-5px'>24/7 water supply, multiple shops, Wi-Fi connectivity, and mo </Text>
             </Flex>
-        </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
+            <Text mt='-5px'>True value for money – affordable 3 BHK flats available.   </Text>
+            </Flex>
+        </Box>
+        <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>Vitrified tiles in Drawing/Dining/Bedrooms.  </Text>
+            <VscActivateBreakpoints />
+            <Text mt='-5px'>All pipes of UPVC fiber and rust-proof. </Text>
             </Flex>
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
+            <Text mt='-5px'>Kirloskar/Mahindra/Ashok Leyland or equivalent.  </Text>
+            </Flex>
+        </Box>
+        <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>Marble flooring in common areas of the building.  </Text>
+            <VscActivateBreakpoints />
+            <Text mt='-5px'>304 grade SS railing. </Text>
             </Flex>
-        </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
-            <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>Granite marble on the raised cooking platform.  </Text>
+            <Flex gap={'10px'} mt={'10px'}>
+            <VscActivateBreakpoints />
+            <Text mt='-5px'>Concealed copper wiring with modular switches (branded).  </Text>
             </Flex>
-            <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>Anti-skid tiles for flooring.  </Text>
-            </Flex>
-        </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
-            <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>Powder-coated aluminum sliding windows</Text>
-            </Flex>
-            <Flex gap={'10px'}>
-            <FaBed />
-            <Text mt='-5px'>All doors framed with WPC/Sal wood.  </Text>
-            </Flex>
-        </Flex>
+        </Box>
        
         </Box>
         <Box>
@@ -168,73 +170,83 @@ return (
         </Box>
 <Text fontSize={'22px'} fontWeight={'700'} mt={'70px'} textAlign={'center'}>Construction Details</Text>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
-            <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Box w={'50%'}>
+            <Flex justifyContent={'center'} fontSize={'36px'}>
+            <MdOutlineFoundation />
                 </Flex>
             <Text fontWeight={'bold'} mt='5px'>Foundation: </Text>
-            <Text>Isolated Footing with Pedestal, ISI Marked Iron Rod & Cement (M20 specification) </Text>
+            <Text>RCC framed structure with fly ash brickwork.  </Text>
             </Box>
-            <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Box w={'50%'}>
+            <Flex justifyContent={'center'} fontSize={'32px'}>
+            <SiLinuxfoundation />
                 </Flex>
-            <Text mt='5px' fontWeight={'bold'}>Super Structure: </Text>
-            <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”, Inner Walls 5” </Text>
+            <Text mt='5px' fontWeight={'bold'}>Walls </Text>
+            <Text>Internal walls finished with putty, exterior walls with weatherproof exterior paint.  </Text>
             </Box>
         </Flex>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
-            <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Box w={'50%'}>
+            <Flex justifyContent={'center'} fontSize={'32px'}>
+            <FaStairs />
                 </Flex>
-            <Text fontWeight={'bold'} mt='5px'>Foundation: </Text>
-            <Text>Isolated Footing with Pedestal, ISI Marked Iron Rod & Cement (M20 specification) </Text>
+            <Text fontWeight={'bold'} mt='5px'>Doors   </Text>
+            <Text>Main door: Flush door (30mm), all doors with mortise lock.   </Text>
             </Box>
-            <Box>
-            <Flex justifyContent={'center'}>
-            <FaBed />
+            <Box w={'50%'}>
+            <Flex justifyContent={'center'} fontSize={'36px'}>
+            <WiThermometerExterior />
                 </Flex>
-            <Text mt='5px' fontWeight={'bold'}>Super Structure: </Text>
-            <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”, Inner Walls 5” </Text>
+            <Text mt='5px' fontWeight={'bold'}>Windows </Text>
+            <Text>Powder-coated aluminum windows. </Text>
             </Box>
         </Flex>
 
 
 
-        <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Aminties</Text>
+        <Text fontSize={'22px'} fontWeight={'700'} mt={'30px'}>Aminties</Text>
         <Box w={'80%'} m={'auto'} pt={'20px'}>
         <ul>
-            <li>24-Hour Water Supply from Own Deep Tube Well   </li>
+            <li>Vastu-based design.   </li>
                     <li>
-                    ISI Wiring Modular Switches in All Flats                     </li>
+                    Anti-termite treatment.                     </li>
                         <li>
-                        Staircase/Lift with Stainless Steel Railing & Marble Finish Stair                         </li>
+                        CCTV total security system.                         </li>
                         <li>
-                        Flooring with Vitrified Tiles/Antiskid Tiles </li>
+                        Rainwater harvesting.  </li>
                         <li>
-                        Smoothly Finished Walls & Ceiling with 1:4 Cement Plaster </li>
+                        Gated community. </li>
                         <li>
-                        Bathrooms Fitted with Jaquar Commercial Make Sanitary Ware </li>
+                        Ample car parking space. </li>
                         <li>
-                        Flush Doors and Aluminium Windows </li>
+                        High-speed modern elevator.  </li>
                         <li>
-                        6 Passenger's Lift with ISI Mark </li>
+                        High-quality marble with skirting in common areas.  </li>
                         <li>
-                        Soundless Generator for Power Backup </li>
+                        Standard type sanitary & drainage. </li>
                         <li>
-                                        Excellent quality vitrified tiles used. 
+                        Excellent quality vitrified tiles used. 
                         </li>
 
         </ul>
         </Box>
     </Box>
-    <Box w={'30%'} border={'1px solid grey'} padding={'30px'} h={'400px'} borderRadius={'10px'}>
+    <Box background={'white'} w={'30%'} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
         <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
         <Box mt={'20px'}>
         <hr />
         <Text mt={'15px'} fontWeight={'bold'}>Location</Text>
-        <Text>Gandhi Nagar, Ranchi</Text>
+        <Text>TIKLITOLA ROAD, BEHIND RELIANCE FRESH
+                NEAR SHAHDEO HOUSE BANQUET, </Text>
+        </Box>
+        <Text mt={'10px'}>Key Distance</Text>
+        <Box w={'90%'} m={'auto'}>
+        <ul>
+            <li>Ranchi Railway Station: 4 km </li>
+            <li>Ranchi Airport: 8 km </li>
+            <li>Mahavir Chowk: 250 m </li>
+            <li>Firayalal Chowk: 1 km </li>
+        </ul>
         </Box>
     </Box>
     </Flex>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Chrono } from 'react-chrono';
 import '../CSS/Hero.css';
 import { Box } from '@chakra-ui/react';
+import { color } from 'framer-motion';
 
 export const PrevArrow = (props) => (
   <div className="custom-arrow custom-arrow-prev" onClick={props.onClick}>
@@ -71,7 +72,18 @@ const items = [
 ];
 
 const Timeline = () => {
-  return (
+
+  const customTheme = {
+    primary: 'gold', // Change this color to your desired timeline color
+    secondary: 'white', // Change this color to your desired background color
+    cardBgColor: 'whitesmoke', // Change this color to your desired card background color
+    cardForeColor: 'red', // Change this color to your desired card text color
+    cardBorderColor: 'red', // Change this color to your desired card border color
+    cardShadowColor: 'red', // Change this color to your desired card shadow color
+    lineColor: 'red', // Change this color to your desired line color
+  };
+
+return (
     <Box background={'whitesmoke'}>
     <Box p={[0,0,20,20]} background={'whitesmoke'} w={['95%','95%','80%','80%']} m={'auto'} className="timeline-container">
       <Chrono
@@ -80,7 +92,7 @@ const Timeline = () => {
         hideControls
         cardHeight={200} // Adjust card height as needed
         cardWidth={900} // Adjust card width as needed
-        theme={{ primary: '#007bff' }}
+        theme={customTheme}
          // Apply the custom card class
       />
     </Box>

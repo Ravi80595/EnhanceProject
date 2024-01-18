@@ -21,33 +21,43 @@ return (
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
             <Box>
                 <Image w={'550px'} h={'550px'} src='https://img.freepik.com/free-photo/urban-traffic-with-cityscape_1359-324.jpg?w=996&t=st=1705496780~exp=1705497380~hmac=74e9794677f7c6d533992f45b70345b925fceb51fae91f84638092c7c0470ed5'/>
-                <Text mt={'4px'} mb={['40px','40px','0px','0px']}>BENGLURU</Text>
+                <Text mt={'4px'} mb={['40px','40px','0px','0px']}>URVASHI HEIGHTS</Text>
             </Box>
             <Box>
                 <Flex justifyContent={'space-between'} gap={'40px'}>
                 <Box>
                 <Image w={'250px'} h={"250px"} src='https://img.freepik.com/free-photo/building_1127-2313.jpg?w=996&t=st=1705496649~exp=1705497249~hmac=7dfbd56aaae50da2442e3e9ee7dcfc06c63bc5efa2728752fd870e592049d4d8'/>
-                <Text mt={'4px'} mb={['20px','20px','0px','0px']} >BENGLURU</Text>
+                <Text mt={'4px'} mb={['20px','20px','0px','0px']} >ENHANCE SHARMA</Text>
                 </Box>
                 <Box>
                 <Image w={'250px'} h={"250px"} src='https://img.freepik.com/free-photo/modern-business-center_1127-3152.jpg?w=996&t=st=1705496758~exp=1705497358~hmac=dda9f30fdf139637d56294f5812da579de39f24b3185c277fc3fb04a6a9277e0'/>
-                <Text>BENGLURU</Text>
+                <Text>ENHANCE ENCLAVE</Text>
                 </Box>
                 </Flex>
                 <Flex mt={"20px"} justifyContent={'space-between'} gap={'40px'} >
                 <Box>
                 <Image w={'250px'} h={"250px"} src='https://www.puravankara.com/img/Clermonthome.jfif'/>
-                <Text mt={'4px'}>BENGLURU</Text>
+                <Text mt={'4px'}>GARDENIA ENCLAVE</Text>
                 </Box>
                 <Box>
                 <Image w={'250px'} h={"250px"} src='https://www.puravankara.com/img/Emerald%20Bayhome.jfif'/>
-                <Text>BENGLURU</Text>
+                <Text>AROVAR NIKETEN</Text>
                 </Box>
                 </Flex>
             </Box>
         </Flex>
     </Box>
 
+<Box background={'#FAEBD7'} mt={'70px'} >
+    <Flex w={'70%'} m={'auto'} justifyContent={'space-around'} >
+      <Flex w={'50%'} mt={'40px'} mb={'30px'}>
+        <Image borderRadius={'10px'} w={'400px'} src='https://www.checkatrade.com/blog/wp-content/uploads/2021/07/Feature-builder-day-rate.jpg'/>
+      </Flex>
+          <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
+              <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>At Enhance Projects, we understand that successful construction is more than just bricks and mortar; it's about crafting experiences and building legacies. Join us on a journey where innovation meets dependability, and where every project is a testament to our commitment to excellence in construction.  </Text>
+          </Box>
+        </Flex>
+</Box>
 
     <Box paddingBottom={'80px'} mt={'70px'}>
             <Flex w={'80%'} m={'auto'} mt={'90px'} direction={['column','column','row','row']}>
@@ -65,7 +75,8 @@ return (
 
 
 
-    <Box background={'#fff4e6'} pb={'50px'} pt={'30px'}>  
+
+    {/* <Box background={'#fff4e6'} pb={'50px'} pt={'30px'}>  
           <Flex w={'85%'} m={'auto'} mb={'90px'} justifyContent={'center'} direction={['column','column','row','row']}>
           <Box pt={'30px'} w={['97%','97%','50%','50%']} m={'auto'}>
                 <Flex justifyContent={'space-around'} textAlign={'center'} mb={'20px'} gap={'20px'}>
@@ -110,7 +121,7 @@ return (
               <Text textAlign={'center'} fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={'16px'} lineHeight={'26px'} mt={'10px'}>We project our offices at local places to offer our customers an integrated advantage of local presence and broad geographical reach. Our every project is managed by our team comprising of highly experienced and skilled personnel, integrated from different fields.</Text>
             </Box>
           </Flex>
-          </Box>
+          </Box> */}
 
 
 <Box>

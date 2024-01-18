@@ -1,5 +1,6 @@
 import { Box,Flex,Text,Image,Button } from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Locations = () => {
 
@@ -35,7 +36,9 @@ return (
                 <Box pt={'30px'} fontSize={['16px','16px','22px','22px']}>
                     <hr />
                     <Text mt={'10px'}>Creating Sustainble communities across India</Text>
-                    <Button mt={'20px'}>Explore Our Bussiness</Button>
+                    <Link to='/contact'>
+                    <Button background={'gold'} _hover={{color:'white'}} color={'white'} mt={'20px'}>Claim Yours</Button>
+                    </Link>
                 </Box>
             </Box>
             <Box>

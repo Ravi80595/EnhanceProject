@@ -40,7 +40,7 @@ const Arovar = () => {
 return (
     <>
      <Navbar/>
-     <Box w={'100%'} m={'auto'}>
+     <Box w={'100%'} m={'auto'} background={'#f0f0f0'}>
     <Box>
     <Slider {...settings} style={{width:"100%"}}>
                 {events.map((event, index) => (
@@ -58,11 +58,11 @@ return (
         <Text>Where Modern Living Meets Safety and Sophistication </Text>
         </Box>
         <Box>
-            <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text>
+            {/* <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text> */}
         </Box>
     </Flex>
-    <Flex gap={'40px'} mt={'50px'}>
-    <Box w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
+<Flex gap={'40px'} mt={'50px'}>
+    <Box background={'white'} w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
     <Text fontSize={'26px'} fontWeight={'700'}>Property Description</Text>
         <Text mb={'40px'}>Property ID : 5269877</Text>
         <Flex gap={'40px'} mb={'5px'}>
@@ -173,14 +173,14 @@ return (
         </Box>
 <Text fontSize={'22px'} fontWeight={'700'} mt={'70px'} textAlign={'center'}>Construction Details</Text>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
-            <Box>
+            <Box w={'50%'}>
             <Flex justifyContent={'center'} fontSize={'36px'}>
             <MdOutlineFoundation />
                 </Flex>
             <Text fontWeight={'bold'} mt='5px'>Foundation: </Text>
             <Text>Isolated Footing with Pedestal, ISI Marked Iron Rod & Cement (M20 specification) </Text>
             </Box>
-            <Box>
+            <Box w={'50%'}>
             <Flex justifyContent={'center'} fontSize={'32px'}>
             <SiLinuxfoundation />
                 </Flex>
@@ -189,14 +189,14 @@ return (
             </Box>
         </Flex>
         <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
-            <Box>
+            <Box w={'50%'}>
             <Flex justifyContent={'center'} fontSize={'32px'}>
             <FaStairs />
                 </Flex>
             <Text fontWeight={'bold'} mt='5px'>Common Facilities:    </Text>
             <Text>Solar panels on the roof for common area lighting.  </Text>
             </Box>
-            <Box>
+            <Box w={'50%'}>
             <Flex justifyContent={'center'} fontSize={'36px'}>
             <WiThermometerExterior />
                 </Flex>
@@ -234,12 +234,22 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box w={'30%'} border={'1px solid grey'} padding={'30px'} h={'400px'} borderRadius={'10px'}>
+    <Box background={'white'} w={'30%'} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
         <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
         <Box mt={'20px'}>
         <hr />
         <Text mt={'15px'} fontWeight={'bold'}>Location</Text>
-        <Text>Gandhi Nagar, Ranchi</Text>
+        <Text>TIKLITOLA ROAD, BEHIND RELIANCE FRESH
+                NEAR SHAHDEO HOUSE BANQUET, </Text>
+        </Box>
+        <Text mt={'10px'}>Key Distance</Text>
+        <Box w={'90%'} m={'auto'}>
+        <ul>
+            <li>Located in developed resident area </li>
+            <li>Limited power backup</li>
+            <li>24 hrs water supply</li>
+            <li>Garding in corridor</li>
+        </ul>
         </Box>
     </Box>
     </Flex>
