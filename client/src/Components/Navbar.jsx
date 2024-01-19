@@ -3,6 +3,7 @@ import { Flex, Box, Text, Image } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import '../CSS/Navbar.css'
 import MobNav from './MobNav';
+import Logo from '../Images/Logo.jpg'
 
 function Navbar() {
   const [navbarBackground, setNavbarBackground] = useState('transparent');
@@ -44,8 +45,8 @@ function Navbar() {
       <Box className='Laptop-view'>
       <Flex justifyContent='space-between' w={'90%'} m={'auto'} pt={'5px'} pb={'5px'}>
         <Box w={'50%'}>
-          {/* <Image w={'170px'} h={'45px'} src={'https://mauryahomes.in/wp-content/themes/maurya/images/logo.png'} /> */}
-          <Text fontSize={'26px'}>Enhance Projects</Text>
+          <Image w={'170px'} h={'95px'} src={Logo} borderRadius={'10px'}/>
+          {/* <Text fontSize={'26px'}>Enhance Projects</Text> */}
         </Box>
         <Flex fontSize={['15px', 20, 20, 20]} justifyContent='space-around' w={['70%', '30%', '30%', '60%']} pt={'5px'}>
           <Link to='/'>

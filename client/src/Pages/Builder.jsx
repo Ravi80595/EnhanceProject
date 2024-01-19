@@ -131,22 +131,24 @@ return (
       </Box>
 </Box>
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
-            <Box>
+            {/* <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?w=996&t=st=1705496906~exp=1705497506~hmac=c645b572d73d90d077acd6508e6f599634453b9c4bc478b2d55c46fd0121bbdc'/>
                 <Text mt={'4px'}>Ranchi</Text>
-            </Box>
+            </Box> */}
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-green-grassy-garden_181624-8074.jpg?w=996&t=st=1705496995~exp=1705497595~hmac=d1a142a2d372b4617c2195aef565ec7a2e89e957eb15a85d4d5e69b00ec4dc77'/>
-                <Text mt={'4px'}>Odisha</Text>
-            </Box> 
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/model-modern-house_1003277-9599.jpg?w=1060'/>
+                <Text mt={'4px'}>Jharkhand</Text>
+            </Box>
+            
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?w=996&t=st=1705497009~exp=1705497609~hmac=659add44ed9fb4fccea3ca903b48283520eac2cdc0686de9a1a58cde920ad674'/>
                 <Text mt={'4px'}>Bihar</Text>
             </Box> 
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/model-modern-house_1003277-9599.jpg?w=1060'/>
-                <Text mt={'4px'}>Jharkhand</Text>
-            </Box>
+                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-green-grassy-garden_181624-8074.jpg?w=996&t=st=1705496995~exp=1705497595~hmac=d1a142a2d372b4617c2195aef565ec7a2e89e957eb15a85d4d5e69b00ec4dc77'/>
+                <Text mt={'4px'}>Odisha</Text>
+            </Box> 
+            
 
 </Flex>
 

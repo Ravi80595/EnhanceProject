@@ -22,7 +22,7 @@ return (
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
             <Box>
                 <Image h={'550px'} w={'450px'} src='https://www.losangelescontractors.org/wp-content/uploads/2019/10/image12.jpg'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}  mb={['40px','40px','0px','0px']}>Hotels</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}  mb={['40px','40px','0px','0px']}>Commercials Buildings</Text>
             </Box>
             <Box>
                 <Flex justifyContent={'space-between'} gap={'40px'}>
@@ -38,11 +38,11 @@ return (
                 <Flex justifyContent={'space-between'} gap={'40px'} mt={'20px'}>
                 <Box>
                 <Image w={'250px'} h={"250px"} borderRadius={'5px'} _hover={{borderRadius:'0px',transition:'2s'}} src='https://www.puravankara.com/img/Clermonthome.jfif'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Residential </Text>
                 </Box>
                 <Box>
                 <Image w={'250px'} h={"250px"} borderRadius={'5px'} _hover={{borderRadius:'0px',transition:'2s'}} src='https://www.puravankara.com/img/Emerald%20Bayhome.jfif'/>
-                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Hospital</Text>
+                <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Healthcare</Text>
                 </Box>
                 </Flex>
             </Box>
