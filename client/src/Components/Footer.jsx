@@ -25,7 +25,7 @@ return (
           <Link to='/contact'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Contact us</Text>
           </Link>
-          <Text color={'Black'}>Email : info@Enhance</Text>
+          <Text color={'Black'}>Email : info@Enhance.com</Text>
           </Stack>
           <Stack gap="10px">
           <Text fontSize="20px" fontWeight="700">Featured Categories</Text>
@@ -46,36 +46,29 @@ return (
           {/* <Text fontSize="20px" fontWeight="700">Need Help</Text>
           <Text fontSize="16px" fontWeight="500" cursor="pointer"> Testimonials</Text> */}
           <Text fontSize="20px" fontWeight="700" paddingTop="1px"> Policy Info</Text>
+          <Link to='/privacy'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Privacy Policy</Text>
+          </Link>
+          <Link to='/terms'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Terms of Use</Text>
+          </Link>
           </Stack>
           <Stack gap="10px" marginRight="20px">
           <Box color={'Black'}>
           <Heading pl={'25px'} pb={3}>ENHANCE</Heading>
         </Box>
             <Stack direction="horizontal" gap="25px">
-              <a href="#"target="blank">
+              <a href="https://www.instagram.com/enhanceprojects?igsh=MnE5ajhrenJ3Ym84&utm_source=qr"target="blank">
               <BsInstagram
                 style={{ width: "25px", height: "25px", cursor: "pointer" }}
               /></a>
-              <a href="#"target="blank">
+              <a href="https://www.facebook.com/enhanceprojects?mibextid=LQQJ4d"target="blank">
               <BsFacebook
                 style={{ width: "25px", height: "25px", cursor: "pointer" }}
               /></a>
-              <a href="#"target="blank">
-              <AiFillLinkedin
-                style={{ width: "25px", height: "25px", cursor: "pointer" }}
-              /></a>
-              <a href="#" target="blank">
-              <BsTwitter
-                style={{ width: "25px", height: "25px", cursor: "pointer" }}
-              /></a>
-              <a href="#" target="blank">
-              <BsYoutube
-                style={{ width: "25px", height: "25px", cursor: "pointer" }}
-              /></a>
+              
             </Stack>
-            <Text pt={3}>Gandhi Nagar <br /> Ranchi Jharkhand <br /> 122003</Text>
+            <Text pt={3}>3N Shree Gopal Complex <br />Kutchery Road,<br />Ranchi, Jharkhand - 834001 </Text>
           </Stack>
         </Stack>
         <a href="https://www.laudco.com/" target="_blank">

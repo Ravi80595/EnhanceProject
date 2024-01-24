@@ -2,7 +2,7 @@ import { Box,Flex,Image,Text } from '@chakra-ui/react'
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-
+import groupsHero from '../Images/groupsHero.jpg'
 
 const Groups = () => {
 
@@ -12,7 +12,7 @@ return (
     <>
     <Navbar/>
     <Box w={'100%'} mb={['10px','10px','70px','70px']} h={'100vh'}>
-        <Image h={'90vh'} w={'100%'} src='https://resources.skillwork.com/hubfs/group%20of%20construction%20workers%20looking%20at%20plans.jpg'/>
+        <Image h={'90vh'} w={'100%'} src={groupsHero}/>
     </Box>
     <Box paddingBottom={'80px'} mt={['10px','10px','70px','70px']}>
             <Flex w={'85%'} m={'auto'} mt={['10px','10px','90px','90px']} direction={['column-reverse','column-reverse','row','row']}>

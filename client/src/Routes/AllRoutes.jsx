@@ -11,6 +11,8 @@ import Groups from '../Pages/Groups'
 import ProjectDetails from '../Pages/ProjectDetails'
 import Arovar from '../Pages/Arovar'
 import Enhance from '../Pages/Enhance'
+import Privacy from '../Pages/Privacy'
+import Terms from '../Pages/Terms'
 
 
 
@@ -31,6 +33,8 @@ return (
         <Route path="/urvarshi" element={<ProjectDetails/>}></Route>
         <Route path="/arovar" element={<Arovar/>}></Route>
         <Route path="/enhance" element={<Enhance/>}></Route>
+        <Route path="/privacy" element={<Privacy/>}></Route>
+        <Route path="/terms" element={<Terms/>}></Route>
     </Routes>
     </>
   )

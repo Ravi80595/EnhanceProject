@@ -17,6 +17,17 @@ const events = [
   },
 ]
 
+const eventss = [
+  {
+    image:'https://img.freepik.com/free-photo/mumbai-skyline-skyscrapers-construction_469504-21.jpg?w=826&t=st=1706097338~exp=1706097938~hmac=09c891a7bbd0d3443fbbb9808f613c2559d58241843927b7c60ecba7b73de30b'
+  },
+  {
+    image:'https://img.freepik.com/free-photo/new-york-city-skyscrapers_649448-5219.jpg?w=826&t=st=1706097380~exp=1706097980~hmac=776c11bf3a55ea9c35426989475dc4f062c8acfb048d86309bc087609c096e42'
+  },
+]
+
+
+
 const Hero = () => {
 
 
@@ -34,9 +45,18 @@ const Hero = () => {
 
 return (
     <div className="background-video">
-    <video autoPlay loop muted>
+    {/* <video autoPlay loop muted>
       <source src="https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/2023-07/Orl%20Homepage%20Banner%20250723-1.m4v.mp4" type="video/mp4" />
-    </video>
+    </video> */}
+    <Slider {...settings} style={{width:"100%"}}>
+                {eventss.map((event, index) => (
+                  <>
+                  {/* <Flex mt={'50px'}> */}
+                    <Image mt={'40px'} w={'100vw'}  h={'90vh'} src={event.image}/>
+                    {/* </Flex> */}
+                  </>
+                ))}
+              </Slider>
     <Box paddingBottom={'50px'}>
             <Flex w={'80%'} m={'auto'} mt={['30px','30px','90px','90px']} justifyContent={'space-between'} direction={['column','column','column','row']}>
               <Box w={['99%','99%','40%','40%']} m={'auto'} textAlign={'justify'}>

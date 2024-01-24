@@ -2,7 +2,7 @@ import { Box,Flex,Image,Text } from '@chakra-ui/react'
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-
+import contractorHero from '../Images/contractorHero.jpg'
 
 const Contractors = () => {
 
@@ -12,7 +12,7 @@ return (
     <>
     <Navbar/>
     <Box w={'100%'} mb={'70px'} h={'90vh'}>
-        <Image h={'90vh'} w={'100%'} src='https://uploads-ssl.webflow.com/5ec51dfa9f4a9e20ed0c9f1d/6347cabe7c8d5e6a10c7634c_1.png'/>
+        <Image h={'90vh'} w={'100%'} src={contractorHero}/>
     </Box>
     <Box paddingBottom={'50px'} textAlign={'center'} mb={'50px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
@@ -151,7 +151,7 @@ return (
 </Flex> */}
 
 
-<Box>
+{/* <Box>
 <Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Educational Institutes</Text>
       <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
@@ -161,25 +161,21 @@ return (
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/low-rise-building_1127-3268.jpg?w=996&t=st=1705497437~exp=1705498037~hmac=11ed679333bd027182d10e1eb78224d8d32b87ebe5256190ff739522a3f9d80c'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/premium-photo/modern-apartment-buildings-green-residential-area-city_1127-4267.jpg?w=996'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/water-dwelling_1127-3260.jpg?w=996&t=st=1705497493~exp=1705498093~hmac=c6fa972c761e554ec9bcb2d0c714a0643ae8b074651ef778f4f411632f569908'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
                 <Image w={'500px'} h={'250px'}  src='https://img.freepik.com/free-photo/passageway_1127-3255.jpg?w=996&t=st=1705497517~exp=1705498117~hmac=c7152271cb4032c9757171a577d8e50ff2ad1d9149b188655fdc89c37e02b96c'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Educational</Text>
-                {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
 
-</Flex>
+</Flex> */}
 
 
 <Box>

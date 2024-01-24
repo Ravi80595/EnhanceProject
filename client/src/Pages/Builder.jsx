@@ -2,6 +2,12 @@ import { Box,Flex,Image,Text } from '@chakra-ui/react'
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
+import builderHero from '../Images/builderHero.jpg'
+import Urvashi from '../Images/Urvashi.png'
+import Arover from '../Images/Arovar.png'
+import EnhanceSharma from '../Images/EnhanceSharma.png'
+import EnhanceEnclave from '../Images/EnhanceEncalve.png'
+import Gardenia from '../Images/Gardenia.png'
 
 const Builder = () => {
 
@@ -11,7 +17,7 @@ return (
     <>
     <Navbar/>
     <Box w={'100%'} mb={'70px'} h={'90vh'}>
-        <Image h={'90vh'} w={'100%'} src='https://ammunition-live-assets.s3.amazonaws.com/LG/lgprobuilder/assets/img/hero-banner-1.jpg'/>
+        <Image h={'90vh'} w={'100%'} src={builderHero}/>
     </Box>
     <Box paddingBottom={'50px'} textAlign={'center'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
@@ -20,27 +26,27 @@ return (
     <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'} mt={'40px'}>
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
             <Box>
-                <Image w={'550px'} h={'550px'} src='https://www.nbmcw.com/images/news/Real-Estate-Projects.webp'/>
+                <Image w={'550px'} h={'550px'} src={Urvashi}/>
                 <Text mt={'4px'} mb={['40px','40px','0px','0px']}>URVASHI HEIGHTS</Text>
             </Box>
             <Box>
                 <Flex justifyContent={'space-between'} gap={'40px'}>
                 <Box>
-                <Image w={'250px'} h={"250px"} src='https://img.freepik.com/free-photo/building_1127-2313.jpg?w=996&t=st=1705496649~exp=1705497249~hmac=7dfbd56aaae50da2442e3e9ee7dcfc06c63bc5efa2728752fd870e592049d4d8'/>
+                <Image w={'250px'} h={"250px"} src={EnhanceSharma}/>
                 <Text mt={'4px'} mb={['20px','20px','0px','0px']} >ENHANCE SHARMA</Text>
                 </Box>
                 <Box>
-                <Image w={'250px'} h={"250px"} src='https://img.freepik.com/free-photo/modern-business-center_1127-3152.jpg?w=996&t=st=1705496758~exp=1705497358~hmac=dda9f30fdf139637d56294f5812da579de39f24b3185c277fc3fb04a6a9277e0'/>
+                <Image w={'250px'} h={"250px"} src={EnhanceEnclave}/>
                 <Text>ENHANCE ENCLAVE</Text>
                 </Box>
                 </Flex>
                 <Flex mt={"20px"} justifyContent={'space-between'} gap={'40px'} >
                 <Box>
-                <Image w={'250px'} h={"250px"} src='https://www.puravankara.com/img/Clermonthome.jfif'/>
+                <Image w={'250px'} h={"250px"} src={Gardenia}/>
                 <Text mt={'4px'}>GARDENIA ENCLAVE</Text>
                 </Box>
                 <Box>
-                <Image w={'250px'} h={"250px"} src='https://www.puravankara.com/img/Emerald%20Bayhome.jfif'/>
+                <Image w={'250px'} h={"250px"} src={Arover}/>
                 <Text>AROVAR NIKETEN</Text>
                 </Box>
                 </Flex>
@@ -130,7 +136,7 @@ return (
       <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
 </Box>
-<Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
+<Flex pb={'60px'} justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
             {/* <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?w=996&t=st=1705496906~exp=1705497506~hmac=c645b572d73d90d077acd6508e6f599634453b9c4bc478b2d55c46fd0121bbdc'/>
                 <Text mt={'4px'}>Ranchi</Text>
@@ -153,7 +159,7 @@ return (
 </Flex>
 
 
-<Box>
+{/* <Box>
 <Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Offices</Text>
       <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
@@ -177,7 +183,7 @@ return (
                 <Text mt={'4px'}>Jharkhand</Text>
             </Box>
 
-</Flex>
+</Flex> */}
 
 
 {/* <Box>

@@ -5,6 +5,7 @@ import '../CSS/About.css'
 import Goals from '../Components/Goals'
 import Footer from '../Components/Footer'
 import Gallery from '../Components/Gallery'
+import aboutHero from '../Images/abuoutHero.jpg'
 
 const AboutUs = () => {
 
@@ -24,7 +25,7 @@ return (
         <Navbar/>
         <div className="image-box">
             <div></div>
-            <img src="https://mauryahomes.in/wp-content/themes/maurya/images/our-journy-banner.jpg" alt="Background Image" className="background-image" />
+            <img src={aboutHero} alt="Background Image" className="background-image" />
          </div>
          <Box background={'#FAEBD7'}>
           <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>

@@ -5,8 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
-
-
+import Urvashi from '../Images/Urvashi.png'
+import Arovar from '../Images/Arovar.png'
+import EnhanceSharma from '../Images/EnhanceSharma.png'
 
 export const PrevArrow = (props) => (
   <div className="custom-arrow custom-arrow-prev" onClick={props.onClick}>
@@ -29,7 +30,7 @@ const events = [
       'Earthquake Resistant Structure' ,
       'Wide Roads & Ample Visitor’s Car Parking' ,
       ],
-    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
+    image:Urvashi ,
     Link:'/urvarshi'
   },
   {
@@ -42,7 +43,7 @@ const events = [
       'Wide Roads & Ample Visitor’s Car Parking' ,
       'Peaceful Residential Surrounding',
        ],
-    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
+    image:Arovar,
     Link:'/arovar'
   },
   {
@@ -56,7 +57,7 @@ const events = [
       'True value for money – affordable 3 BHK flats available.  ' ,
       'Peaceful Residential Surrounding',
        ],
-    image:'https://img.freepik.com/premium-photo/modern-corporate-architecture-can-be-seen-cityscape-office-buildings_410516-276.jpg',
+    image:EnhanceSharma,
     Link:'/enhance'
   },
 ];
