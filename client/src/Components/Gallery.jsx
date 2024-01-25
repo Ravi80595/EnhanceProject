@@ -5,7 +5,7 @@ const Gallery = () => {
   // Ensure that the number of images doesn't exceed 6
 //   const limitedImages = images.slice(0, 6);
 
-  return (
+return (
     <>
     <Box paddingBottom={'50px'} textAlign={'center'} mt={'90px'}>
           <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>CSR Activites</Text>

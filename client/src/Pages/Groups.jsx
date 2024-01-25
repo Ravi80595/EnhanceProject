@@ -3,6 +3,11 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import groupsHero from '../Images/groupsHero.jpg'
+import BOD1 from '../Images/BOD1.png'
+import BOD2 from '../Images/BOD2.png'
+import Logo from '../Images/Logo.jpg'
+import MinuLogo from '../Images/MinuLogo.jpeg'
+
 
 const Groups = () => {
 
@@ -39,22 +44,22 @@ return (
 
     <Flex justifyContent={'space-around'} w={'70%'} m={'auto'} gap={'40px'} textAlign={'center'} pb={'60px'} direction={['column','column','row','row']}>
             <Box>
-                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={Logo}/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Enhance Pvt Ltd</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
             <Box>
-                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={MinuLogo}/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Minu Enhance</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
-                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={BOD1}/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Mc Jain</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
-                <Image borderRadius={'10px'} src='https://www.puravankara.com/img/Bangalore%20home.jpg'/>
+                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={BOD2}/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Ajay Jain</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
