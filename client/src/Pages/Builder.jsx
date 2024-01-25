@@ -57,7 +57,7 @@ return (
 <Box background={'#FAEBD7'} mt={'70px'} >
     <Flex w={['95%','95%','70%','70%']} m={'auto'} justifyContent={'space-around'} direction={['column','column','row','row']}>
       <Flex w={['95%','95%','60%','60%']} mt={'40px'} mb={'30px'}>
-        <Image borderRadius={'10px'} w={'400px'} src='https://www.checkatrade.com/blog/wp-content/uploads/2021/07/Feature-builder-day-rate.jpg'/>
+        <Image borderRadius={'10px'} w={'400px'} src='https://www.grantthornton.in/globalassets/1.-member-firms/india/new-homepage/media/1.-hero-banners_repeat-visits/1440x600px_hero_banner_shutterstock_626410364.jpg'/>
       </Flex>
           <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
               <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>At Enhance Projects, we understand that successful construction is more than just bricks and mortar; it's about crafting experiences and building legacies. Join us on a journey where innovation meets dependability, and where every project is a testament to our commitment to excellence in construction.  </Text>
@@ -147,11 +147,11 @@ return (
             </Box>
             
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?w=996&t=st=1705497009~exp=1705497609~hmac=659add44ed9fb4fccea3ca903b48283520eac2cdc0686de9a1a58cde920ad674'/>
+                <Image w={'500px'} h={'250px'} src='https://cityhomeindia.in/frontend/images/slider/cityhomeindia01.jpg'/>
                 <Text mt={'4px'}>Bihar</Text>
             </Box> 
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-green-grassy-garden_181624-8074.jpg?w=996&t=st=1705496995~exp=1705497595~hmac=d1a142a2d372b4617c2195aef565ec7a2e89e957eb15a85d4d5e69b00ec4dc77'/>
+                <Image w={'500px'} h={'250px'} src='https://static.toiimg.com/photo/msid-79663166/79663166.jpg'/>
                 <Text mt={'4px'}>Odisha</Text>
             </Box> 
             

@@ -6,6 +6,8 @@ import Goals from '../Components/Goals'
 import Footer from '../Components/Footer'
 import Gallery from '../Components/Gallery'
 import aboutHero from '../Images/abuoutHero.jpg'
+import BOD1 from '../Images/BOD1.png'
+import BOD2 from '../Images/BOD2.png'
 
 const AboutUs = () => {
 
@@ -36,43 +38,27 @@ return (
         </Box>
         <Goals/>
         <Box paddingBottom={'50px'} textAlign={'center'}>
-          <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Meet Our Team</Text>
+          <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Meet Our leadership</Text>
           <Text fontFamily={'Lora'} fontSize={['14px','14px','18px','18px']}> Innovation, Excellence, Global Impact</Text>
         </Box>
         <Box w={['70%','70%','70%','70%']} m='auto' pb={'50px'}>
           {/* <Text ml={['-50px','-50px','-50px','-50px']} fontSize={'26px'} pb={'20px'} fontFamily={'Playfair Display'}>Leadership</Text> */}
-          <Flex justifyContent={'space-between'} direction={['column','column','row','row']} >
+          <Flex justifyContent={'space-around'} direction={['column','column','row','row']} >
             <Box textAlign={'center'} border={'1px solid gold'} p={'20px'} borderRadius={'5px'}>
               <Flex justifyContent={'center'}>
-              <Image w={'150px'} src='https://elfsight.com/assets/team-showcase/business/1.jpg?v=1'/>
+              <Image w={'150px'} src={BOD1}/>
               </Flex>
               <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>Founder & CEO</Text>
-              <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text>
+              <Text fontFamily={'Lora'} mt='7px'>BOD</Text>
+              {/* <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text> */}
             </Box>
             <Box textAlign={'center'} border={'1px solid gold'} p={'20px'} borderRadius={'5px'}>
               <Flex justifyContent={'center'}>
-              <Image w={'150px'} src='https://elfsight.com/assets/team-showcase/business/1.jpg?v=1'/>
+              <Image w={'150px'} src={BOD2}/>
               </Flex>
               <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>Founder & CEO</Text>
-              <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text>
-            </Box>
-            <Box textAlign={'center'} border={'1px solid gold'} p={'20px'} borderRadius={'5px'}>
-              <Flex justifyContent={'center'}>
-              <Image w={'150px'} src='https://elfsight.com/assets/team-showcase/business/1.jpg?v=1'/>
-              </Flex>
-              <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>Founder & CEO</Text>
-              <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text>
-            </Box>
-            <Box textAlign={'center'} border={'1px solid gold'} p={'20px'} borderRadius={'5px'}>
-              <Flex justifyContent={'center'}>
-              <Image w={'150px'} src='https://elfsight.com/assets/team-showcase/business/1.jpg?v=1'/>
-              </Flex>
-              <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>Founder & CEO</Text>
-              <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text>
+              <Text fontFamily={'Lora'} mt='7px'>BOD</Text>
+              {/* <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text> */}
             </Box>
           </Flex>
         </Box>

@@ -28,7 +28,7 @@ return (
                 <Flex justifyContent={'space-between'} gap={'40px'}>
                 <Box mb={['20px','20px','0px','0px']} >
                 <Image w={'250px'} h={"250px"} borderRadius={'5px'} _hover={{borderRadius:'0px',transition:'2s'}} src='https://img.freepik.com/free-photo/modern-amphitheater-usa_1268-14358.jpg?w=996&t=st=1705497336~exp=1705497936~hmac=f6462822f7280505c6e5ae7db3e7790d145c6ae3608067273eff9108d472bd96'/>
-                <Text mt={'14px'} mb={'7px'} fontWeight={'bold'} fontSize={'20px'}>Educational Institute</Text>
+                <Text mt={'14px'} mb={'7px'} fontWeight={'bold'} fontSize={'20px'}>Residential cum commercial</Text>
                 </Box>
                 <Box>
                 <Image w={'250px'} h={"250px"} borderRadius={'5px'} _hover={{borderRadius:'0px',transition:'2s'}} src='https://img.freepik.com/free-photo/low-rise-building_1127-3272.jpg?w=996&t=st=1705497388~exp=1705497988~hmac=1563cef11aefa1f8848b069cfda6d69c28efdff124c6decf79ba7c243d07f7fe'/>

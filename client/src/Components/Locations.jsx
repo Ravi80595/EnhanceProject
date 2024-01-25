@@ -18,20 +18,20 @@ return (
             <Box>
                 <Flex gap={'50px'} justifyContent={'space-around'}>
                     <Box>   
-                        <Text mb={'5px'} fontSize={['20px','20px','30px','30px']} fontWeight={'600'}>48</Text>
-                        <Text mb={'15px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text>
+                        <Text mb={'5px'} fontSize={['20px','20px','30px','30px']} fontWeight={'600'}>250+</Text>
+                        <Text mb={'15px'} fontSize={['14px','14px','18px','18px']}>Projects</Text>
                         <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>4500 acres</Text>
                         <Text mb={'15px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text>
                         <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>13.71 msft</Text>
-                        <Text mb={'15px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text>
+                        <Text mb={'15px'} fontSize={['14px','14px','18px','18px']}>Built-up Area</Text>
                     </Box>
                     <Box>
                     <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>3</Text>
                         <Text mb={'10px'} fontSize={['14px','14px','18px','18px']}>Cities in India</Text>
-                        <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>1000 acres</Text>
-                        <Text mb={'10px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text>
-                        <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>48</Text>
-                        <Text mb={'10px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text>
+                        <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>10000+</Text>
+                        <Text mb={'10px'} fontSize={['14px','14px','18px','18px']}>Acres</Text>
+                        {/* <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>48</Text>
+                        <Text mb={'10px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text> */}
                     </Box>
                 </Flex>
                 <Box pt={'30px'} fontSize={['16px','16px','22px','22px']}>
