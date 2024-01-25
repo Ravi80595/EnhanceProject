@@ -1,6 +1,7 @@
 import { Box,Flex,Text,Image,Button } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import map from '../Images/map.png'
 
 const Locations = () => {
 
@@ -12,7 +13,7 @@ return (
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Exploring Excellence Worldwide </Text>
       <Text fontFamily={'Lora'} fontSize={['14px','14px','15px','18px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
-    <Box w={['90%','90%','70%','70%']} m={'auto'} background={'#f7fff1'} p={'30px'} fontFamily={'Lora'}>
+    <Box w={['90%','90%','70%','70%']} m={'auto'} background={'#ffedee'} p={'30px'} fontFamily={'Lora'}>
         <Flex justifyContent={'space-around'} direction={['column-reverse','column-reverse','row','row']}> 
             <Box>
                 <Flex gap={'50px'} justifyContent={'space-around'}>
@@ -25,7 +26,7 @@ return (
                         <Text mb={'15px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text>
                     </Box>
                     <Box>
-                    <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>9</Text>
+                    <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>3</Text>
                         <Text mb={'10px'} fontSize={['14px','14px','18px','18px']}>Cities in India</Text>
                         <Text mb={'5px'} fontSize={['20px','20px','30px','30px']}  fontWeight={'600'}>1000 acres</Text>
                         <Text mb={'10px'} fontSize={['14px','14px','18px','18px']}>Residental Projects</Text>
@@ -42,7 +43,7 @@ return (
                 </Box>
             </Box>
             <Box>
-                <Image src='https://mldlprodstorage.blob.core.windows.net/live/2022/11/Mahindra-Lifespaces-Locations.webp'/>
+                <Image w={'400px'} h={'380px'} src={map}/>
             </Box>
         </Flex>
     </Box>

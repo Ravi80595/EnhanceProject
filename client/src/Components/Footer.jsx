@@ -55,7 +55,7 @@ return (
           </Stack>
           <Stack gap="10px" marginRight="20px">
           <Box color={'Black'}>
-          <Heading pl={'25px'} pb={3}>ENHANCE</Heading>
+          {/* <Heading pl={'25px'} pb={3}>ENHANCE</Heading> */}
         </Box>
             <Stack direction="horizontal" gap="25px">
               <a href="https://www.instagram.com/enhanceprojects?igsh=MnE5ajhrenJ3Ym84&utm_source=qr"target="blank">
