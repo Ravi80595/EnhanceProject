@@ -54,31 +54,31 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={'40px'} fontWeight={'bold'}>Arover Niketen</Text>
+        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'}>Arover Niketen</Text>
         <Text>Where Modern Living Meets Safety and Sophistication </Text>
         </Box>
         <Box>
             {/* <Text fontSize={'32px'} color={'blue'}>From : 1cr only</Text> */}
         </Box>
     </Flex>
-<Flex gap={'40px'} mt={'50px'}>
-    <Box background={'white'} w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
+<Flex gap={'40px'} mt={'50px'} direction={['column','column','row','row']}>
+    <Box background={'white'} w={['99%','99%','65%','65%']} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
     <Text fontSize={'26px'} fontWeight={'700'}>Property Description</Text>
         <Text mb={'40px'}>Property ID : 5269877</Text>
-        <Flex gap={'40px'} mb={'5px'}>
-            <Flex gap={'10px'}>
+        <Flex gap={['20px','40px','40px','40px']} mb={'5px'}>
+            <Flex gap={'10px'} direction={['column','column','row','row']}>
             <GiFloorHatch />
             <Text mt='-5px'> 3 Beds</Text>
             </Flex>
-            <Flex gap={'10px'}>
+            <Flex gap={'10px'} direction={['column','column','row','row']}>
             <LiaBathSolid />
             <Text mt='-5px'> 3 Baths</Text>
             </Flex>
-             <Flex gap={'10px'}>
+             <Flex gap={'10px'} direction={['column','column','row','row']}>
              <FaChartArea />
             <Text mt='-5px'>200sqft</Text>
             </Flex>
-             <Flex gap={'10px'}>
+             <Flex gap={'10px'} direction={['column','column','row','row']}>
              <GiMushroomsCluster />
             <Text mt='-5px'>8 Rooms</Text>
             </Flex>
@@ -234,7 +234,7 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box background={'white'} w={'30%'} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
+    <Box background={'white'} w={['99%','99%','30%','30%']} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
         <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
         <Box mt={'20px'}>
         <hr />

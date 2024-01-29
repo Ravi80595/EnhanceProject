@@ -8,6 +8,7 @@ import Arover from '../Images/Arovar.png'
 import EnhanceSharma from '../Images/EnhanceSharma.png'
 import EnhanceEnclave from '../Images/EnhanceEncalve.png'
 import Gardenia from '../Images/Gardenia.png'
+import { Link } from 'react-router-dom'
 
 const Builder = () => {
 
@@ -21,34 +22,44 @@ return (
     </Box>
     <Box paddingBottom={'50px'} textAlign={'center'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
-      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}>Transformative Construction for a Changing World </Text>
       </Box>
     <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'} mt={'40px'}>
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
+          <Link to='/urvarshi'>
             <Box>
                 <Image w={'500px'} h={'550px'} src={Urvashi}/>
                 <Text mt={'4px'} mb={['40px','40px','0px','0px']}>URVASHI HEIGHTS</Text>
             </Box>
+          </Link>
             <Box>
                 <Flex justifyContent={'space-between'} gap={'40px'}>
+                <Link to='/enhance'>
                 <Box>
                 <Image w={'250px'} h={"250px"} src={EnhanceSharma}/>
                 <Text mt={'4px'} mb={['20px','20px','0px','0px']} >ENHANCE SHARMA</Text>
                 </Box>
+                </Link>
+                <Link to='/enclave'>
                 <Box>
                 <Image w={'250px'} h={"250px"} src={EnhanceEnclave}/>
                 <Text>ENHANCE ENCLAVE</Text>
                 </Box>
+                </Link>
                 </Flex>
                 <Flex mt={"20px"} justifyContent={'space-between'} gap={'40px'} >
+                <Link to='/gardenia'>
                 <Box>
                 <Image w={'250px'} h={"250px"} src={Gardenia}/>
                 <Text mt={'4px'}>GARDENIA ENCLAVE</Text>
                 </Box>
+                  </Link>
+                <Link to='/arovar'>
                 <Box>
                 <Image w={'250px'} h={"250px"} src={Arover}/>
                 <Text>AROVAR NIKETEN</Text>
                 </Box>
+                </Link>
                 </Flex>
             </Box>
         </Flex>
@@ -133,7 +144,7 @@ return (
 <Box>
 <Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Homes</Text>
-      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}>Innovative Construction Solutions</Text>
       </Box>
 </Box>
 <Flex pb={'60px'} justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>

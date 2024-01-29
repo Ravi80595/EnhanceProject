@@ -9,12 +9,12 @@ return (
     <>
     <Box paddingBottom={'50px'} textAlign={'center'} mt={'90px'}>
           <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>CSR Activites</Text>
-          <Text fontFamily={'Lora'} fontSize={['14px','14px','18px','18px']}> Innovation, Excellence, Global Impact</Text>
+          <Text fontFamily={'Lora'} fontSize={['14px','14px','18px','18px']}>Building Strong Communities </Text>
         </Box>
     <Box w='80%' m={'auto'} mt={'50px'} mb={'70px'}>
         <Flex gap={'100px'} direction={['column','column','row','row']}>
             <Box boxShadow='rgba(0, 0, 0, 0.24) 0px 3px 8px' w={['95%','95%','50%','50%']} borderRadius={'10px'} border={'2px solid black'} p={'20px'}>
-                <Text fontWeight={'bold'} textAlign={'center'} fontSize={'18px'}>Job Creation and Training Programs: </Text>
+                <Text fontWeight={'bold'} textAlign={'center'} fontSize={'18px'}>Job Creation and Training Programs</Text>
                 <Text textAlign={'center'} mt={'9px'}>Providing employment opportunities for local residents during construction and operation phases. 
                     <br />Offering skill development and training programs.
                 </Text>
@@ -43,7 +43,7 @@ return (
                 </Text>
             </Box>
             <Box boxShadow='rgba(0, 0, 0, 0.24) 0px 3px 8px' w={['95%','95%','50%','50%']} borderRadius={'10px'} border={'2px solid black'} p={'20px'}>
-                <Text fontWeight={'bold'} textAlign={'center'} fontSize={'18px'}>Ethical Business Practices: </Text>
+                <Text fontWeight={'bold'} textAlign={'center'} fontSize={'18px'}>Ethical Business Practices </Text>
                 <Text textAlign={'center'} mt={'9px'}>Ensuring fair and transparent dealings in land acquisition and property transactions. 
                     <br />Avoiding displacement of local communities 
                 </Text>

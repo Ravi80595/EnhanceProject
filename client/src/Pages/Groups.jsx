@@ -38,7 +38,7 @@ return (
           <Box>
 <Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={['10px','10px','90px','90px']}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Collaborators</Text>
-      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}>Our Network of Trusted Partners </Text>
       </Box>
 </Box>
 
@@ -124,7 +124,7 @@ return (
 <Box>
 <Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
-      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}>Browse our portfolio of innovative construction projects.</Text>
       </Box>
 </Box>
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'} direction={['column','column','row','row']}>
@@ -152,7 +152,7 @@ return (
 </Flex>
 <Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>We Worked with</Text>
-      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
+      {/* <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text> */}
       </Box>
 {/* </Box> */}
 <Flex w={['60%','90%','60%','80%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']}>

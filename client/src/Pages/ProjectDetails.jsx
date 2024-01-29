@@ -55,30 +55,30 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={'40px'} fontWeight={'bold'} fontFamily={'Playfair Display'}>Uravshi Heights</Text>
+        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'} fontFamily={'Playfair Display'}>Uravshi Heights</Text>
         <Text>Discover Serenity at Urvashi Heights</Text>
         </Box>
         <Box>
         </Box>
     </Flex>
-    <Flex gap={'40px'} mt={'50px'}>
-    <Box background={'white'} w={'65%'} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
+    <Flex gap={'40px'} mt={'50px'} direction={['column','column','row','row']}>
+    <Box background={'white'} w={['99%','99%','65%','65%']} border={'1px solid grey'} padding={'30px'} borderRadius={'10px'}>
     <Text fontSize={'26px'} fontWeight={'700'}>Property Description</Text>
         <Text mb={'40px'}>Property ID : 5269877</Text>
-        <Flex gap={'40px'} mb={'5px'}>
-            <Flex gap={'10px'}>
+        <Flex gap={['20px','40px','40px','40px']} mb={'5px'}>
+            <Flex gap={'10px'} direction={['column','column','row','row']}>
             <GiFloorHatch />
             <Text mt='-5px'> 3 Beds</Text>
             </Flex>
-            <Flex gap={'10px'}>
+            <Flex gap={'10px'} direction={['column','column','row','row']}>
             <LiaBathSolid />
             <Text mt='-5px'> 3 Baths</Text>
             </Flex>
-             <Flex gap={'10px'}>
+             <Flex gap={'10px'} direction={['column','column','row','row']}>
              <FaChartArea />
             <Text mt='-5px'>200sqft</Text>
             </Flex>
-             <Flex gap={'10px'}>
+             <Flex gap={'10px'} direction={['column','column','row','row']}>
              <GiMushroomsCluster />
             <Text mt='-5px'>8 Rooms</Text>
             </Flex>
@@ -88,10 +88,9 @@ return (
         <Text>Welcome to our tranquil residential enclave, offering a pollution-free environment for a serene lifestyle. Our earthquake-resistant structure ensures safety, while wide roads and ample visitor parking enhance convenience. Embrace the Vastu-compliant design and enjoy the benefits of available loan/EMI facilities.  </Text>
             <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Key Features</Text>
         <Box textAlign={'left'} w={'80%'} m={'auto'}>
-        <Flex mt={'17px'} justifyContent={'space-between'}>
+        <Flex mt={'17px'} justifyContent={'space-between'} direction={['column','column','row','row']}>
             <Flex gap={'10px'}>
             <VscActivateBreakpoints />
-
             <Text mt='-5px'>Peaceful Residential Surrounding </Text>
             </Flex>
             <Flex gap={'10px'}>
@@ -100,7 +99,7 @@ return (
             <Text mt='-5px'>Pollution-Free Environment  </Text>
             </Flex>
         </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
+        <Flex mt={'10px'} justifyContent={'space-between'} direction={['column','column','row','row']}>
             <Flex gap={'10px'}>
             <VscActivateBreakpoints />
 
@@ -112,7 +111,7 @@ return (
             <Text mt='-5px'>Ample Visitor’s Car Parking  </Text>
             </Flex>
         </Flex>
-        <Flex mt={'10px'} justifyContent={'space-between'}>
+        <Flex mt={'10px'} justifyContent={'space-between'} direction={['column','column','row','row']}>
             <Flex gap={'10px'}>
             <VscActivateBreakpoints />
 
@@ -124,10 +123,9 @@ return (
             <Text mt='-5px'>Loan/EMI Facility Available </Text>
             </Flex>
         </Flex>
-        <Flex mt={'10px'} gap={'180px'}>
+        <Flex mt={'10px'} gap={'180px'} direction={['column','column','row','row']}>
             <Flex gap={'10px'}>
             <VscActivateBreakpoints />
-
             <Text mt='-5px'>Sufficient Water Supply </Text>
             </Flex>
             <Flex gap={'10px'}>
@@ -178,7 +176,7 @@ return (
         </Flex> */}
         </Box>
 <Text fontSize={'22px'} fontWeight={'700'} mt={'70px'} textAlign={'center'}>Construction Details</Text>
-        <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
+        <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'} direction={['column','column','row','row']}>
             <Box>
             <Flex justifyContent={'center'} fontSize={'36px'}>
             <MdOutlineFoundation />
@@ -195,7 +193,7 @@ return (
             <Text>RCC Brickwork in CM (1:6), Earthquake Resistant Outer Wall 10”, Inner Walls 5” </Text>
             </Box>
         </Flex>
-        <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'}>
+        <Flex gap={'30px'} w={'80%'} m={'auto'} mt={'50px'} textAlign={'center'} direction={['column','column','row','row']}>
             <Box>
             <Flex justifyContent={'center'} fontSize={'34px'}>
             <FaStairs />
@@ -242,7 +240,7 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box background={'white'} w={'30%'} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
+    <Box background={'white'} w={['99%','99%','30%','30%']} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
         <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
         <Box mt={'20px'}>
         <hr />

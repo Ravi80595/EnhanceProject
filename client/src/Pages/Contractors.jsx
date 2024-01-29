@@ -16,7 +16,7 @@ return (
     </Box>
     <Box paddingBottom={'50px'} textAlign={'center'} mb={'50px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Our Projects</Text>
-      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
+      <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}>Seamless Solutions, Trusted Contractors</Text>
       </Box>
     <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'}>
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
@@ -181,7 +181,7 @@ return (
 <Box>
 <Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Residental Infrastrcture</Text>
-      <Text fontFamily={'Lora'}> Innovation, Excellence, Global Impact</Text>
+      <Text fontFamily={'Lora'}> Efficiency, Reliability, Excellence</Text>
       </Box>
 </Box>
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'} direction={['column','column','row','row']}>

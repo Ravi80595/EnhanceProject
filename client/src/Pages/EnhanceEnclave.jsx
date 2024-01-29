@@ -25,7 +25,7 @@ const events = [
     },
   ]
 
-const Enhance = () => {
+const EnhanceEnclave = () => {
 
 
     const settings = {
@@ -55,7 +55,7 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'}>Enhance Sharma Heights</Text>
+        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'}>Enhance Enclave</Text>
         <Text>Where Modern Living Meets Safety and Sophistication </Text>
         </Box>
         <Box>
@@ -86,13 +86,13 @@ return (
         </Flex>
         <hr />
         <Text fontSize={'26px'} fontWeight={'700'} mt={'20px'} mb={'30px'}>Description</Text>
-        <Text>Welcome to Enhance Sharma Heights, where blissful living meets exceptional convenience. Our residential cum commercial project offers 3 BHK flats with shops in Upper Bazar, North Market Road, Ranchi, Jharkhand. Discover the best of both worlds – exquisite aesthetics and an exemplary lifestyle.  </Text>
+        <Text>Welcome to Enhance Enclave - 1, a creation of Enhance Projects Private Limited, led by a dynamic team of young, energetic, and experienced professionals. Rooted in the values of quality, commitment, and transparency, our motto is to design and develop homes that offer comfort at an affordable price.   </Text>
             <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Key Features</Text>
         <Box textAlign={'left'} w={'80%'} m={'auto'}>
         <Box mt={'17px'} justifyContent={'space-between'}>
             <Flex gap={'10px'} mt={'10px'}>
             <VscActivateBreakpoints />
-            <Text mt='-5px'>Centrally located in the Upper Bazar area of Ranchi.  </Text>
+            <Text mt='-5px'>Vitrified tiles/antiskid tiles with three inches skirting.  </Text>
             </Flex>
         </Box>
         <Box mt={'10px'} justifyContent={'space-between'}>
@@ -231,7 +231,7 @@ return (
         </ul>
         </Box>
     </Box>
-    <Box background={'white'} w={['99%','99%','30%','30%']} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
+    <Box background={'white'} w={['99%','99%','65%','65%']} border={'1px solid grey'} padding={'30px'} h={'500px'} borderRadius={'10px'}>
         <Image src='https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais'/>
         <Box mt={'20px'}>
         <hr />
@@ -258,4 +258,4 @@ return (
   )
 }
 
-export default Enhance
+export default EnhanceEnclave

@@ -25,7 +25,7 @@ const events = [
     },
   ]
 
-const Enhance = () => {
+const Gardenia = () => {
 
 
     const settings = {
@@ -55,7 +55,7 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'}>Enhance Sharma Heights</Text>
+        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'}>Gardenia Enclave</Text>
         <Text>Where Modern Living Meets Safety and Sophistication </Text>
         </Box>
         <Box>
@@ -86,29 +86,29 @@ return (
         </Flex>
         <hr />
         <Text fontSize={'26px'} fontWeight={'700'} mt={'20px'} mb={'30px'}>Description</Text>
-        <Text>Welcome to Enhance Sharma Heights, where blissful living meets exceptional convenience. Our residential cum commercial project offers 3 BHK flats with shops in Upper Bazar, North Market Road, Ranchi, Jharkhand. Discover the best of both worlds – exquisite aesthetics and an exemplary lifestyle.  </Text>
+        <Text>where affordability meets comfort in the heart of Ranchi. Located near Hill View Nursing Home on Bariatu Road, this G+4 residential complex offers 3 BHK affordable flats designed to elevate your living experience.  </Text>
             <Text fontSize={'22px'} fontWeight={'700'} mt={'20px'}>Key Features</Text>
         <Box textAlign={'left'} w={'80%'} m={'auto'}>
         <Box mt={'17px'} justifyContent={'space-between'}>
             <Flex gap={'10px'} mt={'10px'}>
             <VscActivateBreakpoints />
-            <Text mt='-5px'>Centrally located in the Upper Bazar area of Ranchi.  </Text>
+            <Text mt='-5px'>Peaceful and pollution-free environment.  </Text>
             </Flex>
         </Box>
         <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
             <VscActivateBreakpoints />
-            <Text mt='-5px'>24/7 water supply, multiple shops, Wi-Fi connectivity, and mo </Text>
+            <Text mt='-5px'>Earthquake Resistant Structure. </Text>
             </Flex>
             <Flex gap={'10px'} mt={'10px'}>
             <VscActivateBreakpoints />
-            <Text mt='-5px'>True value for money – affordable 3 BHK flats available.   </Text>
+            <Text mt='-5px'>Ample visitor’s car parking.   </Text>
             </Flex>
         </Box>
         <Box mt={'10px'} justifyContent={'space-between'}>
             <Flex gap={'10px'}>
             <VscActivateBreakpoints />
-            <Text mt='-5px'>All pipes of UPVC fiber and rust-proof. </Text>
+            <Text mt='-5px'>Loan/EMI Facility Available. </Text>
             </Flex>
             <Flex gap={'10px'} mt={'10px'}>
             <VscActivateBreakpoints />
@@ -258,4 +258,4 @@ return (
   )
 }
 
-export default Enhance
+export default Gardenia
