@@ -78,13 +78,13 @@ const Featured = () => {
 
 return (
   <>
-      <Box pb={'40px'}>
+      <Box pb={['10px','10px','40px','40px']}>
         <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Featured Projects</Text>
         <Text fontFamily={'Lora'} fontSize={['15px','15px','15px','18px']} pb={['10px','10px','40px','40px']}>Pioneering lifestyles of tomorrow</Text>
       </Box>
       <Slider {...settings}>
         {events.map((event, index) => (
-          <Box key={index} paddingBottom={'50px'} paddingTop={'20px'}>
+          <Box key={index} paddingBottom={'50px'} paddingTop={['10px','20px','20px','20px']}>
             <Flex direction={['column','column','row','row']}>
               <Flex>
                 <Image w={'550px'} src={event.image}/>

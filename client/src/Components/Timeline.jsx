@@ -18,57 +18,22 @@ export const NextArrow = (props) => (
 
 const items = [
   {
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle:
-      'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
+    title: '1970',
+    cardTitle: 'The Early Days',
     cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west...',
+      'Started as a hardware shop: Founded by grandfather, primarily serving local vendors, builders, and contractors      Weekly labor payment issue: Customer Jogi suggested shifting from credit to weekly payments to incentivize work.      Establishment of BSNL, CCL, and Kul India: Early involvement in major government projects laid the foundation for future growth.',
   },
   {
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle:
-      'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
+    title: '1970-2000',
+    cardTitle: 'Expansion and Diversification',
     cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west...',
+      'Registered in various departments: Obtained necessary licenses and registrations to operate across multiple states. Completed numerous projects: Built telephone exchange towers, residential quarters, hospitals, schools, and other government projects.Branching out into private sector: As government construction slowed down, the company began taking on private contracts and self-development projects.',
   },{
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle:
-      'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
+    title: '2000-Present',
+    cardTitle: 'Specialization and Growth',
     cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west...',
-  },{
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle:
-      'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
-    cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west...',
-  },{
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle:
-      'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
-    cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west...',
-  },{
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle:
-      'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
-    cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west...',
-  },{
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle:
-      'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
-    cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west...',
-  },
-  // Add more items here
+      'Three distinct companies formed: Methods Incision (government contracts), Contract K Com (private contracts), and ESK Projects (self-development and private contracts). Purchased land and manufactured own materials: Increased control over quality and costs by acquiring land and managing the entire construction process. Current structure: The company now operates in three main areas: government contracts, private contracts, and self-development projects.',
+  }
 ];
 
 const Timeline = () => {
@@ -85,13 +50,13 @@ const Timeline = () => {
 
 return (
     <Box background={'whitesmoke'}>
-    <Box p={[0,0,20,20]} background={'whitesmoke'} w={['95%','95%','80%','80%']} m={'auto'} className="timeline-container">
+    <Box background={'whitesmoke'} w={['95%','95%','80%','60%']} m={'auto'} className="timeline-container">
       <Chrono
         items={items}
         mode="HORIZONTAL" // Change mode to "HORIZONTAL"
         hideControls
         cardHeight={200} // Adjust card height as needed
-        cardWidth={900} // Adjust card width as needed
+        cardWidth={700} // Adjust card width as needed
         theme={customTheme}
          // Apply the custom card class
       />

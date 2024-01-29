@@ -41,27 +41,24 @@ return (
           <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Meet Our leadership</Text>
           <Text fontFamily={'Lora'} fontSize={['14px','14px','18px','18px']}> Innovation, Excellence, Global Impact</Text>
         </Box>
-        <Box w={['70%','70%','70%','70%']} m='auto' pb={'50px'}>
-          {/* <Text ml={['-50px','-50px','-50px','-50px']} fontSize={'26px'} pb={'20px'} fontFamily={'Playfair Display'}>Leadership</Text> */}
-          <Flex justifyContent={'space-around'} direction={['column','column','row','row']} >
+        {/* <Box w={['70%','70%','70%','70%']} m='auto' pb={'50px'}> */}
+          <Flex justifyContent={'space-around'} direction={['column','column','row','row']} w={['90%','90%','90%','60%']} m={'auto'} gap={"20px"}>
             <Box textAlign={'center'} border={'1px solid gold'} p={'20px'} borderRadius={'5px'}>
               <Flex justifyContent={'center'}>
-              <Image w={'150px'} src={BOD1}/>
+              <Image w={'250px'} src={BOD1}/>
               </Flex>
               <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
               <Text fontFamily={'Lora'} mt='7px'>BOD</Text>
-              {/* <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text> */}
             </Box>
             <Box textAlign={'center'} border={'1px solid gold'} p={'20px'} borderRadius={'5px'}>
               <Flex justifyContent={'center'}>
-              <Image w={'150px'} src={BOD2}/>
+              <Image w={'250px'} src={BOD2}/>
               </Flex>
               <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
               <Text fontFamily={'Lora'} mt='7px'>BOD</Text>
-              {/* <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text> */}
             </Box>
           </Flex>
-        </Box>
+        {/* </Box> */}
 
 
           <Box>
@@ -70,35 +67,6 @@ return (
 
 
 <hr />
-        {/* <Box w={'70%'} m='auto' pb={'90px'} pt={'50px'}>
-          <Text ml={'-50px'} fontSize={'26px'} pb={'20px'} fontFamily={'Playfair Display'}>Support</Text>
-          <Flex justifyContent={'space-between'} direction={['column','column','row','row']}>
-            <Box textAlign={'center'}>
-            <Flex justifyContent={'center'}>
-              <Image w={'150px'} borderRadius='50%' src='https://elfsight.com/assets/team-showcase/business/1.jpg?v=1'/>
-              </Flex>
-              <Text fontFamily={'Lora'} mt='7px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>Founder & CEO</Text>
-              <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text>
-            </Box>
-            <Box textAlign={'center'} mt={['30px','30px','5px','5px']}>
-            <Flex justifyContent={'center'}>
-              <Image w={'150px'} borderRadius='50%' src='https://elfsight.com/assets/team-showcase/business/1.jpg?v=1'/>
-              </Flex>
-              <Text fontFamily={'Lora'} mt='7px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>Founder & CEO</Text>
-              <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text>
-            </Box>
-            <Box textAlign='center' mt={['30px','30px','5px','5px']}>
-            <Flex justifyContent={'center'}>
-              <Image w={'150px'} borderRadius='50%' src='https://elfsight.com/assets/team-showcase/business/1.jpg?v=1'/>
-              </Flex>
-              <Text fontFamily={'Lora'} mt='7px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>Founder & CEO</Text>
-              <Text fontFamily={'Lora'} mt='7px' color={'blue'}>Founder@gmail.com</Text>
-            </Box>
-          </Flex>
-        </Box> */}
 
         <Footer/>
     </Box>

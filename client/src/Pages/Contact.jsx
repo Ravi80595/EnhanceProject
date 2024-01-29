@@ -22,11 +22,11 @@ return (
         <img src="https://mauryahomes.in/wp-content/themes/maurya/images/our-journy-banner.jpg" alt="Background Image" className="background-image" />
      </div>
      <Box background={'#FAEBD7'} mt={'70px'} >
-    <Flex w={'70%'} m={'auto'} justifyContent={'space-around'} >
-      <Flex w={'50%'} mt={'40px'} mb={'30px'}>
+    <Flex w={['90%','90%','70%','70%']} m={'auto'} justifyContent={'space-around'} direction={['column','column','row','row']}>
+      <Flex w={['95%','95%','50%','50%']} m={'auto'} mt={'40px'} mb={'30px'}>
         <Image borderRadius={'10px'} w={'300px'} src='https://img.freepik.com/premium-photo/luxury-golden-house-3d-real-estate-rendering_585146-160.jpg'/>
       </Flex>
-      <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
+      <Box w={['95%','95%','60%','60%']} pt={['20px','20px','70px','70px']} className='about-section'>
           <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>Whether you're a potential client, partner, or simply curious about what Enhance Projects has to offer, we look forward to hearing from you. Your inquiries are important to us, and we are committed to providing timely and helpful responses. Thank you for considering Enhance Projects for your housing, construction and infrastructure endeavors.</Text>
       </Box>
     </Flex>

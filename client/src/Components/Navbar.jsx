@@ -6,43 +6,13 @@ import MobNav from './MobNav';
 import Logo from '../Images/Logo.jpg'
 
 function Navbar() {
-  const [navbarBackground, setNavbarBackground] = useState('transparent');
-  const [navbarTextColor, setNavbarTextColor] = useState('white');
 
-  useEffect(() => {
-    // Add an event listener to track scroll position and update the navbar background
-    window.addEventListener('scroll', handleScroll);
 
-    // Remove the event listener when the component unmounts
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setNavbarBackground('white');
-      setNavbarTextColor('#D4AF37');
-    } else {
-      setNavbarBackground('transparent');
-      setNavbarTextColor('white');
-    }
-  };
-
-  const navbarStyle = {
-    backgroundColor: 'whtite',
-    color: '#D4AF37',
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    width: '100%',
-    transition: 'background-color 0.3s ease',
-    zIndex: 1000,
-  };
 
   return (
-    <Box style={navbarStyle} className='Laptop-view' box-shadow='rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px' p={3} w='100vw' position='fixed' zIndex={9999} background='white'>
-      <Box className='Laptop-view'>
+    <>
+    <Box className='Laptop-view' box-shadow='rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px' p={3} w='100vw' position='fixed' zIndex={9999} background='white'>
+      {/* <Box className='Laptop-view'> */}
       <Flex justifyContent='space-between' w={'90%'} m={'auto'} pt={'5px'} pb={'5px'}>
         <Box w={'50%'}>
           <Image w={'170px'} h={'95px'} src={Logo} borderRadius={'10px'}/>
@@ -72,11 +42,12 @@ function Navbar() {
       </Flex>
 
 
-      </Box>
+      {/* </Box> */}
+    </Box>
       <div className='mobileDiv'>
             <MobNav/>
         </div>
-    </Box>
+    </>
   );
 }
 

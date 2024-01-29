@@ -50,8 +50,8 @@ return (
     </Box>
 
 <Box background={'#FAEBD7'} mt={'70px'} >
-<Flex w={'70%'} m={'auto'} justifyContent={'space-around'} >
-  <Flex w={'50%'} mt={'40px'} mb={'30px'}>
+<Flex w={['95%','95%','70%','70%']} m={'auto'} justifyContent={'space-around'} direction={['column','column','row','row']} >
+  <Flex w={['95%','95%','50%','50%']} mt={'40px'} mb={['10px','10px','30px','30px']}>
     <Image borderRadius={'10px'} w={'400px'} src='https://bridgemastersinc.com/wp-content/uploads/2017/12/contractor-1000x500.jpg'/>
   </Flex>
       <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>

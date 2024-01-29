@@ -19,10 +19,10 @@ return (
     <Box w={'90%'} m={'auto'} background={'white'}>
         <Tabs isFitted variant='enclosed'>
         <TabList mb='1em'>
-            <Tab fontSize={['16px','16px','24px','24px']} fontFamily={'Playfair Display'}>Enhance Pvt. Ltd</Tab>
-            <Tab fontSize={['16px','16px','24px','24px']} fontFamily={'Playfair Display'}>Minu Enhance</Tab>
-            <Tab fontSize={['16px','16px','24px','24px']} fontFamily={'Playfair Display'}>MC Jain</Tab>
-            <Tab fontSize={['16px','16px','24px','24px']} fontFamily={'Playfair Display'}>Ajay Jain</Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Enhance Pvt. Ltd</Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Minu Enhance</Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>MC Jain</Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Ajay Jain</Tab>
         </TabList>
         <TabPanels>
             <TabPanel fontSize={'16px'}>
@@ -37,7 +37,7 @@ return (
             </TabPanel>
             <TabPanel fontSize={'16px'}>
             <Flex direction={['column','column','row','row']}>
-                <Flex justifyContent={'center'}  w={['95%','95%','50%','50%']}>
+                <Flex justifyContent={'center'} justifyItems={'center'} pt={'60px'}  w={['95%','95%','50%','50%']}>
                     <Image w={'250px'} h={'150px'} src={MinuLogo}/>
                     </Flex>
                     <Box  w={['95%','95%','50%','50%']}>

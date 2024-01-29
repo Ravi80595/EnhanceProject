@@ -57,14 +57,15 @@ return (
                   </>
                 ))}
               </Slider>
-    <Box paddingBottom={'50px'}>
+    <Box paddingBottom={['10px','20px','50px','50px']}>
             <Flex w={'80%'} m={'auto'} mt={['30px','30px','90px','90px']} justifyContent={'space-between'} direction={['column','column','column','row']}>
               <Box w={['99%','99%','40%','40%']} m={'auto'} textAlign={'justify'}>
               <Text mb={'15px'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'PlayfairDisplay-Regular'} color={'#3D2B1F'}> About Us</Text>
                 <Text fontSize={['15px','15px','20px','18px']}>Enhance Projects is a market leader in integrated infrastructures and construction, continually offering effective solutions to construction challenges. Our dedication goes from project initiation to full operation, providing dependability at all times.    </Text>
               <Text fontWeight={'400'}  fontSize={['15px','15px','20px','18px']} lineHeight={'26px'} mt={'10px'}>We offer the twin benefit of local presence and vast geographical reach through strategically positioned offices. A team of highly qualified individuals from several industries oversees each project.     <br/> Enhance Projects, the forerunner of the new generation of real estate, pays close attention to every detail in order to provide exceptional service to our consumers.  </Text>
               </Box>
-              <Slider {...settings} style={{width:"45%"}}>
+              <Box w={['95%','95%','45%','55%']}>
+              <Slider {...settings}>
                 {events.map((event, index) => (
                   <>
                   <Flex mt={'50px'}>
@@ -73,6 +74,7 @@ return (
                   </>
                 ))}
               </Slider>
+                </Box>
              
             </Flex>
           </Box>

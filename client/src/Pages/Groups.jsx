@@ -155,7 +155,7 @@ return (
       <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text>
       </Box>
 {/* </Box> */}
-<Flex w={['90%','90%','60%','80%']} m={'auto'} mb={'80px'} justifyContent={'space-around'}>
+<Flex w={['60%','90%','60%','80%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']}>
   <Image w={'200px'} src='https://www.shardaglobalschool.com/wp-content/uploads/2023/02/cropped-cropped-SGS-Logo_PNG.png'/>
   <Image w={'300px'} src='https://premsonsmotor.com/wp-content/uploads/2023/09/cropped-premsons-169-2-300x62.png' />
   <Image w={'300px'} src='https://www.acharyakulam.org/images/head_logo.png' />

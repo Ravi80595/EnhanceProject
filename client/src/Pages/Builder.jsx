@@ -26,7 +26,7 @@ return (
     <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'} mt={'40px'}>
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
             <Box>
-                <Image w={'550px'} h={'550px'} src={Urvashi}/>
+                <Image w={'500px'} h={'550px'} src={Urvashi}/>
                 <Text mt={'4px'} mb={['40px','40px','0px','0px']}>URVASHI HEIGHTS</Text>
             </Box>
             <Box>
