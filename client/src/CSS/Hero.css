@@ -68,41 +68,9 @@
     }
   }
   
+
   
-  .timeline {
-    /* text-align: center; */
-    background-color: white;
-    width: 75%;
-    margin: auto;
-    margin-top: -90px;
-  }
-  
-  .timeline-event {
-    padding: 20px;
-    border-radius: 5px;
-    min-width: 300px;
-    margin: 0 10px;
-    height: 350px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Vertically align content */
-  }
-  
-  .timeline-date {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    /* color: red; */
-    /* text-align: start; */
-  }
-  
-  .timeline-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    /* text-align: left; */
-    /* justify-content: left; */
-  }
+
   
   /* Styling for react-slick slider */
   .slick-slider {
@@ -147,17 +115,4 @@
 
 
 
-
-  .chrono-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 16px;
-    background-color: #fff; /* Set your preferred background color */
-    border: 1px solid #ccc; /* Add a border if needed */
-    border-radius: 8px; /* Add border radius for rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for a card effect */
-  }
   

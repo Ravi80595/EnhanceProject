@@ -34,6 +34,7 @@ const items = [
     cardDetailedText:
       'Three distinct companies formed: Methods Incision (government contracts), Contract K Com (private contracts), and ESK Projects (self-development and private contracts). Purchased land and manufactured own materials: Increased control over quality and costs by acquiring land and managing the entire construction process. Current structure: The company now operates in three main areas: government contracts, private contracts, and self-development projects.',
   }
+  ,
 ];
 
 const Timeline = () => {
@@ -46,17 +47,19 @@ const Timeline = () => {
     cardBorderColor: 'red', // Change this color to your desired card border color
     cardShadowColor: 'red', // Change this color to your desired card shadow color
     lineColor: 'red', // Change this color to your desired line color
+    cardWidth: 900, // Same as the cardWidth in Chrono
+   cardHeight: 200, // Same as the cardHeight in Chrono
   };
 
 return (
     <Box background={'whitesmoke'}>
-    <Box background={'whitesmoke'} w={['95%','95%','80%','50%']} m={'auto'} className="timeline-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <Box background={'whitesmoke'} w={['95%','95%','80%','80%']} m={'auto'}>
       <Chrono
         items={items}
-        mode="HORIZONTAL" // Change mode to "HORIZONTAL"
+        mode="VERTICAL" // Change mode to "HORIZONTAL"
         hideControls
-        cardHeight={200} // Adjust card height as needed
-        cardWidth={700} // Adjust card width as needed
+        cardHeight={150} // Adjust card height as needed
+        cardWidth={900} // Adjust card width as needed
         theme={customTheme}
       />
     </Box>
