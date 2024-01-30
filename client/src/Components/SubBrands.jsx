@@ -3,7 +3,7 @@ import {Box,Tabs,TabList,TabPanel,TabPanels,Tab, Text, Flex, Image} from '@chakr
 import HorizontalTimeline from './HorizontalTimeline'
 import Logo from '../Images/Logo.jpg'
 import MinuLogo from '../Images/MinuLogo.jpeg'
-import AKJLogo from '../Images/AKJLogo.jpg'
+import AKJLogo from '../Images/AKJLogo.png'
 
 const SubBrands = () => {
 
@@ -52,7 +52,7 @@ return (
             <Flex direction={['column','column','row','row']}>
                     <Flex justifyContent={'center'}  w={['95%','95%','50%','50%']}>
                     <Box>
-                    <Image w={'700px'} h={'200px'} src={AKJLogo}/>
+                    <Image w={'300px'} h={'300px'} src='https://images-platform.99static.com//7ViXOz4gZ3IIJs4txA_nUrmJC_U=/0x0:2014x2014/fit-in/500x500/99designs-contests-attachments/132/132558/attachment_132558399'/>
                     </Box>
                     </Flex>
                     <Box  w={['95%','95%','50%','50%']}>
@@ -63,7 +63,7 @@ return (
             <TabPanel fontSize={'16px'}>
             <Flex direction={['column','column','row','row']}>
                     <Flex justifyContent={'center'} w={['95%','95%','50%','50%']}>
-                    <Image w={'290px'} h={'300px'} src='https://images-platform.99static.com//7ViXOz4gZ3IIJs4txA_nUrmJC_U=/0x0:2014x2014/fit-in/500x500/99designs-contests-attachments/132/132558/attachment_132558399'/>
+                    <Image w={'790px'} h={'200px'} src={AKJLogo}/>
                     </Flex>
                     <Box  w={['95%','95%','50%','50%']}>
                     <Text>The firm has been promoted by Sri Ajay Kumar Jain, who had around 25 years of experience in the field of Construction. Under his Supervision Telephone Exchange at Ranchi was constructed, also constructed many other private buildings in the city. Beyond that Company had also constructed 18 buildings at P&T Colony, Lalpur Ranchi. Not only Business the company also had completed Social Activities. “The only thing that matters is a unique vision and our complete commitment to it. His thoughts reflect not only his ability to outthink others, but challenge people to grasp more than they can envision too. His instinct in spotting opportunities and knack for finance make him a formidable force in realty circles. </Text>

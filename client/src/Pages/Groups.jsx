@@ -5,9 +5,9 @@ import Footer from '../Components/Footer'
 import groupsHero from '../Images/groupsHero.jpg'
 import BOD1 from '../Images/BOD1.png'
 import BOD2 from '../Images/BOD2.png'
-import Logo from '../Images/Logo.jpg'
-import MinuLogo from '../Images/MinuLogo.jpeg'
-
+import EnhanceLOGO from '../Images/EnhanceLOGO.png'
+import MinuLOGO from '../Images/MinuLOGO.png'
+import AKJLogo from '../Images/AKJLogo.png'
 
 const Groups = () => {
 
@@ -44,22 +44,22 @@ return (
 
     <Flex justifyContent={'space-around'} w={'70%'} m={'auto'} gap={'40px'} textAlign={'center'} pb={'60px'} direction={['column','column','row','row']}>
             <Box>
-                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={Logo}/>
+                <Image w={'400px'} h={'200px'} borderRadius={'10px'} src={EnhanceLOGO}/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Enhance Pvt Ltd</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
             <Box>
-                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={MinuLogo}/>
+                <Image w={'400px'} h={'200px'} borderRadius={'10px'} src={MinuLOGO}/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Minu Enhance</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
-                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={BOD1}/>
+                <Image w={'400px'} h={'200px'} borderRadius={'10px'} src='https://images-platform.99static.com//7ViXOz4gZ3IIJs4txA_nUrmJC_U=/0x0:2014x2014/fit-in/500x500/99designs-contests-attachments/132/132558/attachment_132558399'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Mc Jain</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
             <Box>
-                <Image w={'400px'} h={'250px'} borderRadius={'10px'} src={BOD2}/>
+                <Image w={'400px'} h={'200px'} borderRadius={'10px'} src={AKJLogo}/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Ajay Jain</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
@@ -155,10 +155,10 @@ return (
       {/* <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text> */}
       </Box>
 {/* </Box> */}
-<Flex w={['60%','90%','60%','80%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']}>
-  <Image w={'200px'} src='https://www.shardaglobalschool.com/wp-content/uploads/2023/02/cropped-cropped-SGS-Logo_PNG.png'/>
-  <Image w={'300px'} src='https://premsonsmotor.com/wp-content/uploads/2023/09/cropped-premsons-169-2-300x62.png' />
-  <Image w={'300px'} src='https://www.acharyakulam.org/images/head_logo.png' />
+<Flex w={['60%','90%','60%','70%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']}>
+  <Image w={'180px'} src='https://www.shardaglobalschool.com/wp-content/uploads/2023/02/cropped-cropped-SGS-Logo_PNG.png'/>
+  <Image w={'200px'} src='https://scontent.fdel27-1.fna.fbcdn.net/v/t39.30808-6/299381545_5238260876243738_5258174058989815092_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=mi83tG9aqkwAX9kVh8c&_nc_ht=scontent.fdel27-1.fna&oh=00_AfDu2HS-34xg1m9lhvydvSjZR2X9jKA6maptqZcMU-rnKQ&oe=65BCA543' />
+  <Image w={'200px'} src='https://www.acharyakulam.org/images/head_logo.png' />
 </Flex>
 
 

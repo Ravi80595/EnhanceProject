@@ -19,10 +19,10 @@ const events = [
 
 const eventss = [
   {
-    image:'https://img.freepik.com/free-photo/mumbai-skyline-skyscrapers-construction_469504-21.jpg?w=826&t=st=1706097338~exp=1706097938~hmac=09c891a7bbd0d3443fbbb9808f613c2559d58241843927b7c60ecba7b73de30b'
+    image:'https://www.livemint.com/lm-img/img/2023/12/26/1600x900/real_estate_1703607578114_1703607579260.jpg'
   },
   {
-    image:'https://img.freepik.com/free-photo/new-york-city-skyscrapers_649448-5219.jpg?w=826&t=st=1706097380~exp=1706097980~hmac=776c11bf3a55ea9c35426989475dc4f062c8acfb048d86309bc087609c096e42'
+    image:'https://realestate.apleona.com/fileadmin/media/images/ESG_Bild.png'
   },
 ]
 

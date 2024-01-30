@@ -15,6 +15,7 @@ import { FaStairs } from "react-icons/fa6";
 import { WiThermometerExterior } from "react-icons/wi";
 import { VscActivateBreakpoints } from "react-icons/vsc";
 
+
 const events = [
     {
       image:'https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/styles/large/public/2023-09/orl-Transforming-Spaces-Into-Extraordinary-Destinations-562x382px-010923.jpg?itok=QUh-cb2r'

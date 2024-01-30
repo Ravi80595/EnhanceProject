@@ -47,15 +47,15 @@ return (
               <Flex justifyContent={'center'}>
               <Image w={'250px'} src={BOD1}/>
               </Flex>
-              <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>BOD</Text>
+              <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Ankit Jain</Text>
+              <Text fontFamily={'Lora'} mt='7px'>Director</Text>
             </Box>
             <Box textAlign={'center'} border={'1px solid gold'} p={'20px'} borderRadius={'5px'}>
               <Flex justifyContent={'center'}>
               <Image w={'250px'} src={BOD2}/>
               </Flex>
-              <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Michael Padvorac</Text>
-              <Text fontFamily={'Lora'} mt='7px'>BOD</Text>
+              <Text fontFamily={'Lora'} mt='10px' fontWeight={'600'} fontSize={'18px'}>Manish Jain</Text>
+              <Text fontFamily={'Lora'} mt='7px'>Director</Text>
             </Box>
           </Flex>
         {/* </Box> */}

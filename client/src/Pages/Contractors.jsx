@@ -21,7 +21,7 @@ return (
     <Box w={'85%'} textAlign={'center'} fontFamily={'Lora'} fontSize={'18px'} m={'auto'}>
         <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
             <Box>
-                <Image h={'550px'} w={'450px'} src='https://www.losangelescontractors.org/wp-content/uploads/2019/10/image12.jpg'/>
+                <Image h={'550px'} w={'450px'} src='https://archello.s3.eu-central-1.amazonaws.com/images/2018/08/24/12-story-Commercial-Office-Building-1.1535133699.4952.jpg'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}  mb={['40px','40px','0px','0px']}>Commercials Buildings</Text>
             </Box>
             <Box>
@@ -52,7 +52,7 @@ return (
 <Box background={'#FAEBD7'} mt={'70px'} >
 <Flex w={['95%','95%','70%','70%']} m={'auto'} justifyContent={'space-around'} direction={['column','column','row','row']} >
   <Flex w={['95%','95%','50%','50%']} mt={'40px'} mb={['10px','10px','30px','30px']}>
-    <Image borderRadius={'10px'} w={'400px'} src='https://bridgemastersinc.com/wp-content/uploads/2017/12/contractor-1000x500.jpg'/>
+    <Image borderRadius={'10px'} w={'400px'} src='https://www.propertyreporter.co.uk/images/660x350/shutterstock_547956979.jpg'/>
   </Flex>
       <Box w={['95%','95%','60%','60%']} pt={['30px','30px','70px','70px']} className='about-section'>
           <Text fontFamily={'"Poppins", sans-serif'} fontSize={['14px','14px','16px','16px']} lineHeight={'26px'} mt={['1rem','1rem','3rem','2rem']} mb={'1rem'}>At Enhance Projects, we understand that successful construction is more than just bricks and mortar; it's about crafting experiences and building legacies. Join us on a journey where innovation meets dependability, and where every project is a testament to our commitment to excellence in construction.  </Text>

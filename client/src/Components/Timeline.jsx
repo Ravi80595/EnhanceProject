@@ -50,7 +50,7 @@ const Timeline = () => {
 
 return (
     <Box background={'whitesmoke'}>
-    <Box background={'whitesmoke'} w={['95%','95%','80%','60%']} m={'auto'} className="timeline-container">
+    <Box background={'whitesmoke'} w={['95%','95%','80%','50%']} m={'auto'} className="timeline-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Chrono
         items={items}
         mode="HORIZONTAL" // Change mode to "HORIZONTAL"
@@ -58,7 +58,6 @@ return (
         cardHeight={200} // Adjust card height as needed
         cardWidth={700} // Adjust card width as needed
         theme={customTheme}
-         // Apply the custom card class
       />
     </Box>
     </Box>

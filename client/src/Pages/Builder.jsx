@@ -158,7 +158,7 @@ return (
             </Box>
             
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://cityhomeindia.in/frontend/images/slider/cityhomeindia01.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://psgroup.in/blog/wp-content/uploads/2020/11/banner-1.jpg'/>
                 <Text mt={'4px'}>Bihar</Text>
             </Box> 
             <Box>
