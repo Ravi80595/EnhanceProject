@@ -18,10 +18,10 @@ import { VscActivateBreakpoints } from "react-icons/vsc";
 
 const events = [
     {
-      image:'https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/styles/large/public/2023-09/orl-Transforming-Spaces-Into-Extraordinary-Destinations-562x382px-010923.jpg?itok=QUh-cb2r'
+      image:'https://img.freepik.com/free-photo/big-buildings_1127-2221.jpg?t=st=1711541728~exp=1711545328~hmac=b06d6e43d477b5f5771466dcabec14cd10d8f894c1af83f7f1ada39d8f356788&w=996'
     },
     {
-      image:'https://d3dy70zhjs5mi1.cloudfront.net/s3fs-public/styles/large/public/2023-09/orl-Transforming-Spaces-Into-Extraordinary-Destinations-562x382px-010923.jpg?itok=QUh-cb2r'
+      image:'https://img.freepik.com/free-photo/big-buildings_1127-2221.jpg?t=st=1711541728~exp=1711545328~hmac=b06d6e43d477b5f5771466dcabec14cd10d8f894c1af83f7f1ada39d8f356788&w=996'
     },
   ]
 
@@ -47,7 +47,7 @@ return (
                 {events.map((event, index) => (
                     <>
                   <Flex>
-                    <Image w={'100%'} h='90vh' src={event.image}/>
+                    <Image w={'100%'} h='98vh' src={event.image}/>
                     </Flex>
                   </>
                 ))}
@@ -55,7 +55,7 @@ return (
     <Box w={'80%'} m={'auto'}>
     <Flex mt={'40px'} justifyContent={'space-between'}>
         <Box>
-        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'}>Arover Niketen</Text>
+        <Text fontSize={['26px','26px','40px','40px']} fontWeight={'bold'}>GreenWood</Text>
         <Text>Where Modern Living Meets Safety and Sophistication </Text>
         </Box>
         <Box>

@@ -16,8 +16,11 @@ const Groups = () => {
 return (
     <>
     <Navbar/>
-    <Box w={'100%'} mb={['10px','10px','70px','70px']} h={'100vh'}>
-        <Image h={'90vh'} w={'100%'} src={groupsHero}/>
+    <Box>
+      <Box pt={'40px'}>
+
+        <Image w={'100%'} src={'https://res.cloudinary.com/rsmglobal/image/fetch/t_default/f_auto/q_auto/https://www.rsm.global/uganda/sites/default/files/media/backgrounds/Real-Estate-Consulting_sector-page-new-hero-banner-3840x960px.jpg'}/>
+      </Box>
     </Box>
     <Box paddingBottom={'80px'} mt={['10px','10px','70px','70px']}>
             <Flex w={'85%'} m={'auto'} mt={['10px','10px','90px','90px']} direction={['column-reverse','column-reverse','row','row']}>

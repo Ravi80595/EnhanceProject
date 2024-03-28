@@ -19,10 +19,10 @@ return (
     <Box w={'90%'} m={'auto'} background={'white'}>
         <Tabs isFitted variant='enclosed'>
         <TabList mb='1em'>
-            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Enhance Pvt. Ltd</Tab>
-            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Minu Enhance</Tab>
-            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>MC Jain</Tab>
-            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Ajay Jain</Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Enhance projects Pvt Ltd</Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>Minu Enhance Developers </Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>M/S M.C Jain</Tab>
+            <Tab fontSize={['12px','16px','24px','24px']} fontFamily={'Playfair Display'}>M/S Ajay Kumar Jain</Tab>
         </TabList>
         <TabPanels>
             <TabPanel fontSize={'16px'}>

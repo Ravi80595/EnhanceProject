@@ -16,7 +16,7 @@ const events = [
     {
       date: '2015',
       title: 'Achievements',
-      description: 'The year 2015 marked a significant milestone for us as we achieved recognition and acclaim within our industry. We were honored to receive multiplevisionaries joined forces to create our company. We shared a common goal and a shared belief that we could make a positive impactvisionaries joined forces to create our company. We shared a common goal and a shared belief that we could make a positive impact',
+      description: 'The year 2015 marked a significant milestone for us as we achieved recognition and acclaim within our industry. We were honored to receive multiplevisionaries joined forces to create our company. We shared a common goal and a shared belief that we could make a positive impactvisionaries joined forces to create our company.',
     }
   ];
 

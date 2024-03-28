@@ -39,7 +39,7 @@ return (
         <Goals/>
         <Box paddingBottom={'50px'} textAlign={'center'}>
           <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Meet Our leadership</Text>
-          <Text fontFamily={'Lora'} fontSize={['14px','14px','18px','18px']}>The Guiding Forces Behind Our Success </Text>
+          <Text fontFamily={'Lora'} fontSize={['14px','14px','18px','18px']}>Time is the key to success, and at Enhance, we prioritise time. </Text>
         </Box>
         {/* <Box w={['70%','70%','70%','70%']} m='auto' pb={'50px'}> */}
           <Flex justifyContent={'space-around'} direction={['column','column','row','row']} w={['90%','90%','90%','60%']} m={'auto'} gap={"20px"}>

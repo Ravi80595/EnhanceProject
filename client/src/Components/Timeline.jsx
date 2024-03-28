@@ -32,7 +32,7 @@ const items = [
     title: '2000-Present',
     cardTitle: 'Specialization and Growth',
     cardDetailedText:
-      'Three distinct companies formed: Methods Incision (government contracts), Contract K Com (private contracts), and ESK Projects (self-development and private contracts). Purchased land and manufactured own materials: Increased control over quality and costs by acquiring land and managing the entire construction process. Current structure: The company now operates in three main areas: government contracts, private contracts, and self-development projects.',
+      'Three distinct companies formed: Methods Incision (government contracts), Contract K Com (private contracts), and ESK Projects (self-development and private contracts). Purchased land and manufactured own materials: Increased control over quality and costs by acquiring land and managing the entire construction process. ',
   }
   ,
 ];
@@ -41,7 +41,7 @@ const Timeline = () => {
 
   const customTheme = {
     primary: 'gold', // Change this color to your desired timeline color
-    secondary: 'white', // Change this color to your desired background color
+    secondary: 'none', // Change this color to your desired background color
     cardBgColor: 'whitesmoke', // Change this color to your desired card background color
     cardForeColor: 'red', // Change this color to your desired card text color
     cardBorderColor: 'red', // Change this color to your desired card border color

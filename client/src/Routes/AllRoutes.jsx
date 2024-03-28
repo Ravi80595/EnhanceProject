@@ -32,8 +32,8 @@ return (
         <Route path="/builder" element={<Builder/>}></Route>
         <Route path="/contractors" element={<Contractors/>}></Route>
         <Route path="/groups" element={<Groups/>}></Route>
-        <Route path="/urvarshi" element={<ProjectDetails/>}></Route>
-        <Route path="/arovar" element={<Arovar/>}></Route>
+        <Route path="/signature" element={<ProjectDetails/>}></Route>
+        <Route path="/greenwood" element={<Arovar/>}></Route>
         <Route path="/enhance" element={<Enhance/>}></Route>
         <Route path="/privacy" element={<Privacy/>}></Route>
         <Route path="/terms" element={<Terms/>}></Route>

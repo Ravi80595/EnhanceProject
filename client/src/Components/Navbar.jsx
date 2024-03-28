@@ -22,6 +22,9 @@ function Navbar() {
           <Link to='/'>
           <Text fontFamily={'"Poppins", sans-serif'} color='#D4AF37' className='Link_btns'>Home</Text>
           </Link>
+          <Link to='/about'>
+          <Text color='#D4AF37' className='Link_btns'>About Us</Text>
+          </Link>
           <Link to='/builder'>
           <Text color='#D4AF37' className='Link_btns'>Builder</Text>
           </Link>
@@ -31,10 +34,6 @@ function Navbar() {
           <Link to='/groups'>
           <Text color='#D4AF37' className='Link_btns'>Groups</Text>
           </Link>
-          <Link to='/about'>
-          <Text color='#D4AF37' className='Link_btns'>About Us</Text>
-          </Link>
-
           <Link to='/contact'>
           <Text color='#D4AF37' className='Link_btns'>Contact Us</Text>
           </Link>

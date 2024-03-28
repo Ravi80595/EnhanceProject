@@ -23,20 +23,20 @@ export const NextArrow = (props) => (
 
 const events = [
   {
-    title: 'URVASHI HEIGHTS',
+    title: 'Signature Homes',
     description: 'Welcome to our tranquil residential enclave, offering a pollution-free environment for a serene lifestyle. Our earthquake-resistant structure ensures safety, while wide roads and ample visitor parking enhance convenience. Embrace the Vastu-compliant design and enjoy the benefits of available loan/EMI facilities.  ',
     Features:['Peaceful Residential Surrounding',
-      'Pollution-Free Environment' ,
+      'Pollution-Free Environment' , 
       'Earthquake Resistant Structure' ,
       'Wide Roads & Ample Visitor’s Car Parking' ,
       ],
     image:Urvashi ,
-    Link:'/urvarshi'
+    Link:'/signature'
   },
   {
     date: '2010',
-    title: 'Arovar Niketan',
-    description: 'Welcome to Arovar Niketan, where modern living meets safety and sophistication. Our residences are built with an earthquake-resistant RCC structure, ensuring compliance with seismic zone III standards.  ',
+    title: 'Green woods',
+    description: 'Welcome to Green woods, where modern living meets safety and sophistication. Our residences are built with an earthquake-resistant RCC structure, ensuring compliance with seismic zone III standards.  ',
     Features:[
       'Vitrified tiles in Drawing/Dining/Bedrooms. ' ,
       'Marble flooring in common areas of the building' ,
@@ -44,7 +44,7 @@ const events = [
       'Peaceful Residential Surrounding',
        ],
     image:Arovar,
-    Link:'/arovar'
+    Link:'/greenwood'
   },
   {
     date: '2015',

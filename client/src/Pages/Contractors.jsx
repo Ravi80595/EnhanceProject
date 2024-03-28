@@ -3,9 +3,21 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import contractorHero from '../Images/contractorHero.jpg'
+import jsPDF from 'jspdf';
+import Urvashi from '../Images/Urvashi.png';
+import Arover from '../Images/Arovar.png';
+import EnhanceSharma from '../Images/EnhanceSharma.png';
+import EnhanceEnclave from '../Images/EnhanceEncalve.png';
+import Gardenia from '../Images/Gardenia.png';
 
 const Contractors = () => {
 
+
+  const handleDownloadPDF = (imageURL, imageName) => {
+    const doc = new jsPDF();
+    doc.addImage(imageURL, 'PNG', 10, 10, 100, 100); // Embed the image in the PDF
+    doc.save(`${imageName}.pdf`); // Save the PDF with the URL name
+  };
 
 
 return (
@@ -185,22 +197,22 @@ return (
       </Box>
 </Box>
 <Flex justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} mb={'90px'} direction={['column','column','row','row']}>
-            <Box>
+            <Box onClick={() => handleDownloadPDF(Urvashi, 'Urvashi Heights')}>
                 <Image w={'500px'} h={'250px'} src='https://venues-realestate.com/wp-content/uploads/2023/08/resde-1.jpg'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Urvashi Heights</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box>
-            <Box>
+            <Box onClick={() => handleDownloadPDF(EnhanceSharma, 'Enhance Sharma')}>
                 <Image w={'500px'} h={'250px'} src='https://akm-img-a-in.tosshub.com/businesstoday/images/story/202301/realessss-sixteen_nine.jpg?size=948:533'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Enhance Enclave</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
-            <Box>
+            <Box onClick={() => handleDownloadPDF(Gardenia, 'Gardenia Enclave')}>
                 <Image w={'500px'} h={'250px'} src='https://www.bankrate.com/2022/09/01171315/Commercial-real-estate.jpg?auto=webp&optimize=high&crop=16:9'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Gardenia Enclace</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text> */}
             </Box> 
-            <Box>
+            <Box onClick={() => handleDownloadPDF(Arover, 'Arover Niketen')}>
                 <Image w={'500px'} h={'250px'} src='https://imageio.forbes.com/specials-images/imageserve/6070a6e2966eee4eaceadafc/Cityscape-with-modern-residential-area--new-apartment-buildings-and-green-courtyard/960x0.jpg?height=473&width=711&fit=bounds'/>
                 <Text mt={'14px'} fontWeight={'bold'} fontSize={'20px'}>Arovar Niketen</Text>
                 {/* <Text mt={'4px'}>BENGLURU</Text>/ */}
