@@ -27,7 +27,7 @@ const items = [
     title: '1970-2000',
     cardTitle: 'Expansion and Diversification',
     cardDetailedText:
-      'Registered in various departments: Obtained necessary licenses and registrations to operate across multiple states. Completed numerous projects: Built telephone exchange towers, residential quarters, hospitals, schools, and other government projects.Branching out into private sector: As government construction slowed down, the company began taking on private contracts and self-development projects.',
+      'Registered in various departments: Obtained necessary licenses and registrations to operate across multiple states. Completed numerous projects: Built telephone exchange towers, residential quarters, hospitals, schools, and other government projects.Branching out into private sector.',
   },{
     title: '2000-Present',
     cardTitle: 'Specialization and Growth',

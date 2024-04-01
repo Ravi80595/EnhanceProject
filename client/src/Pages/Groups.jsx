@@ -160,8 +160,8 @@ return (
 {/* </Box> */}
 <Flex w={['60%','90%','60%','70%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']}>
   <Image w={'180px'} src='https://www.shardaglobalschool.com/wp-content/uploads/2023/02/cropped-cropped-SGS-Logo_PNG.png'/>
-  <Image w={'200px'} src='https://scontent.fdel27-1.fna.fbcdn.net/v/t39.30808-6/299381545_5238260876243738_5258174058989815092_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=mi83tG9aqkwAX9kVh8c&_nc_ht=scontent.fdel27-1.fna&oh=00_AfDu2HS-34xg1m9lhvydvSjZR2X9jKA6maptqZcMU-rnKQ&oe=65BCA543' />
-  <Image w={'200px'} src='https://www.acharyakulam.org/images/head_logo.png' />
+  {/* <Image w={'200px'} src='https://scontent.fdel27-1.fna.fbcdn.net/v/t39.30808-6/299381545_5238260876243738_5258174058989815092_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=mi83tG9aqkwAX9kVh8c&_nc_ht=scontent.fdel27-1.fna&oh=00_AfDu2HS-34xg1m9lhvydvSjZR2X9jKA6maptqZcMU-rnKQ&oe=65BCA543' /> */}
+  <Image w={'400px'} src='https://www.acharyakulam.org/public/themes/assets/img/logo.webp' />
 </Flex>
 
 

@@ -4,6 +4,7 @@ import styles from '../CSS/Footer.css'
 import { BsFacebook, BsInstagram,BsTwitter,BsYoutube } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import {AiFillLinkedin} from 'react-icons/ai'
+import ScrollToTopLink from "./ScrollToTopLink";
 // import ScrollToTopLink from "./ScrollToTopLink";
 // import {ScrollToFAQLink, ScrollToReviewLink} from "./Scrolls";
 
@@ -19,28 +20,28 @@ return (
       <Text fontSize="20px" fontWeight="700">
         Company
       </Text>
-          <Link to='/about'>
+          <ScrollToTopLink to='/about'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">About us</Text>
-          </Link>
-          <Link to='/contact'>
+          </ScrollToTopLink>
+          <ScrollToTopLink to='/contact'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Contact us</Text>
-          </Link>
-          <Text color={'Black'}>Email : info@Enhance.com</Text>
+          </ScrollToTopLink>
+          <Text color={'Black'}>Email : info@enhance.com</Text>
           </Stack>
           <Stack gap="10px">
           <Text fontSize="20px" fontWeight="700">Featured Categories</Text>
-          <Link to='/'>
+          <ScrollToTopLink to='/'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Real Estate</Text>
-          </Link>
-          <Link to='/builder'>
+          </ScrollToTopLink>
+          <ScrollToTopLink to='/builder'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Builders</Text>
-          </Link>
-          <Link to='/contractors'>
+          </ScrollToTopLink>
+          <ScrollToTopLink to='/contractors'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Contractors</Text>
-          </Link>
-          <Link to='/groups'>
+          </ScrollToTopLink>
+          <ScrollToTopLink to='/groups'>
           <Text fontSize="16px" fontWeight="500" cursor="pointer">Groups</Text>
-          </Link>
+          </ScrollToTopLink>
           </Stack>
           <Stack gap="10px">
           {/* <Text fontSize="20px" fontWeight="700">Need Help</Text>

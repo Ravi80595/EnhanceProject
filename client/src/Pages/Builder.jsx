@@ -74,16 +74,16 @@ const Builder = () => {
                 <Text mt={'4px'}>Ranchi</Text>
             </Box> */}
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://kushwaha.in/wp-content/uploads/2011/04/Map-of-Jharkhand.gif'/>
+                <Image w={'500px'} h={'250px'} src='https://as1.ftcdn.net/v2/jpg/05/00/86/48/1000_F_500864828_2FbOt7MK1rlfraJjBRMn6pNQ7QKhrMyu.jpg'/>
                 <Text mt={'4px'}>Jharkhand</Text>
             </Box>
             
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://img.myloview.com/posters/bihar-map-bihar-district-map-india-bihar-india-vector-map-isolated-on-white-background-high-detailed-silhouette-illustration-700-235499962.jpg'/>
+                <Image w={'500px'} h={'250px'} src='https://static.vecteezy.com/system/resources/previews/021/827/590/original/bihar-state-location-within-india-3d-map-vector.jpg'/>
                 <Text mt={'4px'}>Bihar</Text>
             </Box> 
             <Box>
-                <Image w={'500px'} h={'250px'} src='https://slbcorissa.com/wp-content/uploads/2018/09/odisha_map.png'/>
+                <Image w={'500px'} h={'250px'} src='https://t4.ftcdn.net/jpg/05/00/87/51/360_F_500875112_mY72CF7G5Yy913K5VLWLzj0AW9OeIQ5A.jpg'/>
                 <Text mt={'4px'}>Odisha</Text>
             </Box> 
             
