@@ -10,6 +10,11 @@ import EnhanceEnclave from '../Images/EnhanceEncalve.png';
 import Gardenia from '../Images/Gardenia.png';
 import { Link } from 'react-router-dom';
 import jsPDF from 'jspdf';
+import RajsthanGarden from '../Images/RajsthanGarden.jpg'
+import InnovaTower from '../Images/InnovaTower.jpg'
+import KCComplex from '../Images/KCComplex.jpg'
+import MahabirComplex from '../Images/MahabirComplex.jpg'
+
 
 const Builder = () => {
 
@@ -68,6 +73,33 @@ const Builder = () => {
             <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}>Innovative Construction Solutions</Text>
             </Box>
     
+
+            <Flex pb={'60px'} justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
+            <Box>
+                <Image w={'500px'} h={'250px'} src={RajsthanGarden}/>
+                <Text mt={'4px'}>Rajsthan Garden</Text>
+            </Box>
+            <Box>
+                <Image w={'500px'} h={'250px'} src={MahabirComplex}/>
+                <Text mt={'4px'}>Mahabir Complex</Text>
+            </Box>
+            
+            <Box>
+                <Image w={'500px'} h={'250px'} src={InnovaTower}/>
+                <Text mt={'4px'}>Innovat Tower</Text>
+            </Box> 
+            <Box>
+                <Image w={'500px'} h={'250px'} src={KCComplex}/>
+                <Text mt={'4px'}>KC Complex</Text>
+            </Box> 
+            
+
+</Flex>
+
+
+
+
+
 <Flex pb={'60px'} justifyContent={'space-around'} w={'90%'} m={'auto'} gap={'40px'} textAlign={'center'} direction={['column','column','row','row']}>
             {/* <Box>
                 <Image w={'500px'} h={'250px'} src='https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?w=996&t=st=1705496906~exp=1705497506~hmac=c645b572d73d90d077acd6508e6f599634453b9c4bc478b2d55c46fd0121bbdc'/>
@@ -89,6 +121,15 @@ const Builder = () => {
             
 
 </Flex>
+
+
+
+
+
+
+
+
+
 </Box>
       {/* </Box> */}
       <Footer />
