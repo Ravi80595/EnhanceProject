@@ -73,20 +73,92 @@ return (
 </Box>
 
 
-
-    <Box paddingBottom={'80px'} mt={'70px'}>
-            <Flex w={'85%'} m={'auto'} mt={'90px'} direction={['column','column','row','row']}>
-              <Box w={['95%','95%','40%','40%']} m={'auto'} justifyContent={'justify'} textAlign={'justify'}>
-              <Text mb={'15px'}  fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'PlayfairDisplay-Regular'} color={'#3D2B1F'}> Floor plan</Text>
-            {/* <Text paddingTop={'10px'} fontFamily={'Lora'}>A journey of creating more than 4 million sq.ft. and 1500+ happy customers</Text> */}
-                <Text>At Enhance Projects, we understand that the foundation of exceptional living or working spaces begins with thoughtful design. Our floor plans are a testament to innovation and functionality, offering a glimpse into the seamless integration of architectural expertise and user-centric design principles.</Text>
-              <Text fontWeight={'400'} fontFamily={'"Poppins", sans-serif'} fontSize={'16px'} lineHeight={'26px'} mt={'10px'}>Explore a variety of layouts tailored to suit diverse preferences and needs. From spacious residences to cutting-edge office spaces, our floor plans are a canvas for your imagination. Each design is crafted with precision, ensuring an optimal blend of aesthetics and practicality.</Text>
-              </Box>
-              <Flex mt={'50px'} justifyContent={'start'} w={['95%','95%','50%','50%']}>
-                <Image borderRadius={'20px'} src={'https://i.pinimg.com/736x/c8/9f/87/c89f87040eabbb8b778b86dbf808253c.jpg'}/>
-              </Flex>
-            </Flex>
+<Box paddingBottom={'50px'} textAlign={'left'} w='90%' m={'auto'} mt={'90px'}>
+      <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>Past projects</Text>
+      <Text fontFamily={'Lora'}> Efficiency, Reliability, Excellence</Text>
+      </Box>
+  <Box w={'80%'} m={'auto'} mt={'10px'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'} p={'60px'}>
+    <Flex justifyContent={'space-around'} mb={'30px'}>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Health Point</Text>
           </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>F. Malls</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>VKS</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Hembron City</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>BJP Office </Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Khelgaon</Text>
+          </Box>
+        </Flex>
+    <Flex justifyContent={'space-around'} mb={'30px'}>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Balaji Symphony</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Bajaj</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>C. School</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>D. Temple</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Jain Mandir Ranchi </Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>E. Hospital</Text>
+          </Box>
+        </Flex>
+    <Flex justifyContent={'space-around'} mb={'30px'}>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Saraogi Complex</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Saraogi Arcade</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Solaris Square</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Manik Arcade</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Villas</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Tavroj Enclave</Text>
+          </Box>
+        </Flex>
+        <Flex justifyContent={'space-around'}>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Shrey Enclave</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Manik Mansion</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Brej veera Anand</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Park view Enclave</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>B. Commercial</Text>
+          </Box>
+          <Box p={'15px'} fontFamily={'poppins'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px;'}>
+            <Text>Pulsar Plaza</Text>
+          </Box>
+        </Flex>
+    </Box>
           {/* <Box background={'#fff4e6'} pb={'50px'} pt={'30px'}>  
           <Flex w={'85%'} m={'auto'} mb={'90px'} justifyContent={'center'} direction={['column','column','row','row']}>
           <Box pt={'30px'} w={['97%','97%','50%','50%']} m={'auto'}>

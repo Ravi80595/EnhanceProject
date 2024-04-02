@@ -153,15 +153,31 @@ return (
             </Box>
 
 </Flex>
+
+
+
+
+
+
+
+
+
+
 <Box paddingBottom={'50px'} textAlign={'center'} w='90%' m={'auto'} mt={'90px'}>
       <Text color={'#3D2B1F'} fontSize={['22px','22px','38px','38px']} lineHeight={'44px'} fontFamily={'Playfair Display'}>We Worked with</Text>
       {/* <Text fontFamily={'Lora'} fontSize={['14px','14px','16px','16px']}> Innovation, Excellence, Global Impact</Text> */}
       </Box>
 {/* </Box> */}
-<Flex w={['60%','90%','60%','70%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']}>
-  <Image w={'180px'} src='https://www.shardaglobalschool.com/wp-content/uploads/2023/02/cropped-cropped-SGS-Logo_PNG.png'/>
-  {/* <Image w={'200px'} src='https://scontent.fdel27-1.fna.fbcdn.net/v/t39.30808-6/299381545_5238260876243738_5258174058989815092_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=mi83tG9aqkwAX9kVh8c&_nc_ht=scontent.fdel27-1.fna&oh=00_AfDu2HS-34xg1m9lhvydvSjZR2X9jKA6maptqZcMU-rnKQ&oe=65BCA543' /> */}
-  <Image w={'400px'} src='https://www.acharyakulam.org/public/themes/assets/img/logo.webp' />
+<Flex w={['60%','90%','60%','60%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']} alignItems={'center'}>
+  <Image w={'150px'} src='https://static.vecteezy.com/system/resources/previews/020/336/706/non_2x/honda-logo-honda-icon-free-free-vector.jpg'/>
+  <Image w={'150px'} h={'70px'} src='https://image4.owler.com/logo/osam-dairy_owler_20161129_095301_original.jpg' />
+  <Image w={'250px'} src='https://www.acharyakulam.org/public/themes/assets/img/logo.webp' />
+</Flex>
+<Flex w={['60%','90%','60%','80%']} gap={['50px','50px','0px','0px']} m={'auto'} mb={'80px'} justifyContent={'space-around'} direction={['column','column','row','row']}>
+  <Image w={'150px'} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMC6urNrywN3g5vwIeLZUe1v3VguUhFj8x6OVmdEy6YWWkFUNhbz2yqZav6ml_Khfueg&usqp=CAU' />
+  <Image w={'150px'} src='https://www.shardaglobalschool.com/wp-content/uploads/2023/02/cropped-cropped-SGS-Logo_PNG.png' />
+  <Image w={'150px'} src='https://i.pinimg.com/736x/28/af/9f/28af9f9e7d9a24312579eeb763670105.jpg' />
+  <Image w={'150px'} src='https://m.media-amazon.com/images/I/61OgrIEL7EL._AC_UF350,350_QL80_.jpg'/>
 </Flex>
 
 
